@@ -1,0 +1,5109 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Red Hat Inc.
+# This file is distributed under the same license as the guestfs-tools package.
+# Rihards Prieditis <rprieditis@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: guestfs-tools 1.57.6\n"
+"Report-Msgid-Bugs-To: https://bugzilla.redhat.com/"
+"enter_bug.cgi?component=libguestfs&product=Virtualization+Tools\n"
+"POT-Creation-Date: 2026-08-14 11:42+0100\n"
+"PO-Revision-Date: 2026-11-23 19:18+0000\n"
+"Last-Translator: Rihards Prieditis <rprieditis@gmail.com>\n"
+"Language-Team: Latvian <https://translate.fedoraproject.org/projects/"
+"libguestfs/guestfs-tools-master/lv/>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= "
+"19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);\n"
+"X-Generator: Weblate 2026.11.2\n"
+
+#: resize/resize.ml:1031
+msgid "  An extra partition will be created for the surplus."
+msgstr "  Pārpalikumam tiks izveidots papildu nodalījums."
+
+#: resize/resize.ml:1003 resize/resize.ml:969
+msgid "  The %s on %s will be expanded using the ‘%s’ method."
+msgstr "  %s uz %s tiks paplašināts, izmantojot metodi „%s”."
+
+#: resize/resize.ml:1033
+msgid ""
+"  The surplus space is not large enough for an extra partition to be created "
+"and so it will just be ignored."
+msgstr ""
+"  Pārpalikušā vieta nav pietiekami liela papildu nodalījuma izveidei, tāpēc "
+"tā tiks vienkārši ignorēta."
+
+#: resize/resize.ml:1036
+msgid ""
+"  The surplus space will be ignored.  Run a partitioning program in the "
+"guest to partition this extra space if you want."
+msgstr ""
+"  Pārpalikušā vieta tiks ignorēta.  Ja vēlaties, palaidiet viesī nodalīšanas "
+"programmu, lai sadalītu šo papildu vietu."
+
+#: common/mltools/tools_utils.ml:239
+msgid "%s"
+msgstr "%s"
+
+#: common/mltools/getopt.ml:73
+msgid ""
+"%s\n"
+"Options:\n"
+msgstr ""
+"%s\n"
+"Opcijas:\n"
+
+#: common/mltools/tools_utils.ml:703
+msgid "%s (ignored)"
+msgstr "%s (ignorēts)"
+
+#: builder/builder.ml:329
+msgid ""
+"%s checksum of template did not match the expected checksum!\n"
+"  found checksum: %s\n"
+"  expected checksum: %s\n"
+"Try:\n"
+" - Use the ‘-v’ option and look for earlier error messages.\n"
+" - Delete the cache: virt-builder --delete-cache\n"
+" - Check no one has tampered with the website or your network!"
+msgstr ""
+"veidnes %s kontrolsumma neatbilda gaidītajai kontrolsummai!\n"
+"  atrastā kontrolsumma: %s\n"
+"  gaidītā kontrolsumma: %s\n"
+"Mēģiniet:\n"
+" - Izmantot opciju „-v” un meklēt iepriekšējos kļūdu ziņojumus.\n"
+" - Izdzēst kešatmiņu: virt-builder --delete-cache\n"
+" - Pārbaudīt, vai neviens nav manipulējis ar tīmekļa vietni vai jūsu tīklu!"
+
+#: common/mltools/checksums.ml:71
+msgid "%s did not return any output"
+msgstr "%s neatgrieza nekādu izvadi"
+
+#: common/mlcustomize/customize_run.ml:188
+msgid "%s does not exist in the guest"
+msgstr "%s viesī neeksistē"
+
+#: common/mlcustomize/customize_run.ml:118
+msgid "%s ignored for non-Windows guest"
+msgstr "%s ignorēts viesim, kas nav Windows"
+
+#: builder/simplestreams_parser.ml:59
+msgid "%s is not a Simple Streams (index) v1.0 JSON file (format: %s)"
+msgstr "%s nav Simple Streams (index) v1.0 JSON fails (formāts: %s)"
+
+#: builder/simplestreams_parser.ml:78
+msgid "%s is not a Simple Streams (products) v1.0 JSON file (format: %s)"
+msgstr "%s nav Simple Streams (products) v1.0 JSON fails (formāts: %s)"
+
+#: common/mlcustomize/customize_run.ml:191
+msgid "%s is not a regular file in the guest"
+msgstr "%s viesī nav parasts fails"
+
+#: common/mltools/tools_utils.ml:235 common/mltools/tools_utils.ml:203
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: common/mltools/tools_utils.ml:237
+msgid "%s: %s: %s"
+msgstr "%s: %s: %s"
+
+#: common/mltools/on_exit.ml:77
+msgid ""
+"%s: Exiting on signal %s\n"
+"%!"
+msgstr ""
+"%s: iziet pēc signāla %s\n"
+"%!"
+
+#: resize/resize.ml:735
+msgid ""
+"%s: This extended partition contains logical partitions which might be "
+"damaged by shrinking it.  If you want to shrink this partition, you need to "
+"use the ‘--resize-force’ option, but that could destroy logical partitions "
+"within this partition.  (This error came from ‘%s’ option on the command "
+"line.)"
+msgstr ""
+"%s: Šis paplašinātais nodalījums satur loģiskos nodalījumus, kurus "
+"samazināšana var sabojāt.  Ja vēlaties šo nodalījumu samazināt, jāizmanto "
+"opcija „--resize-force”, bet tā var iznīcināt šī nodalījuma loģiskos "
+"nodalījumus.  (Šī kļūda radās no komandrindas opcijas „%s”.)"
+
+#: resize/resize.ml:999
+msgid "%s: This logical volume will be expanded to maximum size."
+msgstr "%s: Šis loģiskais sējums tiks paplašināts līdz maksimālajam izmēram."
+
+#: resize/resize.ml:726
+msgid ""
+"%s: This partition contains a %s filesystem which will be damaged by "
+"shrinking it below %Ld bytes (user asked to shrink it to %Ld bytes).  If you "
+"want to shrink this partition, you need to use the ‘--resize-force’ option, "
+"but that could destroy any data on this partition.  (This error came from "
+"‘%s’ option on the command line.)"
+msgstr ""
+"%s: Šis nodalījums satur %s failu sistēmu, kas tiks sabojāta, ja to "
+"samazinās zem %Ld baitiem (lietotājs lūdza to samazināt līdz %Ld baitiem).  "
+"Ja vēlaties šo nodalījumu samazināt, jāizmanto opcija „--resize-force”, bet "
+"tā var iznīcināt visus šī nodalījuma datus.  (Šī kļūda radās no komandrindas "
+"opcijas „%s”.)"
+
+#: resize/resize.ml:716
+msgid ""
+"%s: This partition contains an LVM physical volume which will be damaged by "
+"shrinking it below %Ld bytes (user asked to shrink it to %Ld bytes).  If you "
+"want to shrink this partition, you need to use the ‘--resize-force’ option, "
+"but that could destroy any data on this partition.  (This error came from "
+"‘%s‘ option on the command line.)"
+msgstr ""
+"%s: Šis nodalījums satur LVM fizisko sējumu, kas tiks sabojāts, ja to "
+"samazinās zem %Ld baitiem (lietotājs lūdza to samazināt līdz %Ld baitiem).  "
+"Ja vēlaties šo nodalījumu samazināt, jāizmanto opcija „--resize-force”, bet "
+"tā var iznīcināt visus šī nodalījuma datus.  (Šī kļūda radās no komandrindas "
+"opcijas „%s”.)"
+
+#: resize/resize.ml:709
+msgid ""
+"%s: This partition has unknown content which might be damaged by shrinking "
+"it.  If you want to shrink this partition, you need to use the ‘--resize-"
+"force’ option, but that could destroy any data on this partition.  (This "
+"error came from ‘%s’ option on the command line.)"
+msgstr ""
+"%s: Šim nodalījumam ir nezināms saturs, ko samazināšana var sabojāt.  Ja "
+"vēlaties šo nodalījumu samazināt, jāizmanto opcija „--resize-force”, bet tā "
+"var iznīcināt visus šī nodalījuma datus.  (Šī kļūda radās no komandrindas "
+"opcijas „%s”.)"
+
+#: resize/resize.ml:961
+msgid ""
+"%s: This partition will be created, but the contents will be ignored (ie. "
+"not copied to the target)."
+msgstr ""
+"%s: Šis nodalījums tiks izveidots, bet tā saturs tiks ignorēts (t. i., "
+"netiks kopēts uz mērķi)."
+
+#: resize/resize.ml:964
+msgid "%s: This partition will be deleted."
+msgstr "%s: Šis nodalījums tiks izdzēsts."
+
+#: resize/resize.ml:959
+msgid "%s: This partition will be left alone."
+msgstr "%s: Šis nodalījums netiks mainīts."
+
+#: resize/resize.ml:966
+msgid "%s: This partition will be resized from %s to %s."
+msgstr "%s: Šī nodalījuma izmērs tiks mainīts no %s uz %s."
+
+#: builder/cmdline.ml:176
+msgid ""
+"%s: build virtual machine images quickly\n"
+"\n"
+" virt-builder OS-VERSION\n"
+" virt-builder -l\n"
+" virt-builder --notes OS-VERSION\n"
+" virt-builder --print-cache\n"
+" virt-builder --cache-all-templates\n"
+" virt-builder --delete-cache\n"
+" virt-builder --get-kernel IMAGE\n"
+"\n"
+"A short summary of the options is given below.  For detailed help please\n"
+"read the man page virt-builder(1).\n"
+msgstr ""
+"%s: ātri būvēt virtuālo mašīnu attēlus\n"
+"\n"
+" virt-builder OS-VERSIJA\n"
+" virt-builder -l\n"
+" virt-builder --notes OS-VERSIJA\n"
+" virt-builder --print-cache\n"
+" virt-builder --cache-all-templates\n"
+" virt-builder --delete-cache\n"
+" virt-builder --get-kernel ATTĒLS\n"
+"\n"
+"Tālāk dots īss opciju kopsavilkums.  Detalizētu palīdzību lūdzu\n"
+"lasiet rokasgrāmatas lapā virt-builder(1).\n"
+
+#: builder/index_parser.ml:156
+msgid "%s: cannot determine the virtual size of %s due to compression"
+msgstr "%s: saspiešanas dēļ nevar noteikt %s virtuālo izmēru"
+
+#: common/mlcustomize/inject_virtio_win.ml:98
+msgid "%s: cannot open virtio-win ISO file: %s"
+msgstr "%s: nevar atvērt virtio-win ISO failu: %s"
+
+#: builder/index_parser.ml:184
+msgid "%s: cannot parse ‘compressed_size’ field for ‘%s’\n"
+msgstr "%s: nevar parsēt lauku „compressed_size” vienumam „%s”\n"
+
+#: builder/index_parser.ml:211
+msgid "%s: cannot parse ‘hidden’ field for ‘%s’\n"
+msgstr "%s: nevar parsēt lauku „hidden” vienumam „%s”\n"
+
+#: builder/index_parser.ml:142
+msgid "%s: cannot parse ‘revision’ field for ‘%s’\n"
+msgstr "%s: nevar parsēt lauku „revision” vienumam „%s”\n"
+
+#: builder/index_parser.ml:174
+msgid "%s: cannot parse ‘size’ field for ‘%s’\n"
+msgstr "%s: nevar parsēt lauku „size” vienumam „%s”\n"
+
+#: builder/index_parser.ml:261
+msgid "%s: cannot use a URI (‘%s’) in the index file\n"
+msgstr "%s: indeksa failā nevar izmantot URI („%s”)\n"
+
+#: common/mlcustomize/customize_run.ml:66
+msgid "%s: command exited with an error"
+msgstr "%s: komanda beidzās ar kļūdu"
+
+#: builder/repository_main.ml:62
+msgid ""
+"%s: create a repository for virt-builder\n"
+"\n"
+"  virt-builder-repository REPOSITORY_PATH\n"
+"\n"
+"A short summary of the options is given below.  For detailed help please\n"
+"read the man page virt-builder-repository(1).\n"
+msgstr ""
+"%s: izveidot virt-builder repozitoriju\n"
+"\n"
+"  virt-builder-repository REPOZITORIJA_CEĻŠ\n"
+"\n"
+"Tālāk dots īss opciju kopsavilkums.  Detalizētu palīdzību lūdzu\n"
+"lasiet rokasgrāmatas lapā virt-builder-repository(1).\n"
+
+#: customize/customize_main.ml:96
+msgid ""
+"%s: customize a virtual machine\n"
+"\n"
+" virt-customize [--options] -d domname\n"
+"\n"
+" virt-customize [--options] -a disk.img [-a disk.img ...]\n"
+"\n"
+"A short summary of the options is given below.  For detailed help please\n"
+"read the man page virt-customize(1).\n"
+msgstr ""
+"%s: pielāgot virtuālo mašīnu\n"
+"\n"
+" virt-customize [--opcijas] -d domēna_nosaukums\n"
+"\n"
+" virt-customize [--opcijas] -a disk.img [-a disk.img ...]\n"
+"\n"
+"Tālāk dots īss opciju kopsavilkums.  Detalizētu palīdzību lūdzu\n"
+"lasiet rokasgrāmatas lapā virt-customize(1).\n"
+
+#: drivers/drivers.ml:57
+msgid ""
+"%s: detect bootloader, kernel and drivers inside guest\n"
+"\n"
+"A short summary of the options is given below.  For detailed help please\n"
+"read the man page virt-drivers(1).\n"
+msgstr ""
+"%s: noteikt sāknētāju, kodolu un draiverus viesī\n"
+"\n"
+"Tālāk dots īss opciju kopsavilkums.  Detalizētu palīdzību lūdzu\n"
+"lasiet rokasgrāmatas lapā virt-drivers(1).\n"
+
+#: common/mltools/tools_utils.ml:173
+msgid "%s: error: %s"
+msgstr "%s: kļūda: %s"
+
+#: get-kernel/get_kernel.ml:67
+msgid ""
+"%s: extract kernel and ramdisk from a guest\n"
+"\n"
+"A short summary of the options is given below.  For detailed help please\n"
+"read the man page virt-get-kernel(1).\n"
+msgstr ""
+"%s: izvilkt kodolu un ramdisku no viesa\n"
+"\n"
+"Tālāk dots īss opciju kopsavilkums.  Detalizētu palīdzību lūdzu\n"
+"lasiet rokasgrāmatas lapā virt-get-kernel(1).\n"
+
+#: resize/resize.ml:421 resize/resize.ml:418
+msgid "%s: file is too small to be a disk image (%Ld bytes)"
+msgstr "%s: fails ir pārāk mazs, lai būtu diska attēls (%Ld baiti)"
+
+#: builder/index_parser.ml:81
+msgid "%s: index is corrupt: %s: field ‘%s[%s]’ appears two or more times\n"
+msgstr ""
+"%s: indekss ir bojāts: %s: lauks „%s[%s]” parādās divas vai vairāk reizes\n"
+
+#: builder/index_parser.ml:84
+msgid "%s: index is corrupt: %s: field ‘%s’ appears two or more times\n"
+msgstr "%s: indekss ir bojāts: %s: lauks „%s” parādās divas vai vairāk reizes\n"
+
+#: builder/index_parser.ml:63
+msgid ""
+"%s: index is corrupt: os-version ‘%s’ with architecture ‘%s’ appears two or "
+"more times\n"
+msgstr ""
+"%s: indekss ir bojāts: os-version „%s” ar arhitektūru „%s” parādās divas vai "
+"vairāk reizes\n"
+
+#: resize/resize.ml:892
+msgid ""
+"%s: logical volume not found in the source disk image (this error came from "
+"‘--lv-expand’ option on the command line).  Try running this command: virt-"
+"filesystems --logical-volumes --long -a %s"
+msgstr ""
+"%s: avota diska attēlā loģiskais sējums nav atrasts (šī kļūda radās no "
+"komandrindas opcijas „--lv-expand”).  Mēģiniet izpildīt šo komandu: virt-"
+"filesystems --logical-volumes --long -a %s"
+
+#: resize/resize.ml:759
+msgid "%s: missing size field in ‘%s’ option"
+msgstr "%s: opcijā „%s” trūkst izmēra lauka"
+
+#: resize/resize.ml:768
+msgid "%s: new partition size is zero or negative"
+msgstr "%s: jaunais nodalījuma izmērs ir nulle vai negatīvs"
+
+#: builder/index_parser.ml:118
+msgid "%s: no ‘arch’ entry for %s and failed to guess it\n"
+msgstr "%s: vienumam %s nav „arch” ieraksta, un to neizdevās uzminēt\n"
+
+#: builder/index_parser.ml:126
+msgid "%s: no ‘arch’ entry for ‘%s’\n"
+msgstr "%s: vienumam „%s” nav „arch” ieraksta\n"
+
+#: builder/index_parser.ml:106
+msgid "%s: no ‘file’ (URI) entry for ‘%s’\n"
+msgstr "%s: vienumam „%s” nav „file” (URI) ieraksta\n"
+
+#: builder/index_parser.ml:167
+msgid "%s: no ‘size’ field for ‘%s’\n"
+msgstr "%s: vienumam „%s” nav „size” lauka\n"
+
+#: builder/sources.ml:48
+msgid "%s: no ‘uri’ entry for ‘%s’ in %s, skipping it\n"
+msgstr "%s: vienumam „%s” %s nav „uri” ieraksta, tas tiek izlaists\n"
+
+#: common/mltools/tools_utils.ml:734
+msgid "%s: operation timed out"
+msgstr "%s: darbībai beidzās noildze"
+
+#: resize/resize.ml:659
+msgid "%s: partition already deleted, you cannot use it in ‘%s’ option"
+msgstr "%s: nodalījums jau ir izdzēsts, to nevar izmantot opcijā „%s”"
+
+#: resize/resize.ml:654
+msgid "%s: partition already ignored, you cannot use it in ‘%s’ option"
+msgstr "%s: nodalījums jau ir ignorēts, to nevar izmantot opcijā „%s”"
+
+#: resize/resize.ml:647
+msgid ""
+"%s: partition not found in the source disk image (this error came from ‘%s’ "
+"option on the command line).  Try running this command: virt-filesystems --"
+"partitions --long -a %s"
+msgstr ""
+"%s: avota diska attēlā nodalījums nav atrasts (šī kļūda radās no "
+"komandrindas opcijas „%s”).  Mēģiniet izpildīt šo komandu: virt-"
+"filesystems --partitions --long -a %s"
+
+#: resize/resize.ml:551
+msgid "%s: partition size %Ld < filesystem size %Ld"
+msgstr "%s: nodalījuma izmērs %Ld < failu sistēmas izmērs %Ld"
+
+#: resize/resize.ml:546
+msgid "%s: partition size %Ld < physical volume size %Ld"
+msgstr "%s: nodalījuma izmērs %Ld < fiziskā sējuma izmērs %Ld"
+
+#: resize/resize.ml:457
+msgid "%s: physical volume not returned by pvs_full"
+msgstr "%s: pvs_full neatgrieza fizisko sējumu"
+
+#: sysprep/main.ml:142
+msgid ""
+"%s: reset or unconfigure a virtual machine so clones can be made\n"
+"\n"
+" virt-sysprep [--options] -d domname\n"
+"\n"
+" virt-sysprep [--options] -a disk.img [-a disk.img ...]\n"
+"\n"
+"A short summary of the options is given below.  For detailed help please\n"
+"read the man page virt-sysprep(1).\n"
+msgstr ""
+"%s: atiestatīt vai atkonfigurēt virtuālo mašīnu, lai varētu veidot klonus\n"
+"\n"
+" virt-sysprep [--opcijas] -d domēna_nosaukums\n"
+"\n"
+" virt-sysprep [--opcijas] -a disk.img [-a disk.img ...]\n"
+"\n"
+"Tālāk dots īss opciju kopsavilkums.  Detalizētu palīdzību lūdzu\n"
+"lasiet rokasgrāmatas lapā virt-sysprep(1).\n"
+
+#: resize/resize.ml:221
+msgid ""
+"%s: resize a virtual machine disk\n"
+"\n"
+"A short summary of the options is given below.  For detailed help please\n"
+"read the man page virt-resize(1).\n"
+msgstr ""
+"%s: mainīt virtuālās mašīnas diska izmēru\n"
+"\n"
+"Tālāk dots īss opciju kopsavilkums.  Detalizētu palīdzību lūdzu\n"
+"lasiet rokasgrāmatas lapā virt-resize(1).\n"
+
+#: sparsify/cmdline.ml:81
+msgid ""
+"%s: sparsify a virtual machine disk\n"
+"\n"
+" virt-sparsify [--options] indisk outdisk\n"
+"\n"
+" virt-sparsify [--options] --in-place disk\n"
+"\n"
+"A short summary of the options is given below.  For detailed help please\n"
+"read the man page virt-sparsify(1).\n"
+msgstr ""
+"%s: retināt virtuālās mašīnas disku\n"
+"\n"
+" virt-sparsify [--opcijas] ievades_disks izvades_disks\n"
+"\n"
+" virt-sparsify [--opcijas] --in-place disks\n"
+"\n"
+"Tālāk dots īss opciju kopsavilkums.  Detalizētu palīdzību lūdzu\n"
+"lasiet rokasgrāmatas lapā virt-sparsify(1).\n"
+
+#: builder/builder.ml:338
+msgid ""
+"%s: template not downloaded or deleted.  You may have run ‘virt-builder --"
+"delete-cache’ in parallel."
+msgstr ""
+"%s: veidne nav lejupielādēta vai ir izdzēsta.  Iespējams, paralēli "
+"izpildījāt „virt-builder --delete-cache”."
+
+#: resize/resize.ml:694
+msgid "%s: this partition has already been ignored or deleted"
+msgstr "%s: šis nodalījums jau ir ignorēts vai izdzēsts"
+
+#: resize/resize.ml:690
+msgid "%s: this partition has already been marked for resizing"
+msgstr "%s: šis nodalījums jau ir atzīmēts izmēra maiņai"
+
+#: resize/resize.ml:561
+msgid "%s: this partition overlaps the previous one"
+msgstr "%s: šis nodalījums pārklājas ar iepriekšējo"
+
+#: resize/resize.ml:433
+msgid ""
+"%s: unknown partition table type\n"
+"virt-resize only supports MBR (DOS) and GPT partition tables."
+msgstr ""
+"%s: nezināms nodalījumu tabulas tips\n"
+"virt-resize atbalsta tikai MBR (DOS) un GPT nodalījumu tabulas."
+
+#: common/mltools/tools_utils.ml:192
+msgid "%s: warning: %s"
+msgstr "%s: brīdinājums: %s"
+
+#: builder/index_parser.ml:265
+msgid "%s: you must use relative paths (not ‘%s’) in the index file\n"
+msgstr "%s: indeksa failā jāizmanto relatīvi ceļi (nevis „%s”)\n"
+
+#: builder/index_parser.ml:257
+msgid "%s: zero length path in the index file\n"
+msgstr "%s: indeksa failā nulles garuma ceļš\n"
+
+#. common/mlcustomize/customize_cmdline.ml:270
+#: common/mlcustomize/customize_cmdline.ml:379
+msgid "'CMD+ARGS'"
+msgstr "'KOMANDA+ARGUMENTI'"
+
+#: get-kernel/get_kernel.ml:40 drivers/drivers.ml:36
+msgid "--add option can only be given once"
+msgstr "opciju --add var norādīt tikai vienu reizi"
+
+#: common/mlcustomize/customize_run.ml:138
+msgid ""
+"--append-line: line must not contain newline characters.  Use the --append-"
+"line option multiple times to add several lines."
+msgstr ""
+"--append-line: rinda nedrīkst saturēt rindas pārneses rakstzīmes.  Lai "
+"pievienotu vairākas rindas, izmantojiet opciju --append-line vairākas reizes."
+
+#: customize/customize_main.ml:114
+msgid "--attach-format parameter must appear before --attach parameter"
+msgstr "parametram --attach-format jābūt pirms parametra --attach"
+
+#: builder/cmdline.ml:268
+msgid ""
+"--cache-all-templates/--print-cache/--delete-cache does not need any extra "
+"arguments"
+msgstr ""
+"--cache-all-templates/--print-cache/--delete-cache nav vajadzīgi papildu "
+"argumenti"
+
+#: sparsify/cmdline.ml:55
+msgid "--check-tmpdir: unknown argument ‘%s’"
+msgstr "--check-tmpdir: nezināms arguments „%s”"
+
+#: common/mlcustomize/customize_run.ml:157
+msgid "--chown: could not parse numeric UID:GID from %s:%s"
+msgstr "--chown: neizdevās parsēt skaitlisko UID:GID no %s:%s"
+
+#: sparsify/copying.ml:74
+msgid ""
+"--compress cannot be used for raw output.  Remove this option or use --"
+"convert qcow2."
+msgstr ""
+"--compress nevar izmantot neapstrādātai izvadei.  Noņemiet šo opciju vai "
+"izmantojiet --convert qcow2."
+
+#. customize/customize_main.ml:72
+#: sysprep/main.ml:68 get-kernel/get_kernel.ml:49 drivers/drivers.ml:45
+msgid "--domain option can only be given once"
+msgstr "opciju --domain var norādīt tikai vienu reizi"
+
+#: sysprep/main.ml:78
+msgid "--enable option can only be given once"
+msgstr "opciju --enable var norādīt tikai vienu reizi"
+
+#: sysprep/main.ml:86
+msgid "--enable: ‘%s’ is not a known operation"
+msgstr "--enable: „%s” nav zināma darbība"
+
+#: resize/resize.ml:174
+msgid "--expand option given more than once"
+msgstr "opcija --expand norādīta vairāk nekā vienu reizi"
+
+#: sysprep/main.ml:157 customize/customize_main.ml:111
+msgid "--format parameter must appear before -a parameter"
+msgstr "parametram --format jābūt pirms parametra -a"
+
+#: builder/cmdline.ml:278
+msgid "--get-kernel: too many parameters"
+msgstr "--get-kernel: pārāk daudz parametru"
+
+#: common/mlcustomize/customize_run.ml:221
+msgid ""
+"--inject-blnsvr: blnsvr.exe not found in virtio-win source that you specified"
+msgstr ""
+"--inject-blnsvr: jūsu norādītajā virtio-win avotā nav atrasts blnsvr.exe"
+
+#: common/mlcustomize/customize_run.ml:230
+msgid ""
+"--inject-qemu-ga: QEMU Guest Agent MSI not found in virtio-win source that "
+"you specified"
+msgstr ""
+"--inject-qemu-ga: jūsu norādītajā virtio-win avotā nav atrasts QEMU viesa "
+"aģenta MSI"
+
+#: common/mlcustomize/customize_run.ml:246
+msgid ""
+"--inject-virtio-win: virtio drivers were not found for this Windows version "
+"in the virtio-win source that you specified"
+msgstr ""
+"--inject-virtio-win: jūsu norādītajā virtio-win avotā šai Windows versijai "
+"nav atrasti virtio draiveri"
+
+#: builder/cmdline.ml:245
+msgid "--list: use ‘--list-format’, not ‘--format’"
+msgstr "--list: izmantojiet „--list-format”, nevis „--format”"
+
+#: builder/cmdline.ml:260
+msgid "--notes: too many parameters, expecting ‘os-version’"
+msgstr "--notes: pārāk daudz parametru, gaidīts „os-version”"
+
+#: sysprep/main.ml:105
+msgid "--operations: empty operation name"
+msgstr "--operations: tukšs darbības nosaukums"
+
+#: sysprep/main.ml:117
+msgid "--operations: ‘%s’ is not a known operation"
+msgstr "--operations: „%s” nav zināma darbība"
+
+#: get-kernel/get_kernel.ml:53
+msgid "--prefix option can only be given once"
+msgstr "opciju --prefix var norādīt tikai vienu reizi"
+
+#: sysprep/sysprep_operation_script.ml:35
+msgid "--scriptdir cannot be used more than once"
+msgstr "--scriptdir nevar izmantot vairāk nekā vienu reizi"
+
+#: resize/resize.ml:190
+msgid "--shrink option given more than once"
+msgstr "opcija --shrink norādīta vairāk nekā vienu reizi"
+
+#: sparsify/copying.ml:95
+msgid ""
+"--tmp parameter must point to a directory, block device or prebuilt file"
+msgstr ""
+"parametram --tmp jānorāda uz direktoriju, bloku ierīci vai iepriekš "
+"sagatavotu failu"
+
+#: sparsify/copying.ml:86
+msgid "--tmp prebuilt:file: %s: file does not exist"
+msgstr "--tmp prebuilt:file: %s: fails neeksistē"
+
+#: sparsify/copying.ml:91
+msgid "--tmp prebuilt:file: %s: file does not have backing file"
+msgstr "--tmp prebuilt:file: %s: failam nav atbalsta faila"
+
+#: sparsify/copying.ml:89
+msgid "--tmp prebuilt:file: %s: file format is not qcow2"
+msgstr "--tmp prebuilt:file: %s: faila formāts nav qcow2"
+
+#. customize/customize_main.ml:77
+#: sysprep/main.ml:126 get-kernel/get_kernel.ml:57 drivers/drivers.ml:50
+msgid "Add disk image file"
+msgstr "Pievienot diska attēla failu"
+
+#: common/mlcustomize/customize_cmdline.ml:317
+msgid "Add package(s) to install"
+msgstr "Pievienot instalējamo(-s) pakotni(-es)"
+
+#: common/mlcustomize/customize_cmdline.ml:282
+msgid "Add package(s) to install at first boot"
+msgstr "Pievienot pirmajā sāknēšanā instalējamo(-s) pakotni(-es)"
+
+#: sparsify/cmdline.ml:74
+msgid "Add qemu-img options"
+msgstr "Pievienot qemu-img opcijas"
+
+#: builder/list_entries.ml:83
+msgid "Aliases:"
+msgstr "Aizstājvārdi:"
+
+#: resize/resize.ml:197
+msgid "Align first partition (default: auto)"
+msgstr "Līdzināt pirmo nodalījumu (noklusējums: auto)"
+
+#: builder/repository_main.ml:216
+msgid "Allowed characters are letters, digits, - _ and ."
+msgstr "Atļautās rakstzīmes ir burti, cipari, - _ un ."
+
+#: builder/repository_main.ml:282
+msgid "Already existing image with id %s and architecture %s"
+msgstr "Jau eksistē attēls ar id %s un arhitektūru %s"
+
+#: common/mlcustomize/customize_cmdline.ml:187
+msgid "Append line(s) to the file"
+msgstr "Pievienot failam rindu(-as)"
+
+#: common/mlcustomize/customize_run.ml:142
+msgid "Appending line to %s"
+msgstr "Pievieno rindu %s"
+
+#: builder/list_entries.ml:77
+msgid "Architecture:"
+msgstr "Arhitektūra:"
+
+#: builder/repository_main.ml:224
+msgid "Architecture: "
+msgstr "Arhitektūra: "
+
+#: builder/repository_main.ml:55
+msgid "Ask the user about missing data"
+msgstr "Jautāt lietotājam par trūkstošiem datiem"
+
+#: customize/customize_main.ml:78 builder/cmdline.ml:128
+msgid "Attach data disk/ISO during install"
+msgstr "Instalēšanas laikā pievienot datu disku/ISO"
+
+#: sparsify/copying.ml:348
+msgid ""
+"Before deleting the old disk, carefully check that the target disk boots and "
+"works correctly."
+msgstr ""
+"Pirms vecā diska dzēšanas rūpīgi pārbaudiet, vai mērķa disks sāknējas un "
+"darbojas pareizi."
+
+#: resize/resize.ml:216
+msgid "Behaviour on expand unknown filesystems (default: warn)"
+msgstr "Rīcība, paplašinot nezināmas failu sistēmas (noklusējums: warn)"
+
+#: sysprep/sysprep_operation_user_account.ml:105
+msgid ""
+"By default remove all the user accounts and their home directories.\n"
+"The \"root\" account is not removed.\n"
+"\n"
+"See the I<--remove-user-accounts> parameter for a way to specify\n"
+"how to remove only some users, or to not remove some others."
+msgstr ""
+"Pēc noklusējuma noņemt visus lietotāju kontus un to mājas direktorijas.\n"
+"Konts \"root\" netiek noņemts.\n"
+"\n"
+"Kā norādīt, lai noņem tikai dažus lietotājus vai nenoņem dažus citus,\n"
+"skatiet parametru I<--remove-user-accounts>."
+
+#: sysprep/sysprep_operation_user_account.ml:83
+msgid "Cannot get the home directory for %s"
+msgstr "Nevar iegūt %s mājas direktoriju"
+
+#: sysprep/sysprep_operation_lvm_uuids.ml:84
+msgid "Change LVM2 PV and VG UUIDs"
+msgstr "Mainīt LVM2 PV un VG UUID"
+
+#: sysprep/sysprep_operation_fs_uuids.ml:48
+msgid "Change filesystem UUIDs"
+msgstr "Mainīt failu sistēmu UUID"
+
+#: common/mlcustomize/customize_cmdline.ml:209
+msgid "Change the owner user and group ID of a file or directory"
+msgstr "Mainīt faila vai direktorijas īpašnieka lietotāja un grupas ID"
+
+#: common/mlcustomize/customize_cmdline.ml:198
+msgid "Change the permissions of a file"
+msgstr "Mainīt faila atļaujas"
+
+#: common/mlcustomize/customize_run.ml:160
+msgid "Changing owner of %s to %d:%d"
+msgstr "Maina %s īpašnieku uz %d:%d"
+
+#: common/mlcustomize/customize_run.ml:146
+msgid "Changing permissions of %s to %s"
+msgstr "Maina %s atļaujas uz %s"
+
+#: builder/cmdline.ml:136
+msgid "Check digital signatures"
+msgstr "Pārbaudīt digitālos parakstus"
+
+#: sparsify/cmdline.ml:68
+msgid "Check there is enough space in $TMPDIR"
+msgstr "Pārbaudīt, vai $TMPDIR ir pietiekami daudz vietas"
+
+#: builder/repository_main.ml:202
+msgid ""
+"Choose one from the list below:\n"
+" %s\n"
+msgstr ""
+"Izvēlieties vienu no saraksta:\n"
+" %s\n"
+
+#: sparsify/in_place.ml:127 sparsify/copying.ml:279
+msgid "Clearing Linux swap on %s"
+msgstr "Notīra Linux maiņatmiņu %s"
+
+#: common/mlcustomize/customize_cmdline.ml:500
+msgid "Compatibility option doing nothing"
+msgstr "Saderības opcija, neko nedara"
+
+#: sparsify/cmdline.ml:69
+msgid "Compressed output format"
+msgstr "Saspiestas izvades formāts"
+
+#: builder/builder.ml:709
+msgid "Converting %s to %s"
+msgstr "Pārveido %s uz %s"
+
+#: builder/builder.ml:708
+msgid "Converting to %s"
+msgstr "Pārveido uz %s"
+
+#: common/mlcustomize/customize_cmdline.ml:231
+msgid "Copy files in disk image"
+msgstr "Kopēt failus diska attēlā"
+
+#: common/mlcustomize/customize_cmdline.ml:409
+msgid "Copy local files or directories from a tarball into image"
+msgstr "Kopēt lokālus failus vai direktorijas no tar arhīva attēlā"
+
+#: common/mlcustomize/customize_cmdline.ml:242
+msgid "Copy local files or directories into image"
+msgstr "Kopēt lokālus failus vai direktorijas attēlā"
+
+#: builder/builder.ml:642
+msgid "Copying"
+msgstr "Kopē"
+
+#: resize/resize.ml:1304
+msgid "Copying %s"
+msgstr "Kopē %s"
+
+#: common/mlcustomize/customize_run.ml:173
+msgid "Copying (in image): %s to %s"
+msgstr "Kopē (attēlā): %s uz %s"
+
+#: common/mlcustomize/customize_run.ml:177
+msgid "Copying: %s to %s"
+msgstr "Kopē: %s uz %s"
+
+#: common/mlcustomize/customize_cmdline.ml:334
+msgid "Create a directory"
+msgstr "Izveidot direktoriju"
+
+#: sparsify/copying.ml:152
+msgid "Create overlay device %s to protect source disk"
+msgstr "Izveidot pārklājuma ierīci %s avota diska aizsardzībai"
+
+#: sparsify/copying.ml:150
+msgid "Create overlay file in %s to protect source disk"
+msgstr "Izveidot pārklājuma failu %s avota diska aizsardzībai"
+
+#: common/mlcustomize/customize_cmdline.ml:328
+msgid "Create symbolic links"
+msgstr "Izveidot simboliskās saites"
+
+#: builder/repository_main.ml:566
+msgid "Creating index backup copy"
+msgstr "Veido indeksa rezerves kopiju"
+
+#: sysprep/sysprep_operation_bash_history.ml:42
+msgid ""
+"Currently this only looks in C</root> and C</home/*> for\n"
+"home directories, so users with home directories in other\n"
+"locations won't have the bash history removed."
+msgstr ""
+"Pašlaik tiek meklēts tikai C</root> un C</home/*>\n"
+"mājas direktorijās, tāpēc lietotājiem ar mājas direktorijām citās\n"
+"vietās bash vēsture netiks noņemta."
+
+#: sysprep/sysprep_operation_ssh_userdir.ml:42
+msgid ""
+"Currently this only looks in C</root> and C</home/*> for\n"
+"home directories, so users with home directories in other\n"
+"locations won't have the ssh files removed."
+msgstr ""
+"Pašlaik tiek meklēts tikai C</root> un C</home/*>\n"
+"mājas direktorijās, tāpēc lietotājiem ar mājas direktorijām citās\n"
+"vietās ssh faili netiks noņemti."
+
+#: sysprep/sysprep_operation_zsh_history.ml:42
+msgid ""
+"Currently this only looks in C</root> and C</home/*> for\n"
+"home directories, so users with home directories in other\n"
+"locations won't have the zsh history removed."
+msgstr ""
+"Pašlaik tiek meklēts tikai C</root> un C</home/*>\n"
+"mājas direktorijās, tāpēc lietotājiem ar mājas direktorijām citās\n"
+"vietās zsh vēsture netiks noņemta."
+
+#: sysprep/sysprep_operation_customize.ml:43
+msgid "Customize the guest"
+msgstr "Pielāgot viesi"
+
+#: sysprep/sysprep_operation_customize.ml:44
+msgid ""
+"Customize the guest by providing L<virt-customize(1)> options\n"
+"for installing packages, editing files and so on."
+msgstr ""
+"Pielāgot viesi, norādot L<virt-customize(1)> opcijas\n"
+"pakotņu instalēšanai, failu rediģēšanai u. tml."
+
+#. common/mlcustomize/customize_cmdline.ml:333
+#: common/mlcustomize/customize_cmdline.ml:512
+msgid "DIR"
+msgstr "DIR"
+
+#: common/mlcustomize/customize_cmdline.ml:506
+msgid "Defer SELinux relabelling until boot"
+msgstr "Atlikt SELinux pārmarķēšanu līdz sāknēšanai"
+
+#: common/mlcustomize/customize_cmdline.ml:248
+msgid "Delete a file or directory"
+msgstr "Dzēst failu vai direktoriju"
+
+#: resize/resize.ml:201
+msgid "Delete partition"
+msgstr "Dzēst nodalījumu"
+
+#: builder/cmdline.ml:141
+msgid "Delete the template cache"
+msgstr "Dzēst veidņu kešatmiņu"
+
+#: common/mlcustomize/customize_run.ml:181 builder/builder.ml:138
+msgid "Deleting: %s"
+msgstr "Dzēš: %s"
+
+#: customize/customize_main.ml:87 builder/cmdline.ml:156
+msgid "Disable appliance network"
+msgstr "Atspējot palīgsistēmas tīklu"
+
+#: sysprep/main.ml:137
+msgid "Disable appliance network (default)"
+msgstr "Atspējot palīgsistēmas tīklu (noklusējums)"
+
+#: builder/cmdline.ml:138
+msgid "Disable digital signatures"
+msgstr "Atspējot digitālos parakstus"
+
+#: builder/cmdline.ml:132
+msgid "Disable template cache"
+msgstr "Atspējot veidņu kešatmiņu"
+
+#: sparsify/in_place.ml:163
+msgid "Discard space in volgroup %s"
+msgstr "Atmest vietu sējumu grupā %s"
+
+#: common/mltools/getopt.ml:225
+msgid "Display brief help"
+msgstr "Rādīt īsu palīdzību"
+
+#: builder/cmdline.ml:157
+msgid "Display installation notes"
+msgstr "Rādīt instalēšanas piezīmes"
+
+#: builder/repository_main.ml:290
+msgid "Display name: "
+msgstr "Parādāmais nosaukums: "
+
+#: common/mltools/tools_utils.ml:389
+msgid "Display version and exit"
+msgstr "Parādīt versiju un iziet"
+
+#: builder/cmdline.ml:164
+msgid "Do not fsync output file on exit"
+msgstr "Neizpildīt izvades faila fsync, izejot"
+
+#: common/mlcustomize/customize_cmdline.ml:494
+msgid "Do not relabel files with correct SELinux labels"
+msgstr "Nepārmarķēt failus ar pareizām SELinux etiķetēm"
+
+#: builder/cmdline.ml:166
+msgid "Do not warn if writing to a partition"
+msgstr "Nebrīdināt, ja raksta nodalījumā"
+
+#: builder/repository_main.ml:56
+msgid "Don’t compress the new images in the index"
+msgstr "Nesaspiest jaunos attēlus indeksā"
+
+#: resize/resize.ml:199
+msgid "Don’t copy boot loader"
+msgstr "Nekopēt sāknētāju"
+
+#: resize/resize.ml:204
+msgid "Don’t create extra partition"
+msgstr "Neveidot papildu nodalījumu"
+
+#: builder/cmdline.ml:143
+msgid "Don’t delete output file on failure"
+msgstr "Kļūmes gadījumā nedzēst izvades failu"
+
+#: resize/resize.ml:203
+msgid "Don’t expand content"
+msgstr "Nepaplašināt saturu"
+
+#: resize/resize.ml:208
+msgid "Don’t perform changes"
+msgstr "Neveikt izmaiņas"
+
+#: common/mltools/tools_utils.ml:393
+msgid "Don’t print progress messages"
+msgstr "Neizvadīt gaitas ziņojumus"
+
+#: common/mltools/tools_utils.ml:428
+msgid "Don’t turn off echo for passphrases"
+msgstr "Neizslēgt paroles frāžu atbalsi"
+
+#: builder/cmdline.ml:134
+msgid "Download all templates to the cache"
+msgstr "Lejupielādēt visas veidnes kešatmiņā"
+
+#: builder/list_entries.ml:80
+msgid "Download size:"
+msgstr "Lejupielādes izmērs:"
+
+#: builder/builder.ml:314 builder/builder.ml:262
+msgid "Downloading: %s"
+msgstr "Lejupielādē: %s"
+
+#: common/mlcustomize/customize_cmdline.ml:259
+msgid "Edit file using Perl expression"
+msgstr "Rediģēt failu ar Perl izteiksmi"
+
+#: common/mlcustomize/customize_run.ml:185
+msgid "Editing: %s"
+msgstr "Rediģē: %s"
+
+#: sysprep/main.ml:136
+msgid "Enable appliance network"
+msgstr "Iespējot palīgsistēmas tīklu"
+
+#: customize/customize_main.ml:86 builder/cmdline.ml:155
+msgid "Enable appliance network (default)"
+msgstr "Iespējot palīgsistēmas tīklu (noklusējums)"
+
+#: resize/resize.ml:200
+msgid "Enable debugging messages"
+msgstr "Iespējot atkļūdošanas ziņojumus"
+
+#: common/mltools/tools_utils.ml:390
+msgid "Enable libguestfs debugging messages"
+msgstr "Iespējot libguestfs atkļūdošanas ziņojumus"
+
+#: sysprep/main.ml:132
+msgid "Enable specific operations"
+msgstr "Iespējot noteiktas darbības"
+
+#: common/mltools/tools_utils.ml:391
+msgid "Enable tracing of libguestfs calls"
+msgstr "Iespējot libguestfs izsaukumu izsekošanu"
+
+#: sysprep/main.ml:138
+msgid "Enable/disable specific operations"
+msgstr "Iespējot/atspējot noteiktas darbības"
+
+#: sparsify/copying.ml:180
+msgid "Examine source disk"
+msgstr "Pārbaudīt avota disku"
+
+#: resize/resize.ml:385
+msgid "Examining %s"
+msgstr "Pārbauda %s"
+
+#: sysprep/main.ml:213 customize/customize_main.ml:159
+msgid "Examining the guest ..."
+msgstr "Pārbauda viesi ..."
+
+#: common/mlcustomize/customize_cmdline.ml:515
+msgid "Exclude directories from SELinux relabelling"
+msgstr "Izslēgt direktorijas no SELinux pārmarķēšanas"
+
+#: resize/resize.ml:207
+msgid "Expand logical volume"
+msgstr "Paplašināt loģisko sējumu"
+
+#: resize/resize.ml:202
+msgid "Expand partition"
+msgstr "Paplašināt nodalījumu"
+
+#: builder/repository_main.ml:318 builder/repository_main.ml:311
+msgid "Expandable partition: "
+msgstr "Paplašināmais nodalījums: "
+
+#: builder/repository_main.ml:337 builder/repository_main.ml:330
+msgid "Expandable volume: "
+msgstr "Paplašināmais sējums: "
+
+#: resize/resize.ml:1472
+msgid "Expanding %s using the ‘%s’ method"
+msgstr "Paplašina %s, izmantojot metodi „%s”"
+
+#: resize/resize.ml:1453
+msgid "Expanding %s%s using the ‘%s’ method"
+msgstr "Paplašina %s%s, izmantojot metodi „%s”"
+
+#: builder/repository_main.ml:236
+msgid "Extracting data from the image..."
+msgstr "Izvelk datus no attēla..."
+
+#. common/mlcustomize/customize_cmdline.ml:420
+#. common/mlcustomize/customize_cmdline.ml:385
+#: common/mlcustomize/customize_cmdline.ml:426
+msgid "FILE"
+msgstr "FAILS"
+
+#: common/mlcustomize/customize_cmdline.ml:467
+msgid "FILE:CONTENT"
+msgstr "FAILS:SATURS"
+
+#: common/mlcustomize/customize_cmdline.ml:456
+msgid "FILE:DEST"
+msgstr "FAILS:MĒRĶIS"
+
+#: common/mlcustomize/customize_cmdline.ml:254
+msgid "FILE:EXPR"
+msgstr "FAILS:IZTEIKSME"
+
+#: common/mlcustomize/customize_cmdline.ml:182
+msgid "FILE:LINE"
+msgstr "FAILS:RINDA"
+
+#: common/mlcustomize/customize_cmdline.ml:215
+msgid "FILENAME"
+msgstr "FAILA_NOSAUKUMS"
+
+#: resize/resize.ml:1094
+msgid ""
+"Failed to initialize the partition table on the target disk.  You need to "
+"wipe or recreate the target disk and then run virt-resize again.\n"
+"\n"
+"The underlying error was: %s"
+msgstr ""
+"Neizdevās inicializēt nodalījumu tabulu mērķa diskā.  Jānotīra vai atkārtoti "
+"jāizveido mērķa disks un pēc tam vēlreiz jāpalaiž virt-resize.\n"
+"\n"
+"Pamatā esošā kļūda bija: %s"
+
+#: sparsify/copying.ml:264
+msgid "Fill free space in %s with zero"
+msgstr "Aizpildīt brīvo vietu %s ar nullēm"
+
+#: sparsify/copying.ml:312
+msgid "Fill free space in volgroup %s with zero"
+msgstr "Aizpildīt brīvo vietu sējumu grupā %s ar nullēm"
+
+#: builder/cmdline.ml:145
+msgid "Fingerprint of valid signing key"
+msgstr "Derīgas parakstīšanas atslēgas nospiedums"
+
+#: builder/list_entries.ml:64
+msgid "Fingerprint: %s\n"
+msgstr "Nospiedums: %s\n"
+
+#: customize/customize_main.ml:206 builder/builder.ml:796
+msgid "Finishing off"
+msgstr "Pabeidz"
+
+#: resize/resize.ml:1351
+msgid "Fixing first NTFS partition boot record"
+msgstr "Labo pirmā NTFS nodalījuma sāknēšanas ierakstu"
+
+#: sysprep/sysprep_operation_flag_reconfiguration.ml:35
+msgid "Flag the system for reconfiguration"
+msgstr "Atzīmēt sistēmu pārkonfigurēšanai"
+
+#. sysprep/sysprep_operation_net_hostname.ml:56
+#: sysprep/sysprep_operation_net_hwaddr.ml:53
+msgid ""
+"For Fedora and Red Hat Enterprise Linux,\n"
+"this is removed from C<ifcfg-*> files."
+msgstr ""
+"Fedora un Red Hat Enterprise Linux\n"
+"šis tiek noņemts no failiem C<ifcfg-*>."
+
+#: sysprep/sysprep_operation_flag_reconfiguration.ml:36
+msgid ""
+"For Linux guests, this touches C</.unconfigured>, which causes\n"
+"the first boot to interactively query the user for settings such\n"
+"as the root password and timezone."
+msgstr ""
+"Linux viesos šis izpilda touch failam C</.unconfigured>, kā rezultātā\n"
+"pirmajā sāknēšanā lietotājam interaktīvi tiek vaicāti iestatījumi,\n"
+"piemēram, root parole un laika josla."
+
+#: resize/resize.ml:209
+msgid "Force ntfsresize"
+msgstr "Piespiest ntfsresize"
+
+#: resize/resize.ml:212
+msgid "Forcefully resize partition"
+msgstr "Piespiedu kārtā mainīt nodalījuma izmēru"
+
+#. drivers/drivers.ml:54
+#: sparsify/cmdline.ml:71 resize/resize.ml:205 get-kernel/get_kernel.ml:61
+msgid "Format of input disk"
+msgstr "Ievades diska formāts"
+
+#: resize/resize.ml:210
+msgid "Format of output disk"
+msgstr "Izvades diska formāts"
+
+#: sparsify/cmdline.ml:70
+msgid "Format of output disk (default: same as input)"
+msgstr "Izvades diska formāts (noklusējums: tāds pats kā ievadei)"
+
+#: builder/repository_main.ml:501
+msgid "Found new images: %s"
+msgstr "Atrasti jauni attēli: %s"
+
+#: builder/builder.ml:786
+msgid "Free space"
+msgstr "Brīvā vieta"
+
+#: builder/list_entries.ml:76
+msgid "Full name:"
+msgstr "Pilnais vārds:"
+
+#: builder/sigchecker.ml:114
+msgid ""
+"GPG failure: could not run GPG the first time\n"
+"Use the ‘-v’ option and look for earlier error messages."
+msgstr ""
+"GPG kļūme: pirmo reizi neizdevās palaist GPG\n"
+"Izmantojiet opciju „-v” un meklējiet iepriekšējos kļūdu ziņojumus."
+
+#: builder/sigchecker.ml:66
+msgid ""
+"GPG failure: could not trust the imported key\n"
+"Use the ‘-v’ option and look for earlier error messages."
+msgstr ""
+"GPG kļūme: neizdevās uzticēties importētajai atslēgai\n"
+"Izmantojiet opciju „-v” un meklējiet iepriekšējos kļūdu ziņojumus."
+
+#: builder/sigchecker.ml:215
+msgid ""
+"GPG failure: could not verify digital signature of file\n"
+"Try:\n"
+" - Use the ‘-v’ option and look for earlier error messages.\n"
+"- Delete the cache: virt-builder --delete-cache\n"
+"- Check no one has tampered with the website or your network!"
+msgstr ""
+"GPG kļūme: neizdevās pārbaudīt faila digitālo parakstu\n"
+"Mēģiniet:\n"
+" - Izmantot opciju „-v” un meklēt iepriekšējos kļūdu ziņojumus.\n"
+"- Izdzēst kešatmiņu: virt-builder --delete-cache\n"
+"- Pārbaudīt, vai neviens nav manipulējis ar tīmekļa vietni vai jūsu tīklu!"
+
+#: builder/cmdline.ml:148
+msgid "Get kernel from image"
+msgstr "Iegūt kodolu no attēla"
+
+#: common/mlcustomize/customize_cmdline.ml:287
+msgid "HOSTNAME"
+msgstr "RESURSDATORA_NOSAUKUMS"
+
+#: builder/repository_main.ml:54
+msgid "ID of the GPG key to sign the repo with"
+msgstr "GPG atslēgas ID, ar ko parakstīt repozitoriju"
+
+#: builder/repository_main.ml:214
+msgid "Identifier: "
+msgstr "Identifikators: "
+
+#: common/mltools/tools_utils.ml:178
+msgid ""
+"If reporting bugs, run %s with debugging enabled and include the complete "
+"output:\n"
+"\n"
+"  %s -v -x [...]"
+msgstr ""
+"Ziņojot par kļūdām, palaidiet %s ar iespējotu atkļūdošanu un pievienojiet "
+"pilnu izvadi:\n"
+"\n"
+"  %s -v -x [...]"
+
+#: sparsify/cmdline.ml:72
+msgid "Ignore filesystem"
+msgstr "Ignorēt failu sistēmu"
+
+#: resize/resize.ml:206
+msgid "Ignore partition"
+msgstr "Ignorēt nodalījumu"
+
+#: sysprep/sysprep_operation_ca_certificates.ml:56
+msgid "In case any certificate is removed, the system CA store is updated."
+msgstr "Ja kāds sertifikāts tiek noņemts, tiek atjaunināta sistēmas CA krātuve."
+
+#: common/mlcustomize/customize_cmdline.ml:398
+msgid "Inject a public key into the guest"
+msgstr "Injicēt viesī publisko atslēgu"
+
+#: common/mlcustomize/customize_cmdline.ml:294
+msgid "Inject the Balloon Server into a Windows guest"
+msgstr "Injicēt Windows viesī balona serveri"
+
+#: common/mlcustomize/customize_cmdline.ml:300
+msgid "Inject the QEMU Guest Agent into a Windows guest"
+msgstr "Injicēt Windows viesī QEMU viesa aģentu"
+
+#: common/mlcustomize/customize_cmdline.ml:306
+msgid "Inject virtio-win drivers into a Windows guest"
+msgstr "Injicēt Windows viesī virtio-win draiverus"
+
+#: common/mlcustomize/customize_run.ml:196
+msgid "Installing firstboot command: %s"
+msgstr "Instalē pirmās sāknēšanas komandu: %s"
+
+#: common/mlcustomize/customize_run.ml:200
+msgid "Installing firstboot packages: %s"
+msgstr "Instalē pirmās sāknēšanas pakotnes: %s"
+
+#: common/mlcustomize/customize_run.ml:207
+msgid "Installing firstboot script: %s"
+msgstr "Instalē pirmās sāknēšanas skriptu: %s"
+
+#: common/mlcustomize/customize_run.ml:253
+msgid "Installing packages: %s"
+msgstr "Instalē pakotnes: %s"
+
+#: builder/list_entries.ml:66
+msgid "Key: %s\n"
+msgstr "Atslēga: %s\n"
+
+#: common/mlcustomize/customize_cmdline.ml:237
+msgid "LOCALPATH:REMOTEDIR"
+msgstr "LOKĀLAIS_CEĻŠ:ATTĀLĀ_DIREKTORIJA"
+
+#: common/mlcustomize/customize_run.ml:260
+msgid "Linking: %s -> %s"
+msgstr "Saista: %s -> %s"
+
+#: builder/cmdline.ml:150
+msgid "List available templates"
+msgstr "Uzskaitīt pieejamās veidnes"
+
+#: sysprep/main.ml:134
+msgid "List supported operations"
+msgstr "Uzskaitīt atbalstītās darbības"
+
+#. common/mlcustomize/customize_cmdline.ml:299
+#. common/mlcustomize/customize_cmdline.ml:293
+#: common/mlcustomize/customize_cmdline.ml:305
+msgid "METHOD"
+msgstr "METODE"
+
+#: common/mltools/tools_utils.ml:434
+msgid "Make output machine readable"
+msgstr "Padarīt izvadi mašīnlasāmu"
+
+#: common/mlcustomize/customize_run.ml:265
+msgid "Making directory: %s"
+msgstr "Veido direktoriju: %s"
+
+#: builder/list_entries.ml:78
+msgid "Minimum/default size:"
+msgstr "Minimālais/noklusējuma izmērs:"
+
+#: sparsify/cmdline.ml:73
+msgid "Modify the disk image in-place"
+msgstr "Mainīt diska attēlu uz vietas"
+
+#: sysprep/sysprep_operation_script.ml:138
+msgid "Mount point on host"
+msgstr "Montēšanas punkts resursdatorā"
+
+#: common/mlcustomize/customize_cmdline.ml:345
+msgid "Move files in disk image"
+msgstr "Pārvietot failus diska attēlā"
+
+#: builder/repository_main.ml:575
+msgid "Moving files to final destination"
+msgstr "Pārvieto failus uz galamērķi"
+
+#: common/mlcustomize/customize_run.ml:269
+msgid "Moving: %s -> %s"
+msgstr "Pārvieto: %s -> %s"
+
+#: builder/repository_main.ml:497
+msgid "No new image found"
+msgstr "Jauns attēls nav atrasts"
+
+#: sysprep/sysprep_operation.ml:196
+msgid "Notes on %s"
+msgstr "Piezīmes par %s"
+
+#: builder/list_entries.ml:89
+msgid ""
+"Notes:\n"
+"\n"
+"%s\n"
+msgstr ""
+"Piezīmes:\n"
+"\n"
+"%s\n"
+
+#: sysprep/sysprep_operation_net_nmconn.ml:38
+msgid "On Fedora and Red Hat Enterprise Linux, remove the C<"
+msgstr "Fedora un Red Hat Enterprise Linux noņemt C<"
+
+#: sysprep/sysprep_operation_lvm_uuids.ml:85
+msgid ""
+"On Linux guests that have LVM2 physical volumes (PVs) or volume groups "
+"(VGs),\n"
+"new random UUIDs are generated and assigned to those PVs and VGs."
+msgstr ""
+"Linux viesos, kuros ir LVM2 fiziskie sējumi (PV) vai sējumu grupas (VG),\n"
+"tiek ģenerēti jauni nejauši UUID un piešķirti šiem PV un VG."
+
+#: sysprep/sysprep_operation_lvm_system_devices.ml:36
+msgid ""
+"On Linux guests, LVM2's scanning for physical volumes (PVs) may be "
+"restricted to those block devices whose WWIDs are listed in C<"
+msgstr ""
+"Linux viesos LVM2 fizisko sējumu (PV) skenēšana var būt ierobežota ar tām "
+"bloku ierīcēm, kuru WWID ir uzskaitīti C<"
+
+#. sysprep/sysprep_operation_logfiles.ml:149
+#: sysprep/sysprep_operation_passwd_backups.ml:48
+msgid ""
+"On Linux the following files are removed:\n"
+"\n"
+"%s"
+msgstr ""
+"Linux sistēmā tiek noņemti šādi faili:\n"
+"\n"
+"%s"
+
+#: sysprep/sysprep_operation_fs_uuids.ml:49
+msgid ""
+"On guests and filesystem types where this is supported,\n"
+"new random UUIDs are generated and assigned to filesystems."
+msgstr ""
+"Viesos un failu sistēmu tipos, kur tas tiek atbalstīts,\n"
+"tiek ģenerēti jauni nejauši UUID un piešķirti failu sistēmām."
+
+#: common/mlcustomize/firstboot.ml:268
+msgid ""
+"One of rhsrvany.exe or pvvxsvc.exe is missing in %s.  One of them is "
+"required in order to install Windows firstboot scripts.  You can get one by "
+"building rhsrvany (https://github.com/rwmjones/rhsrvany)"
+msgstr ""
+"%s trūkst rhsrvany.exe vai pvvxsvc.exe.  Viens no tiem nepieciešams, lai "
+"instalētu Windows pirmās sāknēšanas skriptus.  To var iegūt, uzbūvējot "
+"rhsrvany (https://github.com/rwmjones/rhsrvany)"
+
+#: common/mlcustomize/customize_cmdline.ml:521
+msgid "Only relabel FHS directories"
+msgstr "Pārmarķēt tikai FHS direktorijas"
+
+#: builder/builder.ml:721
+msgid "Opening the new disk"
+msgstr "Atver jauno disku"
+
+#: get-kernel/get_kernel.ml:62
+msgid "Output directory"
+msgstr "Izvades direktorija"
+
+#: builder/builder.ml:781
+msgid "Output file"
+msgstr "Izvades fails"
+
+#: builder/builder.ml:783
+msgid "Output format"
+msgstr "Izvades formāts"
+
+#: builder/cmdline.ml:146
+msgid "Output format (default: raw)"
+msgstr "Izvades formāts (noklusējums: raw)"
+
+#: builder/builder.ml:782
+msgid "Output size"
+msgstr "Izvades izmērs"
+
+#. common/mlcustomize/customize_cmdline.ml:247
+#: common/mlcustomize/customize_cmdline.ml:432
+msgid "PATH"
+msgstr "PATH"
+
+#: common/mlcustomize/customize_cmdline.ml:193
+msgid "PERMISSIONS:FILE"
+msgstr "ATĻAUJAS:FAILS"
+
+#. common/mlcustomize/customize_cmdline.ml:312
+#. common/mlcustomize/customize_cmdline.ml:277
+#: common/mlcustomize/customize_cmdline.ml:439
+msgid "PKG,PKG.."
+msgstr "PAKOTNE,PAKOTNE.."
+
+#: sysprep/sysprep_operation.ml:162
+msgid "POD for %s must not end with newline"
+msgstr "%s POD nedrīkst beigties ar rindas pārnesi"
+
+#: sysprep/sysprep_operation.ml:171
+msgid "POD notes for %s must not end with newline"
+msgstr "%s POD piezīmes nedrīkst beigties ar rindas pārnesi"
+
+#: sysprep/main.ml:129 customize/customize_main.ml:83
+msgid "Perform a dry run"
+msgstr "Veikt izmēģinājuma izpildi"
+
+#: sysprep/sysprep_operation.ml:319 sysprep/sysprep_operation.ml:298
+msgid "Performing %S ..."
+msgstr "Veic %S ..."
+
+#: builder/builder.ml:577
+msgid "Planning how to build this image"
+msgstr "Plāno, kā uzbūvēt šo attēlu"
+
+#: get-kernel/get_kernel.ml:64
+msgid "Prefix for files"
+msgstr "Failu priedēklis"
+
+#: builder/repository_main.ml:186
+msgid "Preparing %s"
+msgstr "Sagatavo %s"
+
+#: builder/cmdline.ml:160
+msgid "Print info about template cache"
+msgstr "Izvadīt informāciju par veidņu kešatmiņu"
+
+#: common/mlcustomize/customize_cmdline.ml:220
+msgid "Read customize commands from file"
+msgstr "Nolasīt pielāgošanas komandas no faila"
+
+#: common/mltools/tools_utils.ml:429
+msgid "Read passphrases from stdin"
+msgstr "Nolasīt paroles frāzes no stdin"
+
+#: common/mlcustomize/customize_cmdline.ml:433
+msgid "Recursively truncate all files in directory"
+msgstr "Rekursīvi saīsināt visus direktorijas failus"
+
+#: common/mlcustomize/customize_run.ml:303
+msgid "Recursively truncating: %s"
+msgstr "Rekursīvi saīsina: %s"
+
+#: sysprep/sysprep_operation_ssh_userdir.ml:38
+msgid "Remove \".ssh\" directories in the guest"
+msgstr "Noņemt viesī direktorijas \".ssh\""
+
+#: sysprep/sysprep_operation_passwd_backups.ml:46
+msgid "Remove /etc/passwd- and similar backup files"
+msgstr "Noņemt /etc/passwd- un līdzīgus rezerves failus"
+
+#: sysprep/sysprep_operation_ca_certificates.ml:55
+msgid "Remove CA certificates in the guest"
+msgstr "Noņemt viesī CA sertifikātus"
+
+#: sysprep/sysprep_operation_dhcp_client_state.ml:36
+msgid "Remove DHCP client leases"
+msgstr "Noņemt DHCP klienta nomas"
+
+#: sysprep/sysprep_operation_dhcp_server_state.ml:31
+msgid "Remove DHCP server leases"
+msgstr "Noņemt DHCP servera nomas"
+
+#: sysprep/sysprep_operation_dovecot_data.ml:37
+msgid "Remove Dovecot (mail server) data"
+msgstr "Noņemt Dovecot (pasta servera) datus"
+
+#: sysprep/sysprep_operation_net_hostname.ml:54
+msgid "Remove HOSTNAME and DHCP_HOSTNAME in network interface configuration"
+msgstr "Noņemt HOSTNAME un DHCP_HOSTNAME tīkla saskarnes konfigurācijā"
+
+#: sysprep/sysprep_operation_net_hwaddr.ml:52
+msgid "Remove HWADDR (hard-coded MAC address) configuration"
+msgstr "Noņemt HWADDR (cieši iekodētas MAC adreses) konfigurāciju"
+
+#: sysprep/sysprep_operation_kerberos_data.ml:43
+msgid "Remove Kerberos data in the guest"
+msgstr "Noņemt viesī Kerberos datus"
+
+#: sysprep/sysprep_operation_lvm_system_devices.ml:34
+msgid "Remove LVM2 system.devices file"
+msgstr "Noņemt LVM2 failu system.devices"
+
+#: sysprep/sysprep_operation_ipa_client.ml:58
+msgid ""
+"Remove all the files related to an IPA (Identity, Policy, Audit) system.\n"
+"This effectively unenrolls the guest from an IPA server without interacting\n"
+"with it.\n"
+"\n"
+"This operation does not run C<ipa-client>."
+msgstr ""
+"Noņemt visus failus, kas saistīti ar IPA (Identity, Policy, Audit) sistēmu.\n"
+"Tādējādi viesis faktiski tiek izrakstīts no IPA servera, ar to\n"
+"nesazinoties.\n"
+"\n"
+"Šī darbība nepalaiž C<ipa-client>."
+
+#: sysprep/sysprep_operation_blkid_tab.ml:47
+msgid "Remove blkid tab in the guest"
+msgstr "Noņemt viesī blkid tabulu"
+
+#: sysprep/sysprep_operation_backup_files.ml:81
+msgid "Remove editor backup files from the guest"
+msgstr "Noņemt no viesa redaktoru rezerves failus"
+
+#: sysprep/sysprep_operation_mail_spool.ml:36
+msgid "Remove email from the local mail spool directory"
+msgstr "Noņemt e-pastu no lokālās pasta rindas direktorijas"
+
+#: sysprep/sysprep_operation_rpm_db.ml:38
+msgid "Remove host-specific RPM database files"
+msgstr "Noņemt resursdatoram specifiskos RPM datubāzes failus"
+
+#: sysprep/sysprep_operation_rpm_db.ml:39
+msgid ""
+"Remove host-specific RPM database files and locks.  RPM will\n"
+"recreate these files automatically if needed."
+msgstr ""
+"Noņemt resursdatoram specifiskos RPM datubāzes failus un bloķējumus.  RPM\n"
+"šos failus vajadzības gadījumā izveidos automātiski no jauna."
+
+#: sysprep/sysprep_operation_logfiles.ml:147
+msgid "Remove many log files from the guest"
+msgstr "Noņemt no viesa daudzus žurnāla failus"
+
+#: sysprep/sysprep_operation_package_manager_cache.ml:46
+msgid "Remove package manager cache"
+msgstr "Noņemt pakotņu pārvaldnieka kešatmiņu"
+
+#: sysprep/sysprep_operation_net_nmconn.ml:36
+msgid "Remove system-local NetworkManager connection profiles (keyfiles)"
+msgstr "Noņemt sistēmas lokālos NetworkManager savienojumu profilus (keyfiles)"
+
+#: sysprep/sysprep_operation_tmp_files.ml:50
+msgid "Remove temporary files"
+msgstr "Noņemt pagaidu failus"
+
+#: sysprep/sysprep_operation_ssh_userdir.ml:39
+msgid ""
+"Remove the C<.ssh> directory of user \"root\" and any other\n"
+"users who have a C<.ssh> directory in their home directory."
+msgstr ""
+"Noņemt lietotāja \"root\" un visu citu lietotāju direktoriju C<.ssh>, kuru "
+"mājas\n"
+"direktorijā ir direktorija C<.ssh>."
+
+#: sysprep/sysprep_operation_ipa_client.ml:57
+msgid "Remove the IPA files"
+msgstr "Noņemt IPA failus"
+
+#: sysprep/sysprep_operation_kerberos_hostkeytab.ml:34
+msgid "Remove the Kerberos host keytab file in the guest"
+msgstr "Noņemt viesī Kerberos resursdatora keytab failu"
+
+#: sysprep/sysprep_operation_pam_data.ml:44
+msgid "Remove the PAM data in the guest"
+msgstr "Noņemt viesī PAM datus"
+
+#: sysprep/sysprep_operation_rh_subscription_manager.ml:38
+msgid "Remove the RH subscription manager files"
+msgstr "Noņemt RH abonementu pārvaldnieka failus"
+
+#: sysprep/sysprep_operation_rhn_systemid.ml:38
+msgid "Remove the RHN system ID"
+msgstr "Noņemt RHN sistēmas ID"
+
+#: sysprep/sysprep_operation_ssh_hostkeys.ml:35
+msgid "Remove the SSH host keys in the guest"
+msgstr "Noņemt viesī SSH resursdatora atslēgas"
+
+#: sysprep/sysprep_operation_smolt_uuid.ml:39
+msgid "Remove the Smolt hardware UUID"
+msgstr "Noņemt Smolt aparatūras UUID"
+
+#: sysprep/sysprep_operation_abrt_data.ml:38
+msgid ""
+"Remove the automatically generated ABRT crash data in\n"
+"C</var/spool/abrt/>."
+msgstr ""
+"Noņemt automātiski ģenerētos ABRT avāriju datus\n"
+"C</var/spool/abrt/>."
+
+#: sysprep/sysprep_operation_crash_data.ml:40
+msgid "Remove the automatically generated kdump kernel crash data."
+msgstr "Noņemt automātiski ģenerētos kdump kodola avāriju datus."
+
+#: sysprep/sysprep_operation_bash_history.ml:38
+msgid "Remove the bash history in the guest"
+msgstr "Noņemt viesī bash vēsturi"
+
+#: sysprep/sysprep_operation_bash_history.ml:39
+msgid ""
+"Remove the bash history of user \"root\" and any other users\n"
+"who have a C<.bash_history> file in their home directory."
+msgstr ""
+"Noņemt lietotāja \"root\" un visu citu lietotāju bash vēsturi, kuru mājas\n"
+"direktorijā ir fails C<.bash_history>."
+
+#: sysprep/sysprep_operation_abrt_data.ml:37
+msgid "Remove the crash data generated by ABRT"
+msgstr "Noņemt ABRT ģenerētos avāriju datus"
+
+#: sysprep/sysprep_operation_crash_data.ml:39
+msgid "Remove the crash data generated by kexec-tools"
+msgstr "Noņemt kexec-tools ģenerētos avāriju datus"
+
+#: sysprep/sysprep_operation_puppet_data_log.ml:44
+msgid "Remove the data and log files of puppet"
+msgstr "Noņemt puppet datu un žurnāla failus"
+
+#: sysprep/sysprep_operation_samba_db_log.ml:45
+msgid "Remove the database and log files of Samba"
+msgstr "Noņemt Samba datubāzes un žurnāla failus"
+
+#: sysprep/sysprep_operation_sssd_db_log.ml:43
+msgid "Remove the database and log files of sssd"
+msgstr "Noņemt sssd datubāzes un žurnāla failus"
+
+#: sysprep/sysprep_operation_firewall_rules.ml:44
+msgid "Remove the firewall rules"
+msgstr "Noņemt ugunsmūra kārtulas"
+
+#: sysprep/sysprep_operation_machine_id.ml:37
+msgid "Remove the local machine ID"
+msgstr "Noņemt lokālās mašīnas ID"
+
+#: sysprep/sysprep_operation_pacct_log.ml:57
+msgid "Remove the process accounting log files"
+msgstr "Noņemt procesu uzskaites žurnāla failus"
+
+#: sysprep/sysprep_operation_user_account.ml:104
+msgid "Remove the user accounts in the guest"
+msgstr "Noņemt viesī lietotāju kontus"
+
+#: sysprep/sysprep_operation_utmp.ml:35
+msgid "Remove the utmp file"
+msgstr "Noņemt utmp failu"
+
+#: sysprep/sysprep_operation_yum_uuid.ml:34
+msgid "Remove the yum UUID"
+msgstr "Noņemt yum UUID"
+
+#: sysprep/sysprep_operation_zsh_history.ml:38
+msgid "Remove the zsh history in the guest"
+msgstr "Noņemt viesī zsh vēsturi"
+
+#: sysprep/sysprep_operation_zsh_history.ml:39
+msgid ""
+"Remove the zsh history of user \"root\" and any other users\n"
+"who have a C<.zsh_history> file in their home directory."
+msgstr ""
+"Noņemt lietotāja \"root\" un visu citu lietotāju zsh vēsturi, kuru mājas\n"
+"direktorijā ir fails C<.zsh_history>."
+
+#: sysprep/sysprep_operation_udev_persistent_net.ml:35
+msgid "Remove udev persistent net rules"
+msgstr "Noņemt udev pastāvīgās tīkla kārtulas"
+
+#: sysprep/sysprep_operation_udev_persistent_net.ml:36
+msgid ""
+"Remove udev persistent net rules which map the guest’s existing MAC\n"
+"address to a fixed ethernet device (eg. eth0).\n"
+"\n"
+"After a guest is cloned, the MAC address usually changes.  Since the\n"
+"old MAC address occupies the old name (eg. eth0), this means the fresh\n"
+"MAC address is assigned to a new name (eg. eth1) and this is usually\n"
+"undesirable.  Erasing the udev persistent net rules avoids this."
+msgstr ""
+"Noņemt udev pastāvīgās tīkla kārtulas, kas kartē viesa esošo MAC\n"
+"adresi uz fiksētu ethernet ierīci (piem., eth0).\n"
+"\n"
+"Pēc viesa klonēšanas MAC adrese parasti mainās.  Tā kā\n"
+"vecā MAC adrese aizņem veco nosaukumu (piem., eth0), jaunā\n"
+"MAC adrese tiek piešķirta jaunam nosaukumam (piem., eth1), un tas parasti\n"
+"nav vēlams.  Udev pastāvīgo tīkla kārtulu dzēšana to novērš."
+
+#: sysprep/sysprep_operation_cron_spool.ml:55
+msgid "Remove user at-jobs and cron-jobs"
+msgstr "Noņemt lietotāju at un cron uzdevumus"
+
+#: resize/resize.ml:1502
+msgid ""
+"Resize operation completed with no errors.  Before deleting the old disk, "
+"carefully check that the resized disk boots and works correctly."
+msgstr ""
+"Izmēra maiņa pabeigta bez kļūdām.  Pirms vecā diska dzēšanas rūpīgi "
+"pārbaudiet, vai disks ar mainīto izmēru sāknējas un darbojas pareizi."
+
+#: resize/resize.ml:211
+msgid "Resize partition"
+msgstr "Mainīt nodalījuma izmēru"
+
+#: builder/builder.ml:667
+msgid "Resizing (using virt-resize) to expand the disk to %s"
+msgstr "Maina izmēru (ar virt-resize), lai paplašinātu disku līdz %s"
+
+#: builder/builder.ml:694
+msgid "Resizing container (but not filesystems) to expand the disk to %s"
+msgstr ""
+"Maina konteinera (bet ne failu sistēmu) izmēru, lai paplašinātu disku līdz %s"
+
+#: sysprep/sysprep_operation_script.ml:111
+msgid "Run arbitrary scripts against the guest"
+msgstr "Palaist viesim patvaļīgus skriptus"
+
+#: common/mlcustomize/customize_cmdline.ml:271
+msgid "Run command at first guest boot"
+msgstr "Palaist komandu viesa pirmajā sāknēšanā"
+
+#: common/mlcustomize/customize_cmdline.ml:380
+msgid "Run command in disk image"
+msgstr "Palaist komandu diska attēlā"
+
+#: common/mlcustomize/customize_cmdline.ml:265
+msgid "Run script at first guest boot"
+msgstr "Palaist skriptu viesa pirmajā sāknēšanā"
+
+#: common/mlcustomize/customize_cmdline.ml:374
+msgid "Run script in disk image"
+msgstr "Palaist skriptu diska attēlā"
+
+#: sysprep/sysprep_operation_script.ml:155
+msgid ""
+"Run the named C<SCRIPT> (a shell script or program) against the\n"
+"guest.  The script can be any program on the host.  The script’s\n"
+"current directory will be the guest’s root directory.\n"
+"\n"
+"B<Note:> If the script is not on the $PATH, then you must give\n"
+"the full absolute path to the script."
+msgstr ""
+"Palaist viesim nosaukto C<SCRIPT> (čaulas skriptu vai programmu).\n"
+"Skripts var būt jebkura resursdatora programma.  Skripta\n"
+"pašreizējā direktorija būs viesa saknes direktorija.\n"
+"\n"
+"B<Piezīme:> Ja skripts nav $PATH, jānorāda\n"
+"pilns absolūtais ceļš uz skriptu."
+
+#: common/mlcustomize/customize_cmdline.ml:421
+msgid "Run touch on a file"
+msgstr "Izpildīt touch failam"
+
+#: common/mlcustomize/customize_run.ml:312
+msgid "Running touch: %s"
+msgstr "Izpilda touch: %s"
+
+#. common/mlcustomize/customize_run.ml:164
+#: common/mlcustomize/customize_run.ml:279
+msgid "Running: %s"
+msgstr "Izpilda: %s"
+
+#. common/mlcustomize/customize_cmdline.ml:264
+#: common/mlcustomize/customize_cmdline.ml:373
+msgid "SCRIPT"
+msgstr "SKRIPTS"
+
+#: common/mltools/tools_utils.ml:430
+#: common/mlcustomize/customize_cmdline.ml:363
+msgid "SELECTOR"
+msgstr "ATLASĪTĀJS"
+
+#: common/mlcustomize/customize_run.ml:372
+msgid "SELinux relabelling"
+msgstr "SELinux pārmarķēšana"
+
+#: common/mlcustomize/customize_run.ml:374
+msgid "SELinux relabelling deferred to first boot"
+msgstr "SELinux pārmarķēšana atlikta līdz pirmajai sāknēšanai"
+
+#: common/mlcustomize/customize_run.ml:373
+msgid "SELinux relabelling only FHS"
+msgstr "SELinux pārmarķēšana tikai FHS"
+
+#. common/mlcustomize/customize_cmdline.ml:226
+#: common/mlcustomize/customize_cmdline.ml:340
+msgid "SOURCE:DEST"
+msgstr "AVOTS:MĒRĶIS"
+
+#: common/mlcustomize/customize_run.ml:292
+msgid "SSH key could not be injected for this type of guest"
+msgstr "šāda tipa viesim SSH atslēgu nevarēja injicēt"
+
+#: common/mlcustomize/customize_run.ml:289
+msgid "SSH key inject: %s"
+msgstr "SSH atslēgas injicēšana: %s"
+
+#: sysprep/sysprep_operation_script.ml:153
+msgid "Script or program to run on guest"
+msgstr "Viesim palaižamais skripts vai programma"
+
+#: common/mlcustomize/customize_cmdline.ml:386
+msgid "Scrub a file"
+msgstr "Attīrīt failu"
+
+#: common/mlcustomize/customize_cmdline.ml:478
+msgid "Scrub build log file"
+msgstr "Attīrīt būvēšanas žurnāla failu"
+
+#: common/mlcustomize/customize_run.ml:386
+msgid "Scrubbing the log file"
+msgstr "Attīra žurnāla failu"
+
+#: common/mlcustomize/customize_run.ml:284
+msgid "Scrubbing: %s"
+msgstr "Attīra: %s"
+
+#: builder/repository_main.ml:52 builder/cmdline.ml:149
+msgid "Set GPG binary/command"
+msgstr "Iestatīt GPG bināro failu/komandu"
+
+#: customize/customize_main.ml:80 builder/cmdline.ml:130
+msgid "Set attach disk format"
+msgstr "Iestatīt pievienojamā diska formātu"
+
+#: builder/cmdline.ml:139
+msgid "Set curl binary/command"
+msgstr "Iestatīt curl bināro failu/komandu"
+
+#: get-kernel/get_kernel.ml:58 drivers/drivers.ml:51
+msgid "Set disk sector size"
+msgstr "Iestatīt diska sektora izmēru"
+
+#: sysprep/main.ml:133 customize/customize_main.ml:84
+msgid "Set format (default: auto)"
+msgstr "Iestatīt formātu (noklusējums: auto)"
+
+#. customize/customize_main.ml:81
+#: sysprep/main.ml:127 get-kernel/get_kernel.ml:59 drivers/drivers.ml:52
+msgid "Set libvirt URI"
+msgstr "Iestatīt libvirt URI"
+
+#. customize/customize_main.ml:82
+#: sysprep/main.ml:128 get-kernel/get_kernel.ml:60 drivers/drivers.ml:53
+msgid "Set libvirt guest name"
+msgstr "Iestatīt libvirt viesa nosaukumu"
+
+#: customize/customize_main.ml:85 builder/cmdline.ml:154
+msgid "Set memory size"
+msgstr "Iestatīt atmiņas izmēru"
+
+#: sysprep/main.ml:135
+msgid "Set mount options (eg /:noatime;/var:rw,noatime)"
+msgstr "Iestatīt montēšanas opcijas (piem., /:noatime;/var:rw,noatime)"
+
+#: customize/customize_main.ml:88 builder/cmdline.ml:162
+msgid "Set number of vCPUs"
+msgstr "Iestatīt vCPU skaitu"
+
+#: builder/cmdline.ml:161
+msgid "Set output disk size"
+msgstr "Iestatīt izvades diska izmēru"
+
+#: builder/cmdline.ml:158
+msgid "Set output filename"
+msgstr "Iestatīt izvades faila nosaukumu"
+
+#: resize/resize.ml:198
+msgid "Set partition alignment (default: 128 sectors)"
+msgstr "Iestatīt nodalījumu līdzinājumu (noklusējums: 128 sektori)"
+
+#: common/mlcustomize/customize_cmdline.ml:488
+msgid "Set password crypto"
+msgstr "Iestatīt paroles kriptogrāfiju"
+
+#: common/mltools/tools_utils.ml:438
+msgid "Set program name"
+msgstr "Iestatīt programmas nosaukumu"
+
+#: common/mlcustomize/customize_cmdline.ml:368
+msgid "Set root password"
+msgstr "Iestatīt root paroli"
+
+#: builder/cmdline.ml:163
+msgid "Set source URL"
+msgstr "Iestatīt avota URL"
+
+#: builder/cmdline.ml:131
+msgid "Set template cache dir"
+msgstr "Iestatīt veidņu kešatmiņas direktoriju"
+
+#: sparsify/cmdline.ml:75
+msgid "Set temporary block device, directory or prebuilt file"
+msgstr ""
+"Iestatīt pagaidu bloku ierīci, direktoriju vai iepriekš sagatavotu failu"
+
+#: common/mlcustomize/customize_cmdline.ml:415
+msgid "Set the default timezone"
+msgstr "Iestatīt noklusējuma laika joslu"
+
+#: builder/cmdline.ml:153
+msgid "Set the format for --list (default: short)"
+msgstr "Iestatīt --list formātu (noklusējums: short)"
+
+#: common/mlcustomize/customize_cmdline.ml:288
+msgid "Set the hostname"
+msgstr "Resursdatora nosaukuma iestatīšana"
+
+#: builder/cmdline.ml:127
+msgid "Set the output architecture"
+msgstr "Iestatīt izvades arhitektūru"
+
+#: common/mlcustomize/customize_cmdline.ml:357
+msgid "Set user password"
+msgstr "Iestatīt lietotāja paroli"
+
+#: common/mlcustomize/customize_run.ml:77
+msgid "Setting a random seed"
+msgstr "Iestata nejaušības sēklu"
+
+#: common/mlcustomize/customize_run.ml:359
+msgid "Setting passwords"
+msgstr "Iestata paroles"
+
+#: common/mlcustomize/password.ml:113
+msgid "Setting random password of %s to %s"
+msgstr "Iestata %s nejaušu paroli uz %s"
+
+#: common/mlcustomize/customize_run.ml:212
+msgid "Setting the hostname: %s"
+msgstr "Iestata resursdatora nosaukumu: %s"
+
+#: common/mlcustomize/customize_run.ml:95
+msgid "Setting the machine ID in %s"
+msgstr "Iestata mašīnas ID %s"
+
+#: common/mlcustomize/customize_run.ml:307
+msgid "Setting the timezone: %s"
+msgstr "Iestata laika joslu: %s"
+
+#: resize/resize.ml:1070
+msgid "Setting up initial partition table on %s"
+msgstr "Iestata sākotnējo nodalījumu tabulu %s"
+
+#: builder/cmdline.ml:151
+msgid "Shortcut for --list-format long"
+msgstr "Saīsne opcijai --list-format long"
+
+#: resize/resize.ml:213
+msgid "Shrink partition"
+msgstr "Samazināt nodalījumu"
+
+#: builder/repository_main.ml:552
+msgid "Signing index with the GPG key %s"
+msgstr "Paraksta indeksu ar GPG atslēgu %s"
+
+#: sparsify/copying.ml:260
+msgid "Skipping %s, as it is a read-only btrfs snapshot."
+msgstr "Izlaiž %s, jo tas ir tikai lasāms btrfs momentuzņēmums."
+
+#: sparsify/copying.ml:262
+msgid "Skipping %s, as it is a read-only device."
+msgstr "Izlaiž %s, jo tā ir tikai lasāma ierīce."
+
+#: builder/list_entries.ml:60
+msgid "Source URI: %s\n"
+msgstr "Avota URI: %s\n"
+
+#: sparsify/in_place.ml:186
+msgid "Sparsify in-place operation completed with no errors"
+msgstr "Retināšana uz vietas pabeigta bez kļūdām"
+
+#: sparsify/copying.ml:346
+msgid "Sparsify operation completed with no errors."
+msgstr "Retināšana pabeigta bez kļūdām."
+
+#: common/mltools/tools_utils.ml:430
+msgid "Specify a LUKS key"
+msgstr "Norādīt LUKS atslēgu"
+
+#: common/mlcustomize/customize_cmdline.ml:404
+msgid "TARFILE:REMOTEDIR"
+msgstr "TAR_FAILS:ATTĀLĀ_DIREKTORIJA"
+
+#: common/mlcustomize/customize_cmdline.ml:323
+msgid "TARGET:LINK[:LINK..]"
+msgstr "MĒRĶIS:SAITE[:SAITE..]"
+
+#: common/mlcustomize/customize_cmdline.ml:414
+msgid "TIMEZONE"
+msgstr "LAIKA_JOSLA"
+
+#: sysprep/sysprep_operation_script.ml:112
+msgid ""
+"The C<script> module lets you run arbitrary shell scripts or programs\n"
+"against the guest.\n"
+"\n"
+"Note this feature requires FUSE support.  You may have to enable\n"
+"this in your host, for example by adding the current user to the\n"
+"C<fuse> group, or by loading a kernel module.\n"
+"\n"
+"Use one or more I<--script> parameters to specify scripts or programs\n"
+"that will be run against the guest.\n"
+"\n"
+"The script or program is run with its current directory being the\n"
+"guest’s root directory, so relative paths should be used.  For\n"
+"example: C<rm etc/resolv.conf> in the script would remove a Linux\n"
+"guest’s DNS configuration file, but C<rm /etc/resolv.conf> would\n"
+"(try to) remove the host’s file.\n"
+"\n"
+"Normally a temporary mount point for the guest is used, but you\n"
+"can choose a specific one by using the I<--scriptdir> parameter.\n"
+"\n"
+"B<Note:> This is different from I<--firstboot> scripts (which run\n"
+"in the context of the guest when it is booting first time).\n"
+"I<--script> scripts run on the host, not in the guest."
+msgstr ""
+"Modulis C<script> ļauj viesim palaist patvaļīgus čaulas skriptus\n"
+"vai programmas.\n"
+"\n"
+"Ņemiet vērā, ka šim līdzeklim nepieciešams FUSE atbalsts.  Iespējams,\n"
+"tas resursdatorā jāiespējo, piemēram, pievienojot pašreizējo lietotāju\n"
+"grupai C<fuse> vai ielādējot kodola moduli.\n"
+"\n"
+"Ar vienu vai vairākiem parametriem I<--script> norādiet skriptus vai "
+"programmas,\n"
+"kas tiks palaistas viesim.\n"
+"\n"
+"Skripts vai programma tiek palaista ar pašreizējo direktoriju, kas ir\n"
+"viesa saknes direktorija, tāpēc jāizmanto relatīvi ceļi.  Piemēram,\n"
+"C<rm etc/resolv.conf> skriptā noņemtu Linux viesa\n"
+"DNS konfigurācijas failu, bet C<rm /etc/resolv.conf>\n"
+"(mēģinātu) noņemt resursdatora failu.\n"
+"\n"
+"Parasti tiek izmantots pagaidu viesa montēšanas punkts, bet\n"
+"konkrētu var izvēlēties ar parametru I<--scriptdir>.\n"
+"\n"
+"B<Piezīme:> Tas atšķiras no I<--firstboot> skriptiem (kas darbojas\n"
+"viesa kontekstā, kad tas tiek sāknēts pirmo reizi).\n"
+"I<--script> skripti darbojas resursdatorā, nevis viesī."
+
+#: sysprep/sysprep_operation_ssh_hostkeys.ml:36
+msgid ""
+"The SSH host keys are regenerated (differently) next time the guest is\n"
+"booted.\n"
+"\n"
+"If, after cloning, the guest gets the same IP address, ssh will give\n"
+"you a stark warning about the host key changing:\n"
+"\n"
+" @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n"
+" @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @\n"
+" @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n"
+" IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!"
+msgstr ""
+"SSH resursdatora atslēgas tiek ģenerētas no jauna (citādas), kad viesis "
+"nākamreiz tiek\n"
+"sāknēts.\n"
+"\n"
+"Ja pēc klonēšanas viesis saņem to pašu IP adresi, ssh jūs\n"
+"stingri brīdinās par resursdatora atslēgas maiņu:\n"
+"\n"
+" @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n"
+" @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @\n"
+" @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n"
+" IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!"
+
+#: sysprep/sysprep_operation_backup_files.ml:83
+msgid ""
+"The following files are removed from anywhere in the guest\n"
+"filesystem:\n"
+"\n"
+"%s\n"
+"\n"
+"On Linux and Unix operating systems, only the following filesystems\n"
+"will be examined:\n"
+"\n"
+"%s"
+msgstr ""
+"No jebkuras vietas viesa failu sistēmā tiek noņemti šādi\n"
+"faili:\n"
+"\n"
+"%s\n"
+"\n"
+"Linux un Unix operētājsistēmās tiks pārbaudītas tikai šādas\n"
+"failu sistēmas:\n"
+"\n"
+"%s"
+
+#: sysprep/sysprep_operation_fs_uuids.ml:52
+msgid ""
+"The fs-uuids operation is disabled by default because it does\n"
+"not yet find and update all the places in the guest that use\n"
+"the UUIDs.  For example C</etc/fstab> or the bootloader.\n"
+"Enabling this operation is more likely than not to make your\n"
+"guest unbootable.\n"
+"\n"
+"See: L<https://bugzilla.redhat.com/show_bug.cgi?id=991641>"
+msgstr ""
+"Darbība fs-uuids pēc noklusējuma ir atspējota, jo tā vēl\n"
+"neatrod un neatjaunina visas viesa vietas, kurās tiek izmantoti\n"
+"UUID.  Piemēram, C</etc/fstab> vai sāknētāju.\n"
+"Šīs darbības iespējošana, visticamāk, padarīs jūsu\n"
+"viesi nesāknējamu.\n"
+"\n"
+"Skatiet: L<https://bugzilla.redhat.com/show_bug.cgi?id=991641>"
+
+#: builder/index_parser.ml:31
+msgid ""
+"The index file downloaded from ‘%s’ is corrupt.\n"
+"You need to ask the supplier of this file to fix it and upload a fixed "
+"version."
+msgstr ""
+"No „%s” lejupielādētais indeksa fails ir bojāts.\n"
+"Lūdziet šī faila piegādātājam to izlabot un augšupielādēt izlabotu versiju."
+
+#: sysprep/sysprep_operation_machine_id.ml:38
+msgid ""
+"The machine ID is usually generated from a random source during system\n"
+"installation and stays constant for all subsequent boots.  Optionally,\n"
+"for stateless systems it is generated during runtime at boot if it is\n"
+"found to be empty."
+msgstr ""
+"Mašīnas ID parasti tiek ģenerēts no nejauša avota sistēmas\n"
+"instalēšanas laikā un paliek nemainīgs visām turpmākajām sāknēšanām.  "
+"Bezstāvokļa\n"
+"sistēmās to pēc izvēles var ģenerēt darbības laikā sāknēšanā, ja\n"
+"tiek konstatēts, ka tas ir tukšs."
+
+#: sysprep/sysprep_operation_script.ml:140
+msgid ""
+"The mount point (an empty directory on the host) used when\n"
+"the C<script> operation is enabled and one or more scripts\n"
+"are specified using I<--script> parameter(s).\n"
+"\n"
+"B<Note:> C<SCRIPTDIR> B<must> be an absolute path.\n"
+"\n"
+"If I<--scriptdir> is not specified then a temporary mountpoint\n"
+"will be created."
+msgstr ""
+"Montēšanas punkts (tukša direktorija resursdatorā), ko izmanto, kad\n"
+"ir iespējota darbība C<script> un ar parametru(-iem) I<--script>\n"
+"ir norādīts viens vai vairāki skripti.\n"
+"\n"
+"B<Piezīme:> C<SCRIPTDIR> B<jābūt> absolūtam ceļam.\n"
+"\n"
+"Ja I<--scriptdir> nav norādīts, tiks izveidots pagaidu montēšanas\n"
+"punkts."
+
+#: sysprep/sysprep_operation_pacct_log.ml:58
+msgid ""
+"The system wide process accounting will store to the pacct\n"
+"log files if the process accounting is on."
+msgstr ""
+"Sistēmas mēroga procesu uzskaite saglabās datus pacct\n"
+"žurnāla failos, ja procesu uzskaite ir ieslēgta."
+
+#: sysprep/sysprep_operation_user_account.ml:133
+msgid ""
+"The user accounts to be kept in the guest.\n"
+"The value of this option is a list of user names separated by comma,\n"
+"where specifying an user means it is going to be kept.\n"
+"For example:\n"
+"\n"
+" --keep-user-accounts mary\n"
+"\n"
+"would keep the user account C<mary>.\n"
+"\n"
+"This option can be specified multiple times."
+msgstr ""
+"Viesī saglabājamie lietotāju konti.\n"
+"Šīs opcijas vērtība ir ar komatiem atdalīts lietotājvārdu saraksts,\n"
+"kur norādītais lietotājs tiks saglabāts.\n"
+"Piemēram:\n"
+"\n"
+" --keep-user-accounts mary\n"
+"\n"
+"saglabātu lietotāja kontu C<mary>.\n"
+"\n"
+"Šo opciju var norādīt vairākas reizes."
+
+#: sysprep/sysprep_operation_user_account.ml:116
+msgid ""
+"The user accounts to be removed from the guest.\n"
+"The value of this option is a list of user names separated by comma,\n"
+"where specifying an user means it is going to be removed.\n"
+"For example:\n"
+"\n"
+" --remove-user-accounts bob,eve\n"
+"\n"
+"would only remove the user accounts C<bob> and C<eve>.\n"
+"\n"
+"This option can be specified multiple times."
+msgstr ""
+"No viesa noņemamie lietotāju konti.\n"
+"Šīs opcijas vērtība ir ar komatiem atdalīts lietotājvārdu saraksts,\n"
+"kur norādītais lietotājs tiks noņemts.\n"
+"Piemēram:\n"
+"\n"
+" --remove-user-accounts bob,eve\n"
+"\n"
+"noņemtu tikai lietotāju kontus C<bob> un C<eve>.\n"
+"\n"
+"Šo opciju var norādīt vairākas reizes."
+
+#: builder/builder.ml:286
+msgid "There are no notes for %s\n"
+msgstr "%s nav piezīmju\n"
+
+#: resize/resize.ml:875
+msgid ""
+"There is a deficit of %Ld bytes (%s).  You need to make the target disk "
+"larger by at least this amount or adjust your resizing requests."
+msgstr ""
+"Iztrūkums ir %Ld baiti (%s).  Mērķa disks jāpalielina vismaz par šo apjomu "
+"vai jāpielāgo izmēra maiņas pieprasījumi."
+
+#: resize/resize.ml:1028
+msgid "There is a surplus of %s."
+msgstr "Pārpalikums ir %s."
+
+#: sparsify/copying.ml:112
+msgid ""
+"There may not be enough free space on %s.\n"
+"You may need to set TMPDIR to point to a directory with more free space.\n"
+"\n"
+"Max needed: %s.  Free: %s.  May need another %s.\n"
+"\n"
+"Note this is an overestimate.  If the guest disk is full of data\n"
+"then not as much free space would be required.\n"
+"\n"
+"You can ignore this warning or change it to a hard failure using the\n"
+"--check-tmpdir=(ignore|continue|warn|fail) option.  See virt-sparsify(1).\n"
+"\n"
+"%!"
+msgstr ""
+"%s, iespējams, nav pietiekami daudz brīvas vietas.\n"
+"Iespējams, jāiestata TMPDIR, lai tas norādītu uz direktoriju ar vairāk "
+"brīvas vietas.\n"
+"\n"
+"Maksimāli vajadzīgs: %s.  Brīvs: %s.  Var būt vajadzīgs vēl %s.\n"
+"\n"
+"Ņemiet vērā, ka šis ir pārvērtējums.  Ja viesa disks nav pilns ar datiem,\n"
+"tik daudz brīvas vietas nebūs vajadzīgs.\n"
+"\n"
+"Šo brīdinājumu var ignorēt vai pārvērst par stingru kļūmi ar\n"
+"opciju --check-tmpdir=(ignore|continue|warn|fail).  Skatiet virt-sparsify(1)"
+".\n"
+"\n"
+"%!"
+
+#: sysprep/sysprep_operation_utmp.ml:36
+msgid ""
+"This file records who is currently logged in on a machine.  In modern\n"
+"Linux distros it is stored in a ramdisk and hence not part of the\n"
+"virtual machine’s disk, but it was stored on disk in older distros."
+msgstr ""
+"Šis fails reģistrē, kas pašlaik ir pieteicies datorā.  Mūsdienu\n"
+"Linux distribūcijās tas glabājas ramdiskā un tāpēc nav\n"
+"virtuālās mašīnas diska daļa, bet vecākās distribūcijās tas glabājās diskā."
+
+#: sysprep/sysprep_operation_firewall_rules.ml:45
+msgid ""
+"This removes custom firewall rules by removing C</etc/sysconfig/iptables>\n"
+"or custom firewalld configuration in C</etc/firewalld/*/*>.\n"
+"\n"
+"Note this is I<not> enabled by default since it may expose guests to\n"
+"exploits.  Use with care."
+msgstr ""
+"Šī darbība noņem pielāgotās ugunsmūra kārtulas, noņemot C</etc/sysconfig/"
+"iptables>\n"
+"vai pielāgoto firewalld konfigurāciju C</etc/firewalld/*/*>.\n"
+"\n"
+"Ņemiet vērā, ka pēc noklusējuma tā I<nav> iespējota, jo var padarīt viesus "
+"neaizsargātus\n"
+"pret uzbrukumiem.  Lietojiet piesardzīgi."
+
+#: sysprep/sysprep_operation_tmp_files.ml:51
+msgid "This removes temporary files under C</tmp> and C</var/tmp>."
+msgstr "Tas noņem pagaidu failus zem C</tmp> un C</var/tmp>."
+
+#: builder/builder.ml:784
+msgid "Total usable space"
+msgstr "Kopējā izmantojamā vieta"
+
+#: sparsify/in_place.ml:103
+msgid "Trimming %s"
+msgstr "Apgriež %s"
+
+#: common/mlcustomize/customize_cmdline.ml:427
+msgid "Truncate a file to zero size"
+msgstr "Saīsināt failu līdz nulles izmēram"
+
+#: common/mlcustomize/customize_run.ml:299
+msgid "Truncating: %s"
+msgstr "Saīsina: %s"
+
+#: resize/resize.ml:214
+msgid "Turn off sparse copying"
+msgstr "Izslēgt retināto kopēšanu"
+
+#: common/mlcustomize/customize_cmdline.ml:204
+msgid "UID:GID:PATH"
+msgstr "UID:GID:CEĻŠ"
+
+#: common/mlcustomize/customize_cmdline.ml:351
+msgid "USER:SELECTOR"
+msgstr "LIETOTĀJS:ATLASĪTĀJS"
+
+#: common/mlcustomize/customize_cmdline.ml:392
+msgid "USER[:SELECTOR]"
+msgstr "LIETOTĀJS[:ATLASĪTĀJS]"
+
+#: resize/resize.ml:1440
+msgid "UUID in swap partition %s changed from ‘%s’ to ‘%s’"
+msgstr "UUID maiņatmiņas nodalījumā %s mainīts no „%s” uz „%s”"
+
+#: builder/builder.ml:655
+msgid "Uncompressing"
+msgstr "Atspiež"
+
+#: common/mlcustomize/customize_cmdline.ml:444
+msgid "Uninstall package(s)"
+msgstr "Atinstalēt pakotni(-es)"
+
+#: common/mlcustomize/customize_run.ml:316
+msgid "Uninstalling packages: %s"
+msgstr "Atinstalē pakotnes: %s"
+
+#: common/mlcustomize/customize_run.ml:295
+msgid "Unpack tar file: %s to %s"
+msgstr "Izpako tar failu: %s uz %s"
+
+#: common/mlcustomize/customize_cmdline.ml:450
+msgid "Update packages"
+msgstr "Atjaunināt pakotnes"
+
+#: common/mlcustomize/customize_run.ml:321
+msgid "Updating packages"
+msgstr "Atjaunina pakotnes"
+
+#: common/mlcustomize/customize_cmdline.ml:461
+msgid "Upload local file to destination"
+msgstr "Augšupielādēt lokālu failu mērķī"
+
+#: common/mlcustomize/customize_run.ml:326
+msgid "Uploading: %s to %s"
+msgstr "Augšupielādē: %s uz %s"
+
+#: common/mltools/tools_utils.ml:395
+msgid "Use ANSI colour sequences even if not tty"
+msgstr "Izmantot ANSI krāsu secības arī tad, ja nav tty"
+
+#: get-kernel/get_kernel.ml:63
+msgid "Use unversioned names for files"
+msgstr "Izmantot failiem nosaukumus bez versijām"
+
+#: sysprep/sysprep_operation_user_account.ml:131
+msgid "Users to keep"
+msgstr "Saglabājamie lietotāji"
+
+#: sysprep/sysprep_operation_user_account.ml:114
+msgid "Users to remove"
+msgstr "Noņemamie lietotāji"
+
+#: sparsify/copying.ml:154
+msgid "Using prebuilt file %s as overlay"
+msgstr "Kā pārklājumu izmanto iepriekš sagatavoto failu %s"
+
+#: common/mltools/tools_utils.ml:396
+msgid "Wrap log messages even if not tty"
+msgstr "Aplauzt žurnāla ziņojumus arī tad, ja nav tty"
+
+#: common/mlcustomize/customize_cmdline.ml:472
+msgid "Write file"
+msgstr "Ierakstīt failu"
+
+#: common/mlcustomize/customize_run.ml:351
+msgid "Writing: %s"
+msgstr "Raksta: %s"
+
+#: resize/resize.ml:843
+msgid ""
+"You cannot use --expand when there is no surplus space to expand into.  You "
+"need to make the target disk larger by at least %s."
+msgstr ""
+"--expand nevar izmantot, ja nav pārpalikušas vietas, kurā paplašināt.  Mērķa "
+"disks jāpalielina vismaz par %s."
+
+#: resize/resize.ml:857
+msgid ""
+"You cannot use --shrink when there is no deficit (see ‘deficit’ in the virt-"
+"resize(1) man page)."
+msgstr ""
+"--shrink nevar izmantot, ja nav iztrūkuma (skatiet „deficit” virt-resize(1) "
+"rokasgrāmatas lapā)."
+
+#: sysprep/sysprep_operation_yum_uuid.ml:35
+msgid ""
+"Yum creates a fresh UUID the next time it runs when it notices that the\n"
+"original UUID has been erased."
+msgstr ""
+"Yum nākamajā palaišanā izveido jaunu UUID, ja pamana, ka\n"
+"sākotnējais UUID ir izdzēsts."
+
+#: sparsify/cmdline.ml:76
+msgid "Zero filesystem"
+msgstr "Nullēt failu sistēmu"
+
+#: sparsify/in_place.ml:92 sparsify/copying.ml:250
+msgid "Zeroing %s"
+msgstr "Nullē %s"
+
+#: resize/resize.ml:259
+msgid "alignment cannot be < 1"
+msgstr "līdzinājums nevar būt < 1"
+
+#: common/mlcustomize/append_line.ml:44
+msgid "append_line: %s is not a file"
+msgstr "append_line: %s nav fails"
+
+#: sparsify/cmdline.ml:75
+msgid "block|dir|prebuilt:file"
+msgstr "block|dir|prebuilt:file"
+
+#: resize/resize.ml:145
+msgid "btrfs-filesystem-resize"
+msgstr "btrfs-filesystem-resize"
+
+#: builder/builder.ml:181
+msgid "cache %s: %s"
+msgstr "kešatmiņa %s: %s"
+
+#: builder/cache.ml:54
+msgid "cache directory: %s\n"
+msgstr "kešatmiņas direktorija: %s\n"
+
+#: builder/cache.ml:60
+msgid "cached"
+msgstr "kešots"
+
+#: sparsify/copying.ml:68
+msgid "cannot detect input disk format; use the --format parameter"
+msgstr "nevar noteikt ievades diska formātu; izmantojiet parametru --format"
+
+#: builder/builder.ml:99
+msgid ""
+"cannot find os-version ‘%s’ with architecture ‘%s’.\n"
+"Use --list to list available guest types."
+msgstr ""
+"nevar atrast os-version „%s” ar arhitektūru „%s”.\n"
+"Lai uzskaitītu pieejamos viesu tipus, izmantojiet --list."
+
+#: common/mlcustomize/firstboot.ml:235
+msgid ""
+"cannot finish firstboot installation by running ‘%s’ because host cpu (%s) "
+"and guest arch (%s) are not compatible.  The firstboot service may not run "
+"at boot."
+msgstr ""
+"nevar pabeigt pirmās sāknēšanas instalēšanu, izpildot „%s”, jo resursdatora "
+"cpu (%s) un viesa arhitektūra (%s) nav saderīgi.  Pirmās sāknēšanas "
+"pakalpojums sāknēšanā var nedarboties."
+
+#: builder/builder.ml:386
+msgid "cannot output to a character device or /dev/null"
+msgstr "nevar izvadīt uz rakstzīmju ierīci vai /dev/null"
+
+#: sysprep/sysprep_operation_fs_uuids.ml:39
+msgid "cannot set random UUID on filesystem %s type %s: %s"
+msgstr "nevar iestatīt nejaušu UUID failu sistēmai %s ar tipu %s: %s"
+
+#: common/mlcustomize/guest_packages.ml:29
+msgid ""
+"cannot use ‘%s’ because no package manager has been detected for this guest "
+"OS.\n"
+"\n"
+"If this guest OS is a common one with ordinary package management then this "
+"may have been caused by a failure of libguestfs inspection.\n"
+"\n"
+"For OSes such as Windows that lack package management, this is not "
+"possible.  Try using one of the ‘--firstboot*’ flags instead (described in "
+"the virt-customize(1) manual)."
+msgstr ""
+"nevar izmantot „%s”, jo šai viesa OS netika konstatēts pakotņu "
+"pārvaldnieks.\n"
+"\n"
+"Ja šī viesa OS ir izplatīta OS ar parastu pakotņu pārvaldību, iemesls var "
+"būt libguestfs pārbaudes kļūme.\n"
+"\n"
+"OS, kurām nav pakotņu pārvaldības (piemēram, Windows), tas nav iespējams.  "
+"Tā vietā mēģiniet kādu no karogiem „--firstboot*” (aprakstīti virt-customize"
+"(1) rokasgrāmatā)."
+
+#: common/mlcustomize/customize_cmdline.ml:541
+msgid "command '%s' cannot be used in command files, see the man page"
+msgstr "komandu „%s” nevar izmantot komandu failos, skatiet rokasgrāmatas lapu"
+
+#: common/mlcustomize/customize_cmdline.ml:558
+msgid "command '%s' not valid, see the man page"
+msgstr "komanda „%s” nav derīga, skatiet rokasgrāmatas lapu"
+
+#: common/mldrivers/linux_bootloaders.ml:333
+msgid "could not add grub2 serial console (ignored)"
+msgstr "neizdevās pievienot grub2 seriālo konsoli (ignorēts)"
+
+#: common/mldrivers/linux_bootloaders.ml:225
+msgid "could not determine a way to update the configuration of Grub2"
+msgstr "neizdevās noteikt veidu, kā atjaunināt Grub2 konfigurāciju"
+
+#: builder/sigchecker.ml:128
+msgid ""
+"could not export public key\n"
+"Use the ‘-v’ option and look for earlier error messages."
+msgstr ""
+"neizdevās eksportēt publisko atslēgu\n"
+"Izmantojiet opciju „-v” un meklējiet iepriekšējos kļūdu ziņojumus."
+
+#: common/mldrivers/linux_bootloaders.ml:391
+msgid "could not find bootloader mount point (%s): %s"
+msgstr "neizdevās atrast sāknētāja montēšanas punktu (%s): %s"
+
+#: builder/builder.ml:142
+msgid "could not find cache directory. Is $HOME set?"
+msgstr "neizdevās atrast kešatmiņas direktoriju. Vai $HOME ir iestatīts?"
+
+#: common/mldrivers/windows_drivers.ml:91
+msgid ""
+"could not find registry entry "
+"HKEY_LOCAL_MACHINE\\SYSTEM\\DriverDatabase\\DeviceIds in this Windows "
+"guest.  It may be either a very old or very new version of Windows that we "
+"cannot process."
+msgstr ""
+"šajā Windows viesī neizdevās atrast reģistra ierakstu HKEY_LOCAL_MACHINE\\S"
+"YSTEM\\DriverDatabase\\DeviceIds.  Tā var būt ļoti veca vai ļoti jauna "
+"Windows versija, ko nevaram apstrādāt."
+
+#: common/mlcustomize/firstboot.ml:232
+msgid ""
+"could not finish firstboot installation by running ‘%s’ because the command "
+"failed: %s"
+msgstr ""
+"neizdevās pabeigt pirmās sāknēšanas instalēšanu, izpildot „%s”, jo komanda "
+"neizdevās: %s"
+
+#: common/mldrivers/linux_bootloaders.ml:275
+msgid ""
+"could not get the default kernel using Perl Bootloader::Tools, ignoring: %s"
+msgstr ""
+"neizdevās iegūt noklusējuma kodolu, izmantojot Perl Bootloader::Tools, "
+"ignorē: %s"
+
+#: builder/sigchecker.ml:46
+msgid ""
+"could not import public key\n"
+"Use the ‘-v’ option and look for earlier error messages."
+msgstr ""
+"neizdevās importēt publisko atslēgu\n"
+"Izmantojiet opciju „-v” un meklējiet iepriekšējos kļūdu ziņojumus."
+
+#: common/mldrivers/linux_bootloaders.ml:351
+msgid ""
+"could not rebuild grub2 configuration file (%s).  This may mean that grub "
+"output will not be sent to the serial port, but otherwise should be "
+"harmless.  Original error message: %s"
+msgstr ""
+"neizdevās atkārtoti uzbūvēt grub2 konfigurācijas failu (%s).  Tas var "
+"nozīmēt, ka grub izvade netiks sūtīta uz seriālo portu, bet citādi tam "
+"vajadzētu būt nekaitīgam.  Sākotnējais kļūdas ziņojums: %s"
+
+#: common/mldrivers/linux_bootloaders.ml:335
+msgid "could not remove grub2 serial console (ignored)"
+msgstr "neizdevās noņemt grub2 seriālo konsoli (ignorēts)"
+
+#: common/mldrivers/linux_bootloaders.ml:315
+msgid ""
+"could not set the default kernel using Perl Bootloader::Tools, ignoring: %s"
+msgstr ""
+"neizdevās iestatīt noklusējuma kodolu, izmantojot Perl Bootloader::Tools, "
+"ignorē: %s"
+
+#: builder/downloader.ml:92
+msgid "cp (download) command failed copying ‘%s’"
+msgstr "komanda cp (lejupielāde) neizdevās, kopējot „%s”"
+
+#: builder/builder.ml:167
+msgid "curl is not installed (or does not work)"
+msgstr "curl nav instalēts (vai nedarbojas)"
+
+#: common/mltools/registry.ml:93
+msgid ""
+"decode_utf16le: Windows UTF16-LE string contains non-7-bit characters.  This "
+"is a bug in %s, please report it."
+msgstr ""
+"decode_utf16le: Windows UTF16-LE virkne satur rakstzīmes, kas nav 7 bitu.  "
+"Tā ir %s kļūda, lūdzu, ziņojiet par to."
+
+#: common/mltools/registry.ml:87
+msgid ""
+"decode_utf16le: Windows string does not appear to be in UTF16-LE encoding.  "
+"This could be a bug in %s."
+msgstr ""
+"decode_utf16le: Windows virkne neizskatās UTF16-LE kodējumā.  Tā var būt %s "
+"kļūda."
+
+#: common/mldrivers/linux_bootloaders.ml:130
+msgid "didn't find grub entry for kernel %s"
+msgstr "kodolam %s netika atrasts grub ieraksts"
+
+#: sysprep/sysprep_operation_script.ml:137
+msgid "dir"
+msgstr "dir"
+
+#: get-kernel/get_kernel.ml:62
+msgid "directory"
+msgstr "direktorija"
+
+#: builder/builder.ml:182
+msgid "disabling the cache"
+msgstr "atspējo kešatmiņu"
+
+#: sysprep/sysprep_operation.ml:148
+msgid "disallowed character (%c) in operation name"
+msgstr "neatļauta rakstzīme (%c) darbības nosaukumā"
+
+#: sparsify/in_place.ml:68
+msgid "discard/trim is not supported"
+msgstr "discard/trim netiek atbalstīts"
+
+#. customize/customize_main.ml:82
+#: sysprep/main.ml:128 get-kernel/get_kernel.ml:60 drivers/drivers.ml:53
+msgid "domain"
+msgstr "domain"
+
+#: common/mldrivers/linux.ml:158
+msgid "don’t know how to find file owner using %s"
+msgstr "nav zināms, kā atrast faila īpašnieku, izmantojot %s"
+
+#: common/mldrivers/linux.ml:89
+msgid "don’t know how to get list of files from package using %s"
+msgstr "nav zināms, kā iegūt pakotnes failu sarakstu, izmantojot %s"
+
+#: common/mltools/curl.ml:82
+msgid "downloading %s"
+msgstr "lejupielādē %s"
+
+#: get-kernel/get_kernel.ml:192
+msgid "dual/multi-boot images are not supported by this tool"
+msgstr "šis rīks neatbalsta divu/vairāku sāknējamu sistēmu attēlus"
+
+#: sysprep/sysprep_operation.ml:136
+msgid "duplicate operation name (%s)"
+msgstr "dublēts darbības nosaukums (%s)"
+
+#: resize/resize.ml:172
+msgid "empty --expand option"
+msgstr "tukša --expand opcija"
+
+#: resize/resize.ml:188
+msgid "empty --shrink option"
+msgstr "tukša --shrink opcija"
+
+#. customize/customize_main.ml:65
+#. builder/downloader.ml:72
+#: get-kernel/get_kernel.ml:44 drivers/drivers.ml:40
+msgid "error parsing URI '%s'. Look for error messages printed above."
+msgstr "kļūda, parsējot URI „%s”. Meklējiet augstāk izvadītos kļūdu ziņojumus."
+
+#: sysprep/main.ml:61 resize/resize.ml:332 resize/resize.ml:324
+msgid "error parsing URI ‘%s’. Look for error messages printed above."
+msgstr "kļūda, parsējot URI „%s”. Meklējiet augstāk izvadītos kļūdu ziņojumus."
+
+#: common/mltools/tools_utils.ml:252
+msgid "exception: %s"
+msgstr "izņēmums: %s"
+
+#: common/mltools/tools_utils.ml:463
+msgid "exited with error %d"
+msgstr "beidza darbu ar kļūdu %d"
+
+#: common/mltools/xpath_helpers.ml:36
+msgid ""
+"expecting XML expression to return an integer (expression: %s, matching "
+"string: %s)"
+msgstr ""
+"gaidīts, ka XML izteiksme atgriezīs veselu skaitli (izteiksme: %s, "
+"atbilstošā virkne: %s)"
+
+#: common/mltools/tools_utils.ml:448
+msgid "external command"
+msgstr "ārēja komanda"
+
+#: sparsify/copying.ml:343
+msgid "external command failed: %s"
+msgstr "ārējā komanda neizdevās: %s"
+
+#: builder/downloader.ml:126
+msgid "failed to download %s: HTTP status code %s"
+msgstr "neizdevās lejupielādēt %s: HTTP statusa kods %s"
+
+#: builder/repository_main.ml:557
+msgid "failed to export the GPG key %s"
+msgstr "neizdevās eksportēt GPG atslēgu %s"
+
+#: common/mldrivers/linux_bootloaders.ml:212
+msgid "failed to find grub2-mkconfig binary (but Grub2 was detected on guest)"
+msgstr ""
+"neizdevās atrast bināro failu grub2-mkconfig (bet viesī tika konstatēts "
+"Grub2)"
+
+#: builder/repository_main.ml:563
+msgid "failed to sign index"
+msgstr "neizdevās parakstīt indeksu"
+
+#: common/mltools/tools_utils.ml:243
+msgid "failure: %s"
+msgstr "kļūme: %s"
+
+#. customize/customize_main.ml:77
+#: sysprep/main.ml:126 get-kernel/get_kernel.ml:57 drivers/drivers.ml:50
+msgid "file"
+msgstr "file"
+
+#: builder/sigchecker.ml:237
+msgid ""
+"fingerprint of signature does not match the expected fingerprint!\n"
+"found fingerprint: %s\n"
+"expected fingerprint: %s"
+msgstr ""
+"paraksta nospiedums neatbilst gaidītajam nospiedumam!\n"
+"atrastais nospiedums: %s\n"
+"gaidītais nospiedums: %s"
+
+#: resize/resize.ml:1348
+msgid "first partition is NTFS but does not contain NTFS boot loader magic"
+msgstr "pirmais nodalījums ir NTFS, bet nesatur NTFS sāknētāja maģisko vērtību"
+
+#: common/mlcustomize/firstboot.ml:143
+msgid ""
+"firstboot: unknown version for old firstboot.service file %s (md5=%s), it "
+"will not be removed"
+msgstr ""
+"firstboot: nezināma vecā firstboot.service faila %s versija (md5=%s), tas "
+"netiks noņemts"
+
+#. resize/resize.ml:210
+#. resize/resize.ml:205
+#. get-kernel/get_kernel.ml:61
+#. drivers/drivers.ml:54
+#. customize/customize_main.ml:84
+#: sysprep/main.ml:133 sparsify/cmdline.ml:71 sparsify/cmdline.ml:70
+msgid "format"
+msgstr "formāts"
+
+#: sparsify/cmdline.ml:76 sparsify/cmdline.ml:72
+msgid "fs"
+msgstr "fs"
+
+#: sparsify/in_place.ml:109
+msgid ""
+"fstrim operation is not supported on %s (%s).  Suppress this warning using "
+"'--ignore %s', or use copying mode instead."
+msgstr ""
+"fstrim darbība netiek atbalstīta %s (%s).  Apslāpējiet šo brīdinājumu ar „--"
+"ignore %s” vai tā vietā izmantojiet kopēšanas režīmu."
+
+#: common/mltools/tools_utils.ml:262
+msgid "generated by %s %s"
+msgstr "ģenerējis %s %s"
+
+#: common/mlcustomize/firstboot.ml:409 common/mlcustomize/firstboot.ml:164
+msgid "guest type %s is not supported"
+msgstr "viesa tips %s netiek atbalstīts"
+
+#: common/mlcustomize/firstboot.ml:436
+msgid "guest type %s/%s is not supported"
+msgstr "viesa tips %s/%s netiek atbalstīts"
+
+#: sysprep/sysprep_operation.ml:154
+msgid "heading for %s must not end with newline or period"
+msgstr "%s virsraksts nedrīkst beigties ar rindas pārnesi vai punktu"
+
+#: common/mltools/tools_utils.ml:757
+msgid ""
+"host (%s/%s) and guest (%s/%s) are not compatible, so you cannot use command "
+"line options that involve running commands in the guest.  Use --firstboot "
+"scripts instead."
+msgstr ""
+"resursdators (%s/%s) un viesis (%s/%s) nav saderīgi, tāpēc nevar izmantot "
+"komandrindas opcijas, kas paredz komandu izpildi viesī.  Tā vietā "
+"izmantojiet --firstboot skriptus."
+
+#: common/mlcustomize/customize_run.ml:214
+msgid "hostname could not be set for this type of guest"
+msgstr "šāda tipa viesim resursdatora nosaukumu nevarēja iestatīt"
+
+#: drivers/hwdata.ml:138
+msgid "hwdata: %s: %s"
+msgstr "hwdata: %s: %s"
+
+#: resize/resize.ml:215
+msgid "ignore|warn|error"
+msgstr "ignore|warn|error"
+
+#: common/mldrivers/linux_kernels.ml:342
+msgid "ignoring kernel %s in bootloader, as it does not exist."
+msgstr "sāknētājā ignorē kodolu %s, jo tas neeksistē."
+
+#: builder/builder.ml:411
+msgid ""
+"images cannot be shrunk, the output size is too small for this image.  "
+"Requested size = %s, minimum size = %s"
+msgstr ""
+"attēlus nevar samazināt, izvades izmērs šim attēlam ir pārāk mazs.  "
+"Pieprasītais izmērs = %s, minimālais izmērs = %s"
+
+#: builder/builder.ml:371
+msgid "input file (%s) has an unsupported type"
+msgstr "ievades failam (%s) ir neatbalstīts tips"
+
+#: common/mltools/tools_utils.ml:250
+msgid "internal error: Not_found exception was thrown"
+msgstr "iekšēja kļūda: tika izmests izņēmums Not_found"
+
+#: common/mltools/tools_utils.ml:247
+msgid "internal error: assertion failed at %s, line %d, char %d"
+msgstr "iekšēja kļūda: apgalvojums neizpildījās %s, rinda %d, rakstzīme %d"
+
+#: common/mltools/tools_utils.ml:245
+msgid "internal error: invalid argument: %s"
+msgstr "iekšēja kļūda: nederīgs arguments: %s"
+
+#: common/mldrivers/linux.ml:128
+msgid "internal error: is_file_owned: dpkg command returned no output"
+msgstr "iekšēja kļūda: is_file_owned: komanda dpkg neatgrieza izvadi"
+
+#: common/mldrivers/linux.ml:133
+msgid "internal error: is_file_owned: unexpected output from dpkg command: %s"
+msgstr "iekšēja kļūda: is_file_owned: negaidīta dpkg komandas izvade: %s"
+
+#: common/mldrivers/linux_bootloaders.ml:134
+msgid "internal error: regular expression did not match ‘%s’"
+msgstr "iekšēja kļūda: regulārā izteiksme neatbilda „%s”"
+
+#. common/mlcustomize/customize_cmdline.ml:165
+#. common/mlcustomize/customize_cmdline.ml:157
+#: common/mlcustomize/customize_cmdline.ml:173
+msgid "invalid format for '--%s' parameter, see the man page"
+msgstr "nederīgs „--%s” parametra formāts, skatiet rokasgrāmatas lapu"
+
+#: common/mltools/tools_utils.ml:363
+msgid "invalid format string for --machine-readable: %s"
+msgstr "nederīga --machine-readable formāta virkne: %s"
+
+#: common/mltools/tools_utils.ml:378
+msgid "invalid output fd for --machine-readable: %s"
+msgstr "nederīgs --machine-readable izvades fd: %s"
+
+#: common/mltools/tools_utils.ml:380
+msgid "invalid output for --machine-readable: %s"
+msgstr "nederīga --machine-readable izvade: %s"
+
+#: common/mltools/tools_utils.ml:372
+msgid "invalid output stream for --machine-readable: %s"
+msgstr "nederīga --machine-readable izvades straume: %s"
+
+#: common/mlcustomize/password.ml:73
+msgid "invalid password selector ‘%s’; see the man page"
+msgstr "nederīgs paroles atlasītājs „%s”; skatiet rokasgrāmatas lapu"
+
+#: common/mlcustomize/ssh_key.ml:45
+msgid "invalid ssh-inject selector ‘%s’; see the man page"
+msgstr "nederīgs ssh-inject atlasītājs „%s”; skatiet rokasgrāmatas lapu"
+
+#: common/mldrivers/linux_bootloaders.ml:118
+msgid "kernel %s is not under grub tree %s"
+msgstr "kodols %s nav grub kokā %s"
+
+#: common/mltools/tools_utils.ml:547 common/mltools/tools_utils.ml:466
+msgid "killed by signal %d"
+msgstr "nogalināts ar signālu %d"
+
+#: common/mltools/tools_utils.ml:241
+msgid "libguestfs error: %s"
+msgstr "libguestfs kļūda: %s"
+
+#: common/mlcustomize/customize_run.ml:49
+msgid "log file %s: %s (ignored)"
+msgstr "žurnāla fails %s: %s (ignorēts)"
+
+#: resize/resize.ml:207
+msgid "lv"
+msgstr "lv"
+
+#: common/mlcustomize/customize_cmdline.ml:484
+msgid "md5|sha256|sha512"
+msgstr "md5|sha256|sha512"
+
+#: common/mlcustomize/customize_run.ml:124
+msgid "method '%s' is no longer supported"
+msgstr "metode „%s” vairs netiek atbalstīta"
+
+#: builder/repository_main.ml:262
+msgid "missing image identifier"
+msgstr "trūkst attēla identifikatora"
+
+#: common/mltools/JSON_parser.ml:39
+msgid "missing value for the key ‘%s’"
+msgstr "atslēgai „%s” trūkst vērtības"
+
+#: resize/resize.ml:147
+msgid "mkswap"
+msgstr "mkswap"
+
+#: common/mltools/JSON_parser.ml:34
+msgid "more than value for the key ‘%s’"
+msgstr "atslēgai „%s” ir vairāk nekā viena vērtība"
+
+#: builder/repository_main.ml:116
+msgid "moving file ‘%s’ to ‘%s’ failed"
+msgstr "faila „%s” pārvietošana uz „%s” neizdevās"
+
+#: common/mlcustomize/customize_run.ml:108
+msgid ""
+"multiple --root-password/--password options set the password for user ‘%s’ "
+"twice"
+msgstr ""
+"vairākas --root-password/--password opcijas iestata lietotāja „%s” paroli "
+"divreiz"
+
+#: resize/resize.ml:197
+msgid "never|always|auto"
+msgstr "never|always|auto"
+
+#: builder/builder.ml:155
+msgid ""
+"no GNU Privacy Guard (GnuPG, gpg) binary was found.\n"
+"\n"
+"Either gpg v1 or v2 can be installed to check signatures.  Virt-builder "
+"looks for a binary called either ‘gpg2’ or ‘gpg‘ on the $PATH.  You can also "
+"specify a binary using the ‘--gpg’ option.  If you don't want to check "
+"signatures, use ’--no-check-signature’ but note that this may make you "
+"vulnerable to Man-In-The-Middle attacks."
+msgstr ""
+"netika atrasts GNU Privacy Guard (GnuPG, gpg) binārais fails.\n"
+"\n"
+"Parakstu pārbaudei var instalēt gpg v1 vai v2.  Virt-builder $PATH meklē "
+"bināro failu ar nosaukumu „gpg2” vai „gpg”.  Bināro failu var norādīt arī ar "
+"opciju „--gpg”.  Ja nevēlaties pārbaudīt parakstus, izmantojiet „--no-check-"
+"signature”, bet ņemiet vērā, ka tas var padarīt jūs neaizsargātu pret "
+"starpnieka (Man-In-The-Middle) uzbrukumiem."
+
+#: common/mldrivers/linux_bootloaders.ml:417
+msgid "no bootloader detected"
+msgstr "sāknētājs nav konstatēts"
+
+#: builder/builder.ml:256
+msgid "no cache directory"
+msgstr "nav kešatmiņas direktorijas"
+
+#: builder/builder.ml:249
+msgid "no cache directory\n"
+msgstr "nav kešatmiņas direktorijas\n"
+
+#: builder/builder.ml:749
+msgid ""
+"no guest operating systems or multiboot OS found in this disk image\n"
+"This is a failure of the source repository.  Use -v for more information."
+msgstr ""
+"šajā diska attēlā netika atrasta neviena viesa operētājsistēma vai vairāku "
+"sāknējamu sistēmu OS\n"
+"Tā ir avota repozitorija kļūme.  Plašākai informācijai izmantojiet -v."
+
+#: common/mldrivers/linux_kernels.ml:194
+msgid "no initrd was found in /boot matching %s %s."
+msgstr "/boot netika atrasts initrd, kas atbilst %s %s."
+
+#: common/mldrivers/linux_kernels.ml:317
+msgid ""
+"no installed kernel packages were found.\n"
+"\n"
+"This probably indicates that %s was unable to inspect this guest properly."
+msgstr ""
+"netika atrastas instalētas kodola pakotnes.\n"
+"\n"
+"Iespējams, tas norāda, ka %s nespēja pareizi pārbaudīt šo viesi."
+
+#: get-kernel/get_kernel.ml:164
+msgid "no kernel found in %s"
+msgstr "%s netika atrasts kodols"
+
+#: common/mldrivers/linux_kernels.ml:354
+msgid ""
+"no kernels were found in the bootloader configuration.\n"
+"\n"
+"This probably indicates that %s was unable to parse the bootloader "
+"configuration of this guest."
+msgstr ""
+"sāknētāja konfigurācijā netika atrasti kodoli.\n"
+"\n"
+"Iespējams, tas norāda, ka %s nespēja parsēt šī viesa sāknētāja konfigurāciju."
+
+#: get-kernel/get_kernel.ml:190
+msgid "no operating system found"
+msgstr "operētājsistēma nav atrasta"
+
+#: sysprep/main.ml:230 customize/customize_main.ml:190
+msgid "no operating systems were found in the guest image"
+msgstr "viesa attēlā netika atrasta neviena operētājsistēma"
+
+#: builder/builder.ml:582
+msgid ""
+"no plan could be found for making a disk image with\n"
+"the required size, format etc. This is a bug in libguestfs!\n"
+"Please file a bug, giving the command line arguments you used."
+msgstr ""
+"neizdevās atrast plānu, kā izveidot diska attēlu ar\n"
+"nepieciešamo izmēru, formātu u. c. Tā ir libguestfs kļūda!\n"
+"Lūdzu, ziņojiet par kļūdu, norādot izmantotos komandrindas argumentus."
+
+#: resize/resize.ml:144
+msgid "ntfsresize"
+msgstr "ntfsresize"
+
+#: get-kernel/get_kernel.ml:131
+msgid "operating system ‘%s’ not supported"
+msgstr "operētājsistēma „%s” netiek atbalstīta"
+
+#: sysprep/sysprep_operation.ml:160
+msgid "operation %s has no POD"
+msgstr "darbībai %s nav POD"
+
+#: sysprep/sysprep_operation.ml:169
+msgid "operation %s has no POD notes"
+msgstr "darbībai %s nav POD piezīmju"
+
+#: sysprep/sysprep_operation.ml:152
+msgid "operation %s has no heading"
+msgstr "darbībai %s nav virsraksta"
+
+#: sysprep/sysprep_operation.ml:143
+msgid "operation name is an empty string"
+msgstr "darbības nosaukums ir tukša virkne"
+
+#: sysprep/main.ml:138 sysprep/main.ml:132
+msgid "operations"
+msgstr "darbības"
+
+#: sparsify/cmdline.ml:74
+msgid "option"
+msgstr "opcija"
+
+#: sysprep/main.ml:135
+msgid "opts"
+msgstr "opcijas"
+
+#: builder/repository_main.ml:228
+msgid "osinfo short ID: "
+msgstr "osinfo īsais ID: "
+
+#: builder/builder.ml:300
+msgid ""
+"output device (%s) is a partition.  If you are writing to a USB key or "
+"external drive then you probably need to write to the whole device, not to a "
+"partition.  If this warning is wrong then you can disable it with --no-warn-"
+"if-partition"
+msgstr ""
+"izvades ierīce (%s) ir nodalījums.  Ja rakstāt USB atmiņā vai ārējā diskā, "
+"visticamāk, jāraksta visā ierīcē, nevis nodalījumā.  Ja šis brīdinājums ir "
+"kļūdains, to var atspējot ar --no-warn-if-partition"
+
+#: builder/builder.ml:416
+msgid ""
+"output size is too large for this block device.  Requested size = %s, output "
+"block device = %s, output block device size = %s"
+msgstr ""
+"izvades izmērs šai bloku ierīcei ir pārāk liels.  Pieprasītais izmērs = %s, "
+"izvades bloku ierīce = %s, izvades bloku ierīces izmērs = %s"
+
+#: sparsify/cmdline.ml:150
+msgid "output ‘%s’ cannot be a character device, it must be a regular file"
+msgstr "izvade „%s” nevar būt rakstzīmju ierīce, tai jābūt parastam failam"
+
+#. resize/resize.ml:201
+#: resize/resize.ml:213 resize/resize.ml:206 resize/resize.ml:202
+msgid "part"
+msgstr "part"
+
+#: resize/resize.ml:212 resize/resize.ml:211
+msgid "part=size"
+msgstr "part=izmērs"
+
+#: common/mlcustomize/password.ml:51
+msgid ""
+"password-crypto: unknown algorithm %s, use \"md5\", \"sha256\", \"sha512\" "
+"or \"yescrypt\""
+msgstr ""
+"password-crypto: nezināms algoritms %s, izmantojiet \"md5\", \"sha256\", "
+"\"sha512\" vai \"yescrypt\""
+
+#: common/mlcustomize/password.ml:197
+msgid ""
+"password: using insecure md5 password encryption for guest of type %s "
+"version %d.%d.\n"
+"If this is incorrect, use --password-crypto option and file a bug."
+msgstr ""
+"password: %s tipa viesim versija %d.%d tiek izmantota nedroša md5 paroļu "
+"šifrēšana.\n"
+"Ja tas nav pareizi, izmantojiet opciju --password-crypto un ziņojiet par "
+"kļūdu."
+
+#: common/mlcustomize/customize_run.ml:364
+msgid "passwords could not be set for this type of guest"
+msgstr "šāda tipa viesim paroles nevarēja iestatīt"
+
+#: resize/resize.ml:1133 resize/resize.ml:1109
+msgid "pread-device: short read"
+msgstr "pread-device: nepilnīga nolasīšana"
+
+#: get-kernel/get_kernel.ml:64
+msgid "prefix"
+msgstr "priedēklis"
+
+#: resize/resize.ml:142
+msgid "pvresize"
+msgstr "pvresize"
+
+#: sparsify/in_place.ml:136 sparsify/copying.ml:288
+msgid "pwrite: short write restoring swap partition header"
+msgstr "pwrite: nepilnīga rakstīšana, atjaunojot maiņatmiņas nodalījuma galveni"
+
+#: sparsify/in_place.ml:190
+msgid "quit (^C) at user request"
+msgstr "iziet (^C) pēc lietotāja pieprasījuma"
+
+#: common/mlcustomize/customize_run.ml:79
+msgid "random seed could not be set for this type of guest"
+msgstr "šāda tipa viesim nejaušības sēklu nevarēja iestatīt"
+
+#: builder/repository_main.ml:424
+msgid "repository folder ‘%s’ doesn’t exist"
+msgstr "repozitorija mape „%s” neeksistē"
+
+#: resize/resize.ml:148
+msgid "resize.f2fs"
+msgstr "resize.f2fs"
+
+#: resize/resize.ml:143
+msgid "resize2fs"
+msgstr "resize2fs"
+
+#. common/mlcustomize/inject_virtio_win.ml:399
+#. common/mlcustomize/inject_virtio_win.ml:394
+#: common/mlcustomize/inject_virtio_win.ml:404
+msgid ""
+"root directory ‘/’ is missing from the virtio-win directory or ISO.\n"
+"\n"
+"This should not happen and may indicate that virtio-win or virt-v2v is "
+"broken in some way.  Please report this as a bug with a full debug log."
+msgstr ""
+"virtio-win direktorijā vai ISO trūkst saknes direktorijas „/”.\n"
+"\n"
+"Tam nevajadzētu notikt, un tas var norādīt, ka virtio-win vai virt-v2v ir "
+"kaut kā bojāts.  Lūdzu, ziņojiet par šo kļūdu, pievienojot pilnu "
+"atkļūdošanas žurnālu."
+
+#: sysprep/sysprep_operation_script.ml:152
+msgid "script"
+msgstr "script"
+
+#: sysprep/sysprep_operation_script.ml:75
+msgid "script failed"
+msgstr "skripts neizdevās"
+
+#: sysprep/sysprep_operation_script.ml:65
+msgid "script: failed (code %d)"
+msgstr "script: neizdevās (kods %d)"
+
+#: sysprep/sysprep_operation_script.ml:69
+msgid "script: killed by signal (%d)"
+msgstr "script: nogalināts ar signālu (%d)"
+
+#: resize/resize.ml:198
+msgid "sectors"
+msgstr "sektori"
+
+#: common/mltools/tools_utils.ml:425 common/options/keys.c:310
+#, c-format
+msgid "selector '%s': invalid TYPE"
+msgstr "atlasītājs „%s”: nederīgs TYPE"
+
+#: common/mltools/tools_utils.ml:413 common/options/keys.c:300
+#, c-format
+msgid "selector '%s': missing FILENAME, or too many fields"
+msgstr "atlasītājs „%s”: trūkst FILENAME vai pārāk daudz lauku"
+
+#: common/mltools/tools_utils.ml:403 common/options/keys.c:278
+#, c-format
+msgid "selector '%s': missing ID"
+msgstr "atlasītājs „%s”: trūkst ID"
+
+#: common/mltools/tools_utils.ml:408 common/options/keys.c:291
+#, c-format
+msgid "selector '%s': missing KEY_STRING, or too many fields"
+msgstr "atlasītājs „%s”: trūkst KEY_STRING vai pārāk daudz lauku"
+
+#: common/mltools/tools_utils.ml:405 common/options/keys.c:285
+#, c-format
+msgid "selector '%s': missing TYPE"
+msgstr "atlasītājs „%s”: trūkst TYPE"
+
+#: common/mltools/tools_utils.ml:421 common/mltools/tools_utils.ml:417
+#: common/options/keys.c:308
+#, c-format
+msgid "selector '%s': too many fields"
+msgstr "atlasītājs „%s”: pārāk daudz lauku"
+
+#: common/mlcustomize/guest_packages.ml:40
+msgid ""
+"sorry, ‘%s’ with the ‘%s’ package manager has not been implemented yet.\n"
+"\n"
+"You can work around this by using one of the ‘--run*’ or ‘--firstboot*’ "
+"options instead (described in the virt-customize(1) manual)."
+msgstr ""
+"atvainojiet, „%s” ar pakotņu pārvaldnieku „%s” vēl nav realizēts.\n"
+"\n"
+"To var apiet, tā vietā izmantojot kādu no opcijām „--run*” vai „--"
+"firstboot*” (aprakstītas virt-customize(1) rokasgrāmatā)."
+
+#: builder/cmdline.ml:304
+msgid "source and fingerprint lists are not the same length"
+msgstr "avotu un nospiedumu saraksti nav vienāda garuma"
+
+#: common/mlcustomize/ssh_key.ml:57
+msgid "ssh-inject: $HOME environment variable is not set"
+msgstr "ssh-inject: vides mainīgais $HOME nav iestatīts"
+
+#: common/mlcustomize/ssh_key.ml:93
+msgid "ssh-inject: key is an empty string"
+msgstr "ssh-inject: atslēga ir tukša virkne"
+
+#: common/mlcustomize/ssh_key.ml:66
+msgid "ssh-inject: no public key file found in %s"
+msgstr "ssh-inject: %s nav atrasts publiskās atslēgas fails"
+
+#: common/mlcustomize/ssh_key.ml:83
+msgid "ssh-inject: public key file (%s) is empty"
+msgstr "ssh-inject: publiskās atslēgas fails (%s) ir tukšs"
+
+#: common/mlcustomize/ssh_key.ml:112
+msgid "ssh-inject: the user %s does not exist on the guest"
+msgstr "ssh-inject: lietotājs %s viesī neeksistē"
+
+#: common/mltools/tools_utils.ml:550 common/mltools/tools_utils.ml:469
+msgid "stopped by signal %d"
+msgstr "apturēts ar signālu %d"
+
+#: common/mlcustomize/customize_run.ml:61
+msgid ""
+"the command may have failed because the network is disabled.  Try either "
+"removing ‘--no-network’ or adding ‘--network’ on the command line."
+msgstr ""
+"komanda, iespējams, neizdevās, jo tīkls ir atspējots.  Mēģiniet komandrindā "
+"noņemt „--no-network” vai pievienot „--network”."
+
+#: common/mltools/JSON_parser.ml:84
+msgid "the key ‘%s’ was not found in a list of objects"
+msgstr "atslēga „%s” netika atrasta objektu sarakstā"
+
+#: builder/repository_main.ml:460
+msgid ""
+"the repository must contain an index file when running in automated mode"
+msgstr "darbojoties automatizētajā režīmā, repozitorijā jābūt indeksa failam"
+
+#: resize/resize.ml:484
+msgid "the source disk has no partitions"
+msgstr "avota diskam nav nodalījumu"
+
+#: common/mltools/JSON_parser.ml:78
+msgid "the value for key ‘%s’ is not a string as expected"
+msgstr "atslēgas „%s” vērtība nav virkne, kā gaidīts"
+
+#: common/mltools/JSON_parser.ml:50
+msgid "the value for the key ‘%s’ is not a bool"
+msgstr "atslēgas „%s” vērtība nav Būla vērtība"
+
+#: common/mltools/JSON_parser.ml:45
+msgid "the value for the key ‘%s’ is not a string"
+msgstr "atslēgas „%s” vērtība nav virkne"
+
+#: common/mltools/JSON_parser.ml:70
+msgid "the value for the key ‘%s’ is not an integer"
+msgstr "atslēgas „%s” vērtība nav vesels skaitlis"
+
+#: common/mltools/JSON_parser.ml:55
+msgid "the value for the key ‘%s’ is not an object"
+msgstr "atslēgas „%s” vērtība nav objekts"
+
+#: common/mltools/JSON_parser.ml:59
+msgid "the value is not an object"
+msgstr "vērtība nav objekts"
+
+#: common/mltools/JSON_parser.ml:35
+msgid "the value of the key ‘%s’ is not an object"
+msgstr "atslēgas „%s” vērtība nav objekts"
+
+#: common/mlcustomize/inject_virtio_win.ml:194
+msgid ""
+"there are no virtio drivers available for this version of Windows (%d.%d %s "
+"%s %s).  virt-v2v looks for drivers in %s\n"
+"\n"
+"The guest will be configured to use slower emulated devices."
+msgstr ""
+"šai Windows versijai (%d.%d %s %s %s) nav pieejamu virtio draiveru.  virt-"
+"v2v meklē draiverus %s\n"
+"\n"
+"Viesis tiks konfigurēts izmantot lēnākas emulētas ierīces."
+
+#: builder/sigchecker.ml:179
+msgid ""
+"there is no detached signature file\n"
+"This probably means the index file is missing a sig=... line.\n"
+"You can use --no-check-signature to ignore this error, but that means you "
+"are susceptible to man-in-the-middle attacks."
+msgstr ""
+"nav atdalītā paraksta faila\n"
+"Iespējams, indeksa failā trūkst rindas sig=....\n"
+"Šo kļūdu var ignorēt ar --no-check-signature, bet tad esat neaizsargāts pret "
+"starpnieka uzbrukumiem."
+
+#: common/mlcustomize/inject_virtio_win.ml:218
+msgid ""
+"there is no virtio block device driver for this version of Windows (%d.%d "
+"%s).  virt-v2v looks for this driver in %s\n"
+"\n"
+"The guest will be configured to use a slower emulated device."
+msgstr ""
+"šai Windows versijai (%d.%d %s) nav virtio bloku ierīces draivera.  virt-v2v "
+"meklē šo draiveri %s\n"
+"\n"
+"Viesis tiks konfigurēts izmantot lēnāku emulētu ierīci."
+
+#: common/mlcustomize/inject_virtio_win.ml:249
+msgid ""
+"there is no virtio network driver for this version of Windows (%d.%d %s).  "
+"virt-v2v looks for this driver in %s\n"
+"\n"
+"The guest will be configured to use a slower emulated device."
+msgstr ""
+"šai Windows versijai (%d.%d %s) nav virtio tīkla draivera.  virt-v2v meklē "
+"šo draiveri %s\n"
+"\n"
+"Viesis tiks konfigurēts izmantot lēnāku emulētu ierīci."
+
+#: common/mlcustomize/timezone.ml:35
+msgid "timezone '%s' does not exist, use a location like 'Europe/London'"
+msgstr ""
+"laika josla „%s” neeksistē, izmantojiet atrašanās vietu, piem., „Europe/"
+"London”"
+
+#: common/mlcustomize/customize_run.ml:309
+msgid "timezone could not be set for this type of guest"
+msgstr "šāda tipa viesim laika joslu nevarēja iestatīt"
+
+#: builder/cmdline.ml:250
+msgid "too many parameters, at most one ‘os-version’ is allowed for --list"
+msgstr ""
+"pārāk daudz parametru, opcijai --list atļauts ne vairāk kā viens „os-version”"
+
+#: builder/cmdline.ml:241
+msgid "too many parameters, expecting ‘os-version’"
+msgstr "pārāk daudz parametru, gaidīts „os-version”"
+
+#: builder/repository_main.ml:101
+msgid "too many parameters, only one path to repository is allowed"
+msgstr "pārāk daudz parametru, atļauts tikai viens repozitorija ceļš"
+
+#: common/mltools/urandom.ml:37
+msgid "unexpected end of file while reading /dev/urandom"
+msgstr "negaidītas faila beigas, lasot /dev/urandom"
+
+#: builder/downloader.ml:116
+msgid ""
+"unexpected output from curl command, enable debug and look at previous "
+"messages"
+msgstr ""
+"negaidīta curl komandas izvade, iespējojiet atkļūdošanu un skatiet "
+"iepriekšējos ziņojumus"
+
+#: common/mltools/checksums.ml:58
+msgid "unhandled checksum type ‘%s’"
+msgstr "neapstrādāts kontrolsummas tips „%s”"
+
+#: resize/resize.ml:268
+msgid "unknown --align-first option: use never|always|auto"
+msgstr "nezināma --align-first opcija: izmantojiet never|always|auto"
+
+#: resize/resize.ml:276
+msgid "unknown --unknown-filesystems: use ignore|warn|error"
+msgstr "nezināms --unknown-filesystems: izmantojiet ignore|warn|error"
+
+#. resize/resize.ml:921
+#: resize/resize.ml:1016 resize/resize.ml:982 resize/resize.ml:940
+msgid "unknown/unavailable method for expanding the %s filesystem on %s"
+msgstr "nezināma/nepieejama metode %s failu sistēmas paplašināšanai %s"
+
+#: sysprep/utils.ml:65
+msgid "updating the system CA store on this guest %s/%s is not supported"
+msgstr "sistēmas CA krātuves atjaunināšana šajā viesī %s/%s netiek atbalstīta"
+
+#. customize/customize_main.ml:81
+#: sysprep/main.ml:127 get-kernel/get_kernel.ml:59 drivers/drivers.ml:52
+msgid "uri"
+msgstr "uri"
+
+#: resize/resize.ml:312
+msgid "usage is: %s [--options] indisk outdisk"
+msgstr "lietošana: %s [--opcijas] ievades_disks izvades_disks"
+
+#: sparsify/cmdline.ml:135
+msgid "usage: %s [--options] indisk outdisk"
+msgstr "lietošana: %s [--opcijas] ievades_disks izvades_disks"
+
+#: sysprep/sysprep_operation_user_account.ml:149
+msgid ""
+"user-accounts: --keep-user-accounts parameter was used, but the \"user-"
+"account\" operation is not enabled"
+msgstr ""
+"user-accounts: tika izmantots parametrs --keep-user-accounts, bet darbība "
+"\"user-account\" nav iespējota"
+
+#: sysprep/sysprep_operation_user_account.ml:152
+msgid ""
+"user-accounts: --remove-user-accounts parameter was used, but the \"user-"
+"account\" operation is not enabled"
+msgstr ""
+"user-accounts: tika izmantots parametrs --remove-user-accounts, bet darbība "
+"\"user-account\" nav iespējota"
+
+#: sysprep/sysprep_operation_user_account.ml:38
+msgid "user-accounts: empty user name"
+msgstr "user-accounts: tukšs lietotājvārds"
+
+#. sysprep/sysprep_operation_user_account.ml:113
+#: sysprep/sysprep_operation_user_account.ml:130
+msgid "users"
+msgstr "lietotāji"
+
+#: builder/cmdline.ml:275
+msgid ""
+"virt-builder --get-kernel image\n"
+"Missing ‘image’ (disk image file) argument"
+msgstr ""
+"virt-builder --get-kernel attēls\n"
+"Trūkst argumenta „image” (diska attēla fails)"
+
+#: builder/cmdline.ml:257
+msgid ""
+"virt-builder --notes os-version\n"
+"Missing ‘os-version’. Use ‘--list’ to list available template names."
+msgstr ""
+"virt-builder --notes os-version\n"
+"Trūkst „os-version”. Lai uzskaitītu pieejamo veidņu nosaukumus, izmantojiet "
+"„--list”."
+
+#: builder/cmdline.ml:238
+msgid ""
+"virt-builder os-version\n"
+"Missing ‘os-version’. Use ‘--list’ to list available template names."
+msgstr ""
+"virt-builder os-version\n"
+"Trūkst „os-version”. Lai uzskaitītu pieejamo veidņu nosaukumus, izmantojiet "
+"„--list”."
+
+#: builder/repository_main.ml:244
+msgid ""
+"virt-builder template images must have one and only one root file system, "
+"found %d"
+msgstr ""
+"virt-builder veidņu attēlos jābūt vienai un tikai vienai saknes failu "
+"sistēmai, atrastas %d"
+
+#: builder/repository_main.ml:97
+msgid ""
+"virt-builder-repository /path/to/repo\n"
+"\n"
+"Use ‘/path/to/repo’ to point to the repository folder."
+msgstr ""
+"virt-builder-repository /ceļš/uz/repo\n"
+"\n"
+"Ar „/ceļš/uz/repo” norādiet repozitorija mapi."
+
+#: builder/builder.ml:172
+msgid "virt-resize is not installed (or does not work)"
+msgstr "virt-resize nav instalēts (vai nedarbojas)"
+
+#: resize/resize.ml:146
+msgid "xfs_growfs"
+msgstr "xfs_growfs"
+
+#: drivers/drivers.ml:77
+msgid ""
+"you cannot give -a and -d options together.  Read virt-drivers(1) man page "
+"for further information."
+msgstr ""
+"opcijas -a un -d nevar norādīt vienlaikus.  Plašāku informāciju skatiet "
+"rokasgrāmatas lapā virt-drivers(1)."
+
+#: get-kernel/get_kernel.ml:97
+msgid ""
+"you cannot give -a and -d options together.  Read virt-get-kernel(1) man "
+"page for further information."
+msgstr ""
+"opcijas -a un -d nevar norādīt vienlaikus.  Plašāku informāciju skatiet "
+"rokasgrāmatas lapā virt-get-kernel(1)."
+
+#: sysprep/main.ml:178
+msgid ""
+"you cannot give -a and -d options together.  Read virt-sysprep(1) man page "
+"for further information."
+msgstr ""
+"opcijas -a un -d nevar norādīt vienlaikus.  Plašāku informāciju skatiet "
+"rokasgrāmatas lapā virt-sysprep(1)."
+
+#: customize/customize_main.ml:135
+msgid ""
+"you cannot give -a and -d options together. Read virt-customize(1) man page "
+"for further information."
+msgstr ""
+"opcijas -a un -d nevar norādīt vienlaikus. Plašāku informāciju skatiet "
+"rokasgrāmatas lapā virt-customize(1)."
+
+#: sysprep/main.ml:80
+msgid "you cannot pass an empty argument to --enable"
+msgstr "opcijai --enable nevar nodot tukšu argumentu"
+
+#: sparsify/cmdline.ml:164
+msgid "you cannot use --in-place and --check-tmpdir options together"
+msgstr "--in-place un --check-tmpdir nevar izmantot vienlaikus"
+
+#: sparsify/cmdline.ml:168
+msgid "you cannot use --in-place and --compress options together"
+msgstr "--in-place un --compress nevar izmantot vienlaikus"
+
+#: sparsify/cmdline.ml:171
+msgid "you cannot use --in-place and --convert options together"
+msgstr "--in-place un --convert nevar izmantot vienlaikus"
+
+#: sparsify/cmdline.ml:177
+msgid "you cannot use --in-place and --tmp options together"
+msgstr "--in-place un --tmp nevar izmantot vienlaikus"
+
+#: sparsify/cmdline.ml:174
+msgid "you cannot use --in-place and -o options together"
+msgstr "--in-place un -o nevar izmantot vienlaikus"
+
+#: resize/resize.ml:832
+msgid "you cannot use options --expand and --shrink together"
+msgstr "opcijas --expand un --shrink nevar izmantot vienlaikus"
+
+#: sparsify/cmdline.ml:141 resize/resize.ml:318
+msgid "you cannot use the same disk image for input and output"
+msgstr "ievadei un izvadei nevar izmantot to pašu diska attēlu"
+
+#: drivers/drivers.ml:74
+msgid ""
+"you must give either -a or -d options.  Read virt-drivers(1) man page for "
+"further information."
+msgstr ""
+"jānorāda opcija -a vai -d.  Plašāku informāciju skatiet rokasgrāmatas lapā "
+"virt-drivers(1)."
+
+#: get-kernel/get_kernel.ml:94
+msgid ""
+"you must give either -a or -d options.  Read virt-get-kernel(1) man page for "
+"further information."
+msgstr ""
+"jānorāda opcija -a vai -d.  Plašāku informāciju skatiet rokasgrāmatas lapā "
+"virt-get-kernel(1)."
+
+#: sysprep/main.ml:166
+msgid ""
+"you must give either -a or -d options.  Read virt-sysprep(1) man page for "
+"further information."
+msgstr ""
+"jānorāda opcija -a vai -d.  Plašāku informāciju skatiet rokasgrāmatas lapā "
+"virt-sysprep(1)."
+
+#: customize/customize_main.ml:123
+msgid ""
+"you must give either -a or -d options. Read virt-customize(1) man page for "
+"further information."
+msgstr ""
+"jānorāda opcija -a vai -d. Plašāku informāciju skatiet rokasgrāmatas lapā "
+"virt-customize(1)."
+
+#: builder/repository_main.ml:231
+msgid "‘%s’ is not a recognized osinfo OS id; using it anyway"
+msgstr "„%s” nav atpazīts osinfo OS id; tiek izmantots tik un tā"
+
+#: builder/repository_main.ml:159
+msgid "‘xz’ command failed"
+msgstr "komanda „xz” neizdevās"
+
+#: align/scan.c:80 cat/cat.c:59 df/main.c:72 diff/diff.c:105 edit/edit.c:67
+#: filesystems/filesystems.c:94 inspector/inspector.c:85 log/log.c:69
+#: ls/ls.c:97 make-fs/make-fs.c:82 tail/tail.c:67
+#, c-format
+msgid "Try ‘%s --help’ for more information.\n"
+msgstr "Plašākai informācijai mēģiniet „%s --help”.\n"
+
+#: align/scan.c:83
+#, c-format
+msgid ""
+"%s: check alignment of virtual machine partitions\n"
+"Copyright (C) 2011 Red Hat Inc.\n"
+"Usage:\n"
+"  %s [--options] -d domname\n"
+"  %s [--options] -a disk.img [-a disk.img ...]\n"
+"Options:\n"
+"  -a|--add image       Add image\n"
+"  --blocksize[=512|4096]\n"
+"                       Set sector size of the disk for -a option\n"
+"  -c|--connect uri     Specify libvirt URI for -d option\n"
+"  -d|--domain guest    Add disks from libvirt guest\n"
+"  --format[=raw|..]    Force disk format for -a option\n"
+"  --help               Display brief help\n"
+"  -P nr_threads        Use at most nr_threads\n"
+"  -q|--quiet           No output, just exit code\n"
+"  --uuid               Print UUIDs instead of names\n"
+"  -v|--verbose         Verbose messages\n"
+"  -V|--version         Display version and exit\n"
+"  -x                   Trace libguestfs API calls\n"
+"For more information, see the manpage %s(1).\n"
+msgstr ""
+"%s: pārbaudīt virtuālās mašīnas nodalījumu līdzinājumu\n"
+"Autortiesības (C) 2011 Red Hat Inc.\n"
+"Lietošana:\n"
+"  %s [--opcijas] -d domēna_nosaukums\n"
+"  %s [--opcijas] -a disk.img [-a disk.img ...]\n"
+"Opcijas:\n"
+"  -a|--add image       Pievienot attēlu\n"
+"  --blocksize[=512|4096]\n"
+"                       Iestatīt diska sektora izmēru opcijai -a\n"
+"  -c|--connect uri     Norādīt libvirt URI opcijai -d\n"
+"  -d|--domain guest    Pievienot diskus no libvirt viesa\n"
+"  --format[=raw|..]    Piespiest diska formātu opcijai -a\n"
+"  --help               Rādīt īsu palīdzību\n"
+"  -P nr_threads        Izmantot ne vairāk kā nr_threads pavedienus\n"
+"  -q|--quiet           Bez izvades, tikai izejas kods\n"
+"  --uuid               Izvadīt UUID, nevis nosaukumus\n"
+"  -v|--verbose         Detalizēti ziņojumi\n"
+"  -V|--version         Parādīt versiju un iziet\n"
+"  -x                   Izsekot libguestfs API izsaukumus\n"
+"Plašāku informāciju skatiet rokasgrāmatas lapā %s(1).\n"
+
+#: align/scan.c:167 builder/index-validate.c:90 cat/cat.c:157 df/main.c:169
+#: diff/diff.c:289 edit/edit.c:169 filesystems/filesystems.c:262
+#: format/format.c:192 inspector/inspector.c:188 log/log.c:160 ls/ls.c:255
+#: make-fs/make-fs.c:157 tail/tail.c:166
+#, c-format
+msgid "unknown long option: %s (%d)"
+msgstr "nezināma garā opcija: %s (%d)"
+
+#: align/scan.c:185 df/main.c:195
+#, c-format
+msgid "-P option is not numeric"
+msgstr "opcija -P nav skaitliska"
+
+#: align/scan.c:240
+#, c-format
+msgid "compiled without support for libvirt"
+msgstr "kompilēts bez libvirt atbalsta"
+
+#: align/scan.c:244
+#, c-format
+msgid "--uuid option cannot be used with -a or -d"
+msgstr "opciju --uuid nevar izmantot ar -a vai -d"
+
+#: align/scan.c:343
+msgid "alignment < 4K"
+msgstr "līdzinājums < 4K"
+
+#: align/scan.c:346
+msgid "alignment < 64K"
+msgstr "līdzinājums < 64K"
+
+#: builder/index-validate.c:117
+#, c-format
+msgid "%s: %s: error closing input file: %m (ignored)\n"
+msgstr "%s: %s: kļūda, aizverot ievades failu: %m (ignorēts)\n"
+
+#: builder/index-validate.c:124
+#, c-format
+msgid "‘%s’ could not be validated, see errors above"
+msgstr "„%s” nevarēja validēt, skatiet augstāk esošās kļūdas"
+
+#: builder/index-validate.c:130
+#, c-format
+msgid "%s contains comments which will not work with virt-builder 1.24.1"
+msgstr "%s satur komentārus, kas nedarbosies ar virt-builder 1.24.1"
+
+#: builder/index-validate.c:143
+#, c-format
+msgid ""
+"%s: section [%s] has invalid characters which will not work with virt-"
+"builder 1.24.0"
+msgstr ""
+"%s: sadaļā [%s] ir nederīgas rakstzīmes, kas nedarbosies ar virt-builder "
+"1.24.0"
+
+#: builder/index-validate.c:154
+#, c-format
+msgid ""
+"%s: section [%s], field ‘%s’ has invalid characters which will not work with "
+"virt-builder 1.24.0"
+msgstr ""
+"%s: sadaļas [%s] laukā „%s” ir nederīgas rakstzīmes, kas nedarbosies ar virt-"
+"builder 1.24.0"
+
+#: builder/index-validate.c:163
+#, c-format
+msgid ""
+"%s: section [%s], field ‘%s’ has invalid characters which will not work with "
+"virt-builder 1.24.1"
+msgstr ""
+"%s: sadaļas [%s] laukā „%s” ir nederīgas rakstzīmes, kas nedarbosies ar virt-"
+"builder 1.24.1"
+
+#: builder/index-validate.c:174
+#, c-format
+msgid ""
+"%s: section [%s] is missing a ‘sig’ field which will not work with virt-"
+"builder 1.24.0"
+msgstr ""
+"%s: sadaļā [%s] trūkst lauka „sig”, kas nedarbosies ar virt-builder 1.24.0"
+
+#: cat/cat.c:62
+#, c-format
+msgid ""
+"%s: display files in a virtual machine\n"
+"Copyright (C) 2010 Red Hat Inc.\n"
+"Usage:\n"
+"  %s [--options] -d domname file [file ...]\n"
+"  %s [--options] -a disk.img [-a disk.img ...] file [file ...]\n"
+"Options:\n"
+"  -a|--add image       Add image\n"
+"  --blocksize[=512|4096]\n"
+"                       Set sector size of the disk for -a option\n"
+"  -c|--connect uri     Specify libvirt URI for -d option\n"
+"  -d|--domain guest    Add disks from libvirt guest\n"
+"  --echo-keys          Don't turn off echo for passphrases\n"
+"  --format[=raw|..]    Force disk format for -a option\n"
+"  --help               Display brief help\n"
+"  --key selector       Specify a LUKS key\n"
+"  --keys-from-stdin    Read passphrases from stdin\n"
+"  -m|--mount dev[:mnt[:opts[:fstype]]]\n"
+"                       Mount dev on mnt (if omitted, /)\n"
+"  -v|--verbose         Verbose messages\n"
+"  -V|--version         Display version and exit\n"
+"  -x                   Trace libguestfs API calls\n"
+"For more information, see the manpage %s(1).\n"
+msgstr ""
+"%s: parādīt failus virtuālajā mašīnā\n"
+"Autortiesības (C) 2010 Red Hat Inc.\n"
+"Lietošana:\n"
+"  %s [--opcijas] -d domēna_nosaukums fails [fails ...]\n"
+"  %s [--opcijas] -a disk.img [-a disk.img ...] fails [fails ...]\n"
+"Opcijas:\n"
+"  -a|--add image       Pievienot attēlu\n"
+"  --blocksize[=512|4096]\n"
+"                       Iestatīt diska sektora izmēru opcijai -a\n"
+"  -c|--connect uri     Norādīt libvirt URI opcijai -d\n"
+"  -d|--domain guest    Pievienot diskus no libvirt viesa\n"
+"  --echo-keys          Neizslēgt paroles frāžu atbalsi\n"
+"  --format[=raw|..]    Piespiest diska formātu opcijai -a\n"
+"  --help               Rādīt īsu palīdzību\n"
+"  --key selector       Norādīt LUKS atslēgu\n"
+"  --keys-from-stdin    Nolasīt paroles frāzes no stdin\n"
+"  -m|--mount dev[:mnt[:opts[:fstype]]]\n"
+"                       Montēt dev uz mnt (ja izlaists, /)\n"
+"  -v|--verbose         Detalizēti ziņojumi\n"
+"  -V|--version         Parādīt versiju un iziet\n"
+"  -x                   Izsekot libguestfs API izsaukumus\n"
+"Plašāku informāciju skatiet rokasgrāmatas lapā %s(1).\n"
+
+#: cat/cat.c:245 diff/diff.c:343 edit/edit.c:269 filesystems/filesystems.c:361
+#: inspector/inspector.c:288 log/log.c:217 ls/ls.c:369 tail/tail.c:231
+#, c-format
+msgid "%s: error: you must specify at least one -a or -d option.\n"
+msgstr "%s: kļūda: jānorāda vismaz viena opcija -a vai -d.\n"
+
+#: common/mltools/getopt-c.c:68
+#, c-format
+msgid "Try ‘%s --help’ or consult %s(1) for more information.\n"
+msgstr "Plašākai informācijai mēģiniet „%s --help” vai skatiet %s(1).\n"
+
+#: common/mltools/getopt-c.c:187
+#, c-format
+msgid "%s: ‘%s’ is not a numeric value.\n"
+msgstr "%s: „%s” nav skaitliska vērtība.\n"
+
+#: common/mltools/getopt-c.c:193
+#, c-format
+msgid "%s: %s: integer out of range\n"
+msgstr "%s: %s: vesels skaitlis ārpus diapazona\n"
+
+#: common/mltools/getopt-c.c:383
+#, c-format
+msgid "%s: ‘%s’ is not allowed for -%c; allowed values are:\n"
+msgstr "%s: „%s” nav atļauts opcijai -%c; atļautās vērtības:\n"
+
+#: common/mltools/getopt-c.c:386
+#, c-format
+msgid "%s: ‘%s’ is not allowed for %s%s; allowed values are:\n"
+msgstr "%s: „%s” nav atļauts opcijai %s%s; atļautās vērtības:\n"
+
+#: common/mltools/getopt-c.c:421
+#, c-format
+msgid "Extra parameter on the command line: ‘%s’.\n"
+msgstr "Lieks parametrs komandrindā: „%s”.\n"
+
+#: common/options/config.c:72
+#, c-format
+msgid "%s: line %d: error parsing configuration file: %s"
+msgstr "%s: %d. rinda: kļūda, parsējot konfigurācijas failu: %s"
+
+#: common/options/decrypt.c:52
+#, c-format
+msgid "string size overflow"
+msgstr "virknes izmēra pārpilde"
+
+#: common/options/decrypt.c:170
+#, c-format
+msgid ""
+"'clevis_luks_unlock', needed for decrypting %s, is unavailable in this "
+"libguestfs version"
+msgstr ""
+"„clevis_luks_unlock”, kas vajadzīgs %s atšifrēšanai, šajā libguestfs versijā "
+"nav pieejams"
+
+#: common/options/decrypt.c:184
+#, c-format
+msgid ""
+"could not find key to open LUKS encrypted %s.\n"
+"\n"
+"Try using --key on the command line.\n"
+"\n"
+"Original error: %s (%d)"
+msgstr ""
+"neizdevās atrast atslēgu LUKS šifrētā %s atvēršanai.\n"
+"\n"
+"Mēģiniet komandrindā izmantot --key.\n"
+"\n"
+"Sākotnējā kļūda: %s (%d)"
+
+#: common/options/inspect.c:78
+#, c-format
+msgid ""
+"%s: no operating system was found on this disk\n"
+"\n"
+"If using guestfish ‘-i’ option, remove this option and instead\n"
+"use the commands ‘run’ followed by ‘list-filesystems’.\n"
+"You can then mount filesystems you want by hand using the\n"
+"‘mount’ or ‘mount-ro’ command.\n"
+"\n"
+"If using guestmount ‘-i’, remove this option and choose the\n"
+"filesystem(s) you want to see by manually adding ‘-m’ option(s).\n"
+"Use ‘virt-filesystems’ to see what filesystems are available.\n"
+"\n"
+"If using other virt tools, this disk image won’t work\n"
+"with these tools.  Use the guestfish equivalent commands\n"
+"(see the virt tool manual page).\n"
+msgstr ""
+"%s: šajā diskā netika atrasta neviena operētājsistēma\n"
+"\n"
+"Ja izmantojat guestfish opciju „-i”, noņemiet to un tā vietā\n"
+"izmantojiet komandu „run”, pēc tam „list-filesystems”.\n"
+"Tad vajadzīgās failu sistēmas varat montēt manuāli ar\n"
+"komandu „mount” vai „mount-ro”.\n"
+"\n"
+"Ja izmantojat guestmount „-i”, noņemiet šo opciju un izvēlieties\n"
+"redzamās failu sistēmas, manuāli pievienojot opciju(-as) „-m”.\n"
+"Izmantojiet „virt-filesystems”, lai redzētu pieejamās failu sistēmas.\n"
+"\n"
+"Ja izmantojat citus virt rīkus, šis diska attēls ar\n"
+"šiem rīkiem nedarbosies.  Izmantojiet atbilstošās guestfish komandas\n"
+"(skatiet virt rīka rokasgrāmatas lapu).\n"
+
+#: common/options/inspect.c:99
+#, c-format
+msgid ""
+"%s: multi-boot operating systems are not supported\n"
+"\n"
+"If using guestfish ‘-i’ option, remove this option and instead\n"
+"use the commands ‘run’ followed by ‘list-filesystems’.\n"
+"You can then mount filesystems you want by hand using the\n"
+"‘mount’ or ‘mount-ro’ command.\n"
+"\n"
+"If using guestmount ‘-i’, remove this option and choose the\n"
+"filesystem(s) you want to see by manually adding ‘-m’ option(s).\n"
+"Use ‘virt-filesystems’ to see what filesystems are available.\n"
+"\n"
+"If using other virt tools, multi-boot operating systems won’t work\n"
+"with these tools.  Use the guestfish equivalent commands\n"
+"(see the virt tool manual page).\n"
+msgstr ""
+"%s: vairāku sāknējamu operētājsistēmu konfigurācijas netiek atbalstītas\n"
+"\n"
+"Ja izmantojat guestfish opciju „-i”, noņemiet to un tā vietā\n"
+"izmantojiet komandu „run”, pēc tam „list-filesystems”.\n"
+"Tad vajadzīgās failu sistēmas varat montēt manuāli ar\n"
+"komandu „mount” vai „mount-ro”.\n"
+"\n"
+"Ja izmantojat guestmount „-i”, noņemiet šo opciju un izvēlieties\n"
+"redzamās failu sistēmas, manuāli pievienojot opciju(-as) „-m”.\n"
+"Izmantojiet „virt-filesystems”, lai redzētu pieejamās failu sistēmas.\n"
+"\n"
+"Ja izmantojat citus virt rīkus, vairāku sāknējamu operētājsistēmu "
+"konfigurācijas\n"
+"ar šiem rīkiem nedarbosies.  Izmantojiet atbilstošās guestfish komandas\n"
+"(skatiet virt rīka rokasgrāmatas lapu).\n"
+
+#: common/options/inspect.c:161
+#, c-format
+msgid "%s: some filesystems could not be mounted (ignored)\n"
+msgstr "%s: dažas failu sistēmas nevarēja montēt (ignorēts)\n"
+
+#: common/options/inspect.c:178
+#, c-format
+msgid "Operating system: %s\n"
+msgstr "Operētājsistēma: %s\n"
+
+#: common/options/inspect.c:196
+#, c-format
+msgid "%s mounted on %s\n"
+msgstr "%s montēts uz %s\n"
+
+#: common/options/keys.c:69
+#, c-format
+msgid "Enter key or passphrase (\"%s\"): "
+msgstr "Ievadiet atslēgu vai paroles frāzi („%s”): "
+
+#: common/options/keys.c:189
+#, c-format
+msgid "size_t overflow"
+msgstr "size_t pārpilde"
+
+#: common/options/keys.c:228
+#, c-format
+msgid "encrypted device %s matched --key ...:error"
+msgstr "šifrētā ierīce %s atbilda --key ...:error"
+
+#: common/options/keys.c:239
+#, c-format
+msgid "could not read key from user"
+msgstr "neizdevās nolasīt atslēgu no lietotāja"
+
+#: common/options/options.c:283
+#, c-format
+msgid "%s: ‘%s’ could not be mounted.\n"
+msgstr "%s: „%s” nevarēja montēt.\n"
+
+#: common/options/options.c:287
+#, c-format
+msgid ""
+"%s: Check mount(8) man page to ensure options ‘%s’\n"
+"%s: are supported by the filesystem that is being mounted.\n"
+msgstr ""
+"%s: Pārbaudiet mount(8) rokasgrāmatas lapā, vai opcijas „%s”\n"
+"%s: atbalsta montējamā failu sistēma.\n"
+
+#: common/options/options.c:291
+#, c-format
+msgid "%s: Did you mean to mount one of these filesystems?\n"
+msgstr "%s: Vai vēlējāties montēt kādu no šīm failu sistēmām?\n"
+
+#: common/options/options.c:304
+#, c-format
+msgid "cannot determine the subvolume for %s: %s (%d)"
+msgstr "nevar noteikt %s apakšsējumu: %s (%d)"
+
+#: common/options/uri.c:119
+#, c-format
+msgid "%s: --add: could not parse URI ‘%s’\n"
+msgstr "%s: --add: neizdevās parsēt URI „%s”\n"
+
+#: common/options/uri.c:130
+#, c-format
+msgid "%s: %s: scheme of URI is NULL or empty\n"
+msgstr "%s: %s: URI shēma ir NULL vai tukša\n"
+
+#: common/options/uri.c:138
+#, c-format
+msgid "%s: %s: cannot have both a server name and a socket query parameter\n"
+msgstr ""
+"%s: %s: nevar būt vienlaikus servera nosaukums un ligzdas vaicājuma "
+"parametrs\n"
+
+#: common/parallel/domains.c:106
+#, c-format
+msgid "could not connect to libvirt (code %d, domain %d): %s"
+msgstr "neizdevās savienoties ar libvirt (kods %d, domēns %d): %s"
+
+#: common/parallel/domains.c:114
+#, c-format
+msgid "could not get number of running domains (code %d, domain %d): %s"
+msgstr "neizdevās iegūt darbojošos domēnu skaitu (kods %d, domēns %d): %s"
+
+#: common/parallel/domains.c:125
+#, c-format
+msgid "could not list running domains (code %d, domain %d): %s"
+msgstr "neizdevās uzskaitīt darbojošos domēnus (kods %d, domēns %d): %s"
+
+#: common/parallel/domains.c:135
+#, c-format
+msgid "could not get number of inactive domains (code %d, domain %d): %s"
+msgstr "neizdevās iegūt neaktīvo domēnu skaitu (kods %d, domēns %d): %s"
+
+#: common/parallel/domains.c:146
+#, c-format
+msgid "could not list inactive domains (code %d, domain %d): %s"
+msgstr "neizdevās uzskaitīt neaktīvos domēnus (kods %d, domēns %d): %s"
+
+#: common/utils/utils.c:107
+#, c-format
+msgid "%s exited successfully"
+msgstr "%s veiksmīgi beidza darbu"
+
+#: common/utils/utils.c:110
+#, c-format
+msgid "%s exited with error status %d"
+msgstr "%s beidza darbu ar kļūdas statusu %d"
+
+#: common/utils/utils.c:114
+#, c-format
+msgid "%s killed by signal %d (%s)"
+msgstr "%s nogalināja signāls %d (%s)"
+
+#: common/utils/utils.c:118
+#, c-format
+msgid "%s stopped by signal %d (%s)"
+msgstr "%s apturēja signāls %d (%s)"
+
+#: common/utils/utils.c:122
+#, c-format
+msgid "%s exited for an unknown reason (status %d)"
+msgstr "%s beidza darbu nezināma iemesla dēļ (statuss %d)"
+
+#: common/visit/visit.c:133
+#, c-format
+msgid "%s: error getting extended attrs for %s %s\n"
+msgstr "%s: kļūda, iegūstot paplašinātos atribūtus %s %s\n"
+
+#: common/visit/visit.c:147
+#, c-format
+msgid "%s: error: cannot parse xattr count for %s %s\n"
+msgstr "%s: kļūda: nevar parsēt xattr skaitu %s %s\n"
+
+#: common/windows/windows.c:139
+#, c-format
+msgid "to use Windows drive letters, this must be a Windows guest"
+msgstr "lai izmantotu Windows diskdziņu burtus, tam jābūt Windows viesim"
+
+#: common/windows/windows.c:150
+#, c-format
+msgid "drive '%c:' not found."
+msgstr "diskdzinis „%c:” nav atrasts."
+
+#: df/main.c:75
+#, c-format
+msgid ""
+"%s: display free space on virtual filesystems\n"
+"Copyright (C) 2010 Red Hat Inc.\n"
+"Usage:\n"
+"  %s [--options] -d domname\n"
+"  %s [--options] -a disk.img [-a disk.img ...]\n"
+"Options:\n"
+"  -a|--add image       Add image\n"
+"  --blocksize[=512|4096]\n"
+"                       Set sector size of the disk for -a option\n"
+"  -c|--connect uri     Specify libvirt URI for -d option\n"
+"  --csv                Output as Comma-Separated Values\n"
+"  -d|--domain guest    Add disks from libvirt guest\n"
+"  --format[=raw|..]    Force disk format for -a option\n"
+"  -h|--human-readable  Print sizes in human-readable format\n"
+"  --help               Display brief help\n"
+"  -i|--inodes          Display inodes\n"
+"  --one-per-guest      Separate appliance per guest\n"
+"  -P nr_threads        Use at most nr_threads\n"
+"  --uuid               Print UUIDs instead of names\n"
+"  -v|--verbose         Verbose messages\n"
+"  -V|--version         Display version and exit\n"
+"  -x                   Trace libguestfs API calls\n"
+"For more information, see the manpage %s(1).\n"
+msgstr ""
+"%s: parādīt brīvo vietu virtuālajās failu sistēmās\n"
+"Autortiesības (C) 2010 Red Hat Inc.\n"
+"Lietošana:\n"
+"  %s [--opcijas] -d domēna_nosaukums\n"
+"  %s [--opcijas] -a disk.img [-a disk.img ...]\n"
+"Opcijas:\n"
+"  -a|--add image       Pievienot attēlu\n"
+"  --blocksize[=512|4096]\n"
+"                       Iestatīt diska sektora izmēru opcijai -a\n"
+"  -c|--connect uri     Norādīt libvirt URI opcijai -d\n"
+"  --csv                Izvadīt kā ar komatiem atdalītas vērtības\n"
+"  -d|--domain guest    Pievienot diskus no libvirt viesa\n"
+"  --format[=raw|..]    Piespiest diska formātu opcijai -a\n"
+"  -h|--human-readable  Izvadīt izmērus cilvēkam lasāmā formātā\n"
+"  --help               Rādīt īsu palīdzību\n"
+"  -i|--inodes          Rādīt inode\n"
+"  --one-per-guest      Atsevišķa palīgsistēma katram viesim\n"
+"  -P nr_threads        Izmantot ne vairāk kā nr_threads pavedienus\n"
+"  --uuid               Izvadīt UUID, nevis nosaukumus\n"
+"  -v|--verbose         Detalizēti ziņojumi\n"
+"  -V|--version         Parādīt versiju un iziet\n"
+"  -x                   Izsekot libguestfs API izsaukumus\n"
+"Plašāku informāciju skatiet rokasgrāmatas lapā %s(1).\n"
+
+#: df/main.c:266 diff/diff.c:357 filesystems/filesystems.c:330 ls/ls.c:361
+#, c-format
+msgid "you cannot use -h and --csv options together."
+msgstr "opcijas -h un --csv nevar izmantot vienlaikus."
+
+#: df/main.c:281
+#, c-format
+msgid "compiled without support for libvirt."
+msgstr "kompilēts bez libvirt atbalsta."
+
+#: df/output.c:48
+msgid "VirtualMachine"
+msgstr "Virtuālā mašīna"
+
+#: df/output.c:49
+msgid "Filesystem"
+msgstr "Failu sistēma"
+
+#: df/output.c:52
+msgid "1K-blocks"
+msgstr "1K bloki"
+
+#: df/output.c:54
+msgid "Size"
+msgstr "Izmērs"
+
+#: df/output.c:55
+msgid "Used"
+msgstr "Izmantots"
+
+#: df/output.c:56
+msgid "Available"
+msgstr "Pieejams"
+
+#: df/output.c:57
+msgid "Use%"
+msgstr "Izm.%"
+
+#: df/output.c:59
+msgid "Inodes"
+msgstr "Inode"
+
+#: df/output.c:60
+msgid "IUsed"
+msgstr "IIzm."
+
+#: df/output.c:61
+msgid "IFree"
+msgstr "IBrīvi"
+
+#: df/output.c:62
+msgid "IUse%"
+msgstr "IIzm.%"
+
+#: diff/diff.c:108
+#, c-format
+msgid ""
+"%s: list differences between virtual machines\n"
+"Copyright (C) 2010-2025 Red Hat Inc.\n"
+"Usage:\n"
+"  %s [--options] -d domain1 -D domain2\n"
+"  %s [--options] -a disk1.img -A disk2.img [-a|-A ...]\n"
+"Options:\n"
+"  -a|--add image       Add image from first guest\n"
+"  --all                Same as: --extra-stats --times --uids --xattrs\n"
+"  --atime              Don't ignore access time changes\n"
+"  -A image             Add image from second guest\n"
+"  --blocksize[=512|4096]\n"
+"                       Set sector size of the disk for -a or -A option\n"
+"  --checksum[=...]     Use checksum of file content\n"
+"  -c|--connect uri     Specify libvirt URI for -d option\n"
+"  --csv                Comma-Separated Values output\n"
+"  --dir-links          Don't ignore directory nlink changes\n"
+"  --dir-times          Don't ignore directory time changes\n"
+"  -d|--domain guest    Add disks from first libvirt guest\n"
+"  -D guest             Add disks from second libvirt guest\n"
+"  --echo-keys          Don't turn off echo for passphrases\n"
+"  --extra-stats        Display extra stats\n"
+"  --format[=raw|..]    Force disk format for -a or -A option\n"
+"  --help               Display brief help\n"
+"  -h|--human-readable  Human-readable sizes in output\n"
+"  --key selector       Specify a LUKS key\n"
+"  --keys-from-stdin    Read passphrases from stdin\n"
+"  --times              Display file times\n"
+"  --time-days          Display file times as days before now\n"
+"  --time-relative      Display file times as seconds before now\n"
+"  --time-t             Display file times as time_t's\n"
+"  --uids               Display UID, GID\n"
+"  -v|--verbose         Verbose messages\n"
+"  -V|--version         Display version and exit\n"
+"  -x                   Trace libguestfs API calls\n"
+"  --xattrs             Display extended attributes\n"
+"For more information, see the manpage %s(1).\n"
+msgstr ""
+"%s: uzskaitīt atšķirības starp virtuālajām mašīnām\n"
+"Autortiesības (C) 2010-2025 Red Hat Inc.\n"
+"Lietošana:\n"
+"  %s [--opcijas] -d domēns1 -D domēns2\n"
+"  %s [--opcijas] -a disk1.img -A disk2.img [-a|-A ...]\n"
+"Opcijas:\n"
+"  -a|--add image       Pievienot attēlu no pirmā viesa\n"
+"  --all                Tas pats, kas: --extra-stats --times --uids --xattrs\n"
+"  --atime              Neignorēt piekļuves laika izmaiņas\n"
+"  -A image             Pievienot attēlu no otrā viesa\n"
+"  --blocksize[=512|4096]\n"
+"                       Iestatīt diska sektora izmēru opcijai -a vai -A\n"
+"  --checksum[=...]     Izmantot faila satura kontrolsummu\n"
+"  -c|--connect uri     Norādīt libvirt URI opcijai -d\n"
+"  --csv                Izvade kā ar komatiem atdalītas vērtības\n"
+"  --dir-links          Neignorēt direktoriju nlink izmaiņas\n"
+"  --dir-times          Neignorēt direktoriju laika izmaiņas\n"
+"  -d|--domain guest    Pievienot diskus no pirmā libvirt viesa\n"
+"  -D guest             Pievienot diskus no otrā libvirt viesa\n"
+"  --echo-keys          Neizslēgt paroles frāžu atbalsi\n"
+"  --extra-stats        Rādīt papildu statistiku\n"
+"  --format[=raw|..]    Piespiest diska formātu opcijai -a vai -A\n"
+"  --help               Rādīt īsu palīdzību\n"
+"  -h|--human-readable  Izvadē cilvēkam lasāmi izmēri\n"
+"  --key selector       Norādīt LUKS atslēgu\n"
+"  --keys-from-stdin    Nolasīt paroles frāzes no stdin\n"
+"  --times              Rādīt failu laikus\n"
+"  --time-days          Rādīt failu laikus kā dienas pirms tagadnes\n"
+"  --time-relative      Rādīt failu laikus kā sekundes pirms tagadnes\n"
+"  --time-t             Rādīt failu laikus kā time_t\n"
+"  --uids               Rādīt UID, GID\n"
+"  -v|--verbose         Detalizēti ziņojumi\n"
+"  -V|--version         Parādīt versiju un iziet\n"
+"  -x                   Izsekot libguestfs API izsaukumus\n"
+"  --xattrs             Rādīt paplašinātos atribūtus\n"
+"Plašāku informāciju skatiet rokasgrāmatas lapā %s(1).\n"
+
+#: diff/diff.c:348
+#, c-format
+msgid "%s: error: you must specify at least one -A or -D option.\n"
+msgstr "%s: kļūda: jānorāda vismaz viena opcija -A vai -D.\n"
+
+#: diff/diff.c:360
+#, c-format
+msgid ""
+"%s: error: extra argument ‘%s’ on command line.\n"
+"Make sure to specify the argument for --checksum or --format like '--"
+"format=%s'.\n"
+msgstr ""
+"%s: kļūda: komandrindā lieks arguments „%s”.\n"
+"Pārliecinieties, ka --checksum vai --format argumentu norādāt šādi: „--"
+"format=%s”.\n"
+
+#: diff/diff.c:802
+#, c-format
+msgid "%s: external diff command failed\n"
+msgstr "%s: ārējā diff komanda neizdevās\n"
+
+#: diff/diff.c:806
+msgid "End of diff"
+msgstr "Atšķirību beigas"
+
+#: edit/edit.c:70
+#, c-format
+msgid ""
+"%s: Edit a file in a virtual machine\n"
+"Copyright (C) 2009-2025 Red Hat Inc.\n"
+"Usage:\n"
+"  %s [--options] -d domname file [file ...]\n"
+"  %s [--options] -a disk.img [-a disk.img ...] file [file ...]\n"
+"Options:\n"
+"  -a|--add image        Add image\n"
+"  -b|--backup .ext      Backup original as original.ext\n"
+"  --blocksize[=512|4096]\n"
+"                       Set sector size of the disk for -a option\n"
+"  -c|--connect uri      Specify libvirt URI for -d option\n"
+"  -d|--domain guest     Add disks from libvirt guest\n"
+"  --echo-keys           Don't turn off echo for passphrases\n"
+"  -e|--edit|--expr expr Non-interactive editing using Perl expr\n"
+"  --format[=raw|..]     Force disk format for -a option\n"
+"  --help                Display brief help\n"
+"  --key selector       Specify a LUKS key\n"
+"  --keys-from-stdin     Read passphrases from stdin\n"
+"  -m|--mount dev[:mnt[:opts[:fstype]]]\n"
+"                        Mount dev on mnt (if omitted, /)\n"
+"  -v|--verbose          Verbose messages\n"
+"  -V|--version          Display version and exit\n"
+"  -x                    Trace libguestfs API calls\n"
+"For more information, see the manpage %s(1).\n"
+msgstr ""
+"%s: Rediģēt failu virtuālajā mašīnā\n"
+"Autortiesības (C) 2009-2025 Red Hat Inc.\n"
+"Lietošana:\n"
+"  %s [--opcijas] -d domēna_nosaukums fails [fails ...]\n"
+"  %s [--opcijas] -a disk.img [-a disk.img ...] fails [fails ...]\n"
+"Opcijas:\n"
+"  -a|--add image        Pievienot attēlu\n"
+"  -b|--backup .ext      Saglabāt oriģinālu kā original.ext\n"
+"  --blocksize[=512|4096]\n"
+"                       Iestatīt diska sektora izmēru opcijai -a\n"
+"  -c|--connect uri      Norādīt libvirt URI opcijai -d\n"
+"  -d|--domain guest     Pievienot diskus no libvirt viesa\n"
+"  --echo-keys           Neizslēgt paroles frāžu atbalsi\n"
+"  -e|--edit|--expr expr Neinteraktīva rediģēšana ar Perl izteiksmi\n"
+"  --format[=raw|..]     Piespiest diska formātu opcijai -a\n"
+"  --help                Rādīt īsu palīdzību\n"
+"  --key selector       Norādīt LUKS atslēgu\n"
+"  --keys-from-stdin     Nolasīt paroles frāzes no stdin\n"
+"  -m|--mount dev[:mnt[:opts[:fstype]]]\n"
+"                        Montēt dev uz mnt (ja izlaists, /)\n"
+"  -v|--verbose          Detalizēti ziņojumi\n"
+"  -V|--version          Parādīt versiju un iziet\n"
+"  -x                    Izsekot libguestfs API izsaukumus\n"
+"Plašāku informāciju skatiet rokasgrāmatas lapā %s(1).\n"
+
+#: edit/edit.c:179
+#, c-format
+msgid "-b option given multiple times"
+msgstr "opcija -b norādīta vairākas reizes"
+
+#: edit/edit.c:193
+#, c-format
+msgid "-e option given multiple times"
+msgstr "opcija -e norādīta vairākas reizes"
+
+#: filesystems/filesystems.c:97
+#, c-format
+msgid ""
+"%s: list filesystems, partitions, block devices, LVM in a VM\n"
+"Copyright (C) 2010 Red Hat Inc.\n"
+"Usage:\n"
+"  %s [--options] -d domname\n"
+"  %s [--options] -a disk.img [-a disk.img ...]\n"
+"Options:\n"
+"  -a|--add image       Add image\n"
+"  --all                Display everything\n"
+"  --blkdevs|--block-devices\n"
+"                       Display block devices\n"
+"  --blocksize[=512|4096]\n"
+"                       Set sector size of the disk for -a option\n"
+"  -c|--connect uri     Specify libvirt URI for -d option\n"
+"  --csv                Output as Comma-Separated Values\n"
+"  -d|--domain guest    Add disks from libvirt guest\n"
+"  --echo-keys          Don't turn off echo for passphrases\n"
+"  --extra              Display swap and data filesystems\n"
+"  --filesystems        Display mountable filesystems\n"
+"  --format[=raw|..]    Force disk format for -a option\n"
+"  --fs-version|--fs-versions\n"
+"                       Add filesystem version to --long output\n"
+"  -h|--human-readable  Human-readable sizes in --long output\n"
+"  --help               Display brief help\n"
+"  --keys-from-stdin    Read passphrases from stdin\n"
+"  -l|--long            Long output\n"
+"  --lvs|--logvols|--logical-volumes\n"
+"                       Display LVM logical volumes\n"
+"  --no-title           No title in --long output\n"
+"  --parts|--partitions Display partitions\n"
+"  --pvs|--physvols|--physical-volumes\n"
+"                       Display LVM physical volumes\n"
+"  --uuid|--uuids       Add UUIDs to --long output\n"
+"  -v|--verbose         Verbose messages\n"
+"  -V|--version         Display version and exit\n"
+"  --vgs|--volgroups|--volume-groups\n"
+"                       Display LVM volume groups\n"
+"  -x                   Trace libguestfs API calls\n"
+"For more information, see the manpage %s(1).\n"
+msgstr ""
+"%s: uzskaitīt VM failu sistēmas, nodalījumus, bloku ierīces, LVM\n"
+"Autortiesības (C) 2010 Red Hat Inc.\n"
+"Lietošana:\n"
+"  %s [--opcijas] -d domēna_nosaukums\n"
+"  %s [--opcijas] -a disk.img [-a disk.img ...]\n"
+"Opcijas:\n"
+"  -a|--add image       Pievienot attēlu\n"
+"  --all                Rādīt visu\n"
+"  --blkdevs|--block-devices\n"
+"                       Rādīt bloku ierīces\n"
+"  --blocksize[=512|4096]\n"
+"                       Iestatīt diska sektora izmēru opcijai -a\n"
+"  -c|--connect uri     Norādīt libvirt URI opcijai -d\n"
+"  --csv                Izvadīt kā ar komatiem atdalītas vērtības\n"
+"  -d|--domain guest    Pievienot diskus no libvirt viesa\n"
+"  --echo-keys          Neizslēgt paroles frāžu atbalsi\n"
+"  --extra              Rādīt maiņatmiņas un datu failu sistēmas\n"
+"  --filesystems        Rādīt montējamās failu sistēmas\n"
+"  --format[=raw|..]    Piespiest diska formātu opcijai -a\n"
+"  --fs-version|--fs-versions\n"
+"                       Pievienot --long izvadei failu sistēmas versiju\n"
+"  -h|--human-readable  Cilvēkam lasāmi izmēri --long izvadē\n"
+"  --help               Rādīt īsu palīdzību\n"
+"  --keys-from-stdin    Nolasīt paroles frāzes no stdin\n"
+"  -l|--long            Garā izvade\n"
+"  --lvs|--logvols|--logical-volumes\n"
+"                       Rādīt LVM loģiskos sējumus\n"
+"  --no-title           Bez virsraksta --long izvadē\n"
+"  --parts|--partitions Rādīt nodalījumus\n"
+"  --pvs|--physvols|--physical-volumes\n"
+"                       Rādīt LVM fiziskos sējumus\n"
+"  --uuid|--uuids       Pievienot --long izvadei UUID\n"
+"  -v|--verbose         Detalizēti ziņojumi\n"
+"  -V|--version         Parādīt versiju un iziet\n"
+"  --vgs|--volgroups|--volume-groups\n"
+"                       Rādīt LVM sējumu grupas\n"
+"  -x                   Izsekot libguestfs API izsaukumus\n"
+"Plašāku informāciju skatiet rokasgrāmatas lapā %s(1).\n"
+
+#: filesystems/filesystems.c:315 inspector/inspector.c:263 log/log.c:205
+#, c-format
+msgid ""
+"%s: error: extra argument ‘%s’ on command line.\n"
+"Make sure to specify the argument for --format like '--format=%s'.\n"
+msgstr ""
+"%s: kļūda: komandrindā lieks arguments „%s”.\n"
+"Pārliecinieties, ka --format argumentu norādāt šādi: „--format=%s”.\n"
+
+#: filesystems/filesystems.c:520
+#, c-format
+msgid "%s: cannot determine the subvolume for %s: %s: %s\n"
+msgstr "%s: nevar noteikt %s apakšsējumu: %s: %s\n"
+
+#: format/format.c:68
+msgid "IMPORTANT NOTE: This program ERASES ALL DATA on disks."
+msgstr "SVARĪGA PIEZĪME: Šī programma IZDZĒŠ VISUS DATUS diskos."
+
+#: format/format.c:71
+#, c-format
+msgid ""
+"Try ‘%s --help’ for more information.\n"
+"%s\n"
+msgstr ""
+"Plašākai informācijai mēģiniet „%s --help”.\n"
+"%s\n"
+
+#: format/format.c:74
+#, c-format
+msgid ""
+"%s: erase and make a blank disk\n"
+"Copyright (C) 2012 Red Hat Inc.\n"
+"\n"
+"%s\n"
+"\n"
+"Usage:\n"
+"  %s [--options] -a disk.img [-a disk.img ...]\n"
+"Options:\n"
+"  -a|--add image       Add image\n"
+"  --blocksize[=512|4096]\n"
+"                       Set sector size of the disk for -a option\n"
+"  --filesystem=..      Create empty filesystem\n"
+"  --format[=raw|..]    Force disk format for -a option\n"
+"  --help               Display brief help\n"
+"  --label=..           Set filesystem label\n"
+"  --lvm=..             Create Linux LVM2 logical volume\n"
+"  --partition=..       Create / set partition type\n"
+"  -v|--verbose         Verbose messages\n"
+"  -V|--version         Display version and exit\n"
+"  --wipe               Write zeroes over whole disk\n"
+"  -x                   Trace libguestfs API calls\n"
+"For more information, see the manpage %s(1).\n"
+"\n"
+"%s\n"
+"\n"
+msgstr ""
+"%s: notīrīt un izveidot tukšu disku\n"
+"Autortiesības (C) 2012 Red Hat Inc.\n"
+"\n"
+"%s\n"
+"\n"
+"Lietošana:\n"
+"  %s [--opcijas] -a disk.img [-a disk.img ...]\n"
+"Opcijas:\n"
+"  -a|--add image       Pievienot attēlu\n"
+"  --blocksize[=512|4096]\n"
+"                       Iestatīt diska sektora izmēru opcijai -a\n"
+"  --filesystem=..      Izveidot tukšu failu sistēmu\n"
+"  --format[=raw|..]    Piespiest diska formātu opcijai -a\n"
+"  --help               Rādīt īsu palīdzību\n"
+"  --label=..           Iestatīt failu sistēmas etiķeti\n"
+"  --lvm=..             Izveidot Linux LVM2 loģisko sējumu\n"
+"  --partition=..       Izveidot / iestatīt nodalījuma tipu\n"
+"  -v|--verbose         Detalizēti ziņojumi\n"
+"  -V|--version         Parādīt versiju un iziet\n"
+"  --wipe               Ierakstīt nulles visā diskā\n"
+"  -x                   Izsekot libguestfs API izsaukumus\n"
+"Plašāku informāciju skatiet rokasgrāmatas lapā %s(1).\n"
+"\n"
+"%s\n"
+"\n"
+
+#: format/format.c:162
+#, c-format
+msgid "no filesystem was specified"
+msgstr "netika norādīta failu sistēma"
+
+#: format/format.c:168
+#, c-format
+msgid "--lvm option cannot be given multiple times"
+msgstr "opciju --lvm nevar norādīt vairākas reizes"
+
+#: format/format.c:234
+#, c-format
+msgid ""
+"%s: error: extra argument ‘%s’ on command line.\n"
+"Make sure to specify the argument for --format, --lvm or --partition like '--"
+"format=%s'.\n"
+msgstr ""
+"%s: kļūda: komandrindā lieks arguments „%s”.\n"
+"Pārliecinieties, ka --format, --lvm vai --partition argumentu norādāt šādi: "
+"„--format=%s”.\n"
+
+#: format/format.c:246
+#, c-format
+msgid "%s: error: you must specify at least one -a option.\n"
+msgstr "%s: kļūda: jānorāda vismaz viena opcija -a.\n"
+
+#: format/format.c:288
+#, c-format
+msgid ""
+"failed to rescan the disks after two attempts.  This\n"
+"may mean there is some sort of partition table or disk\n"
+"data which we are unable to remove.  If you think this\n"
+"is a bug, please file a bug at http://libguestfs.org/\n"
+msgstr ""
+"pēc diviem mēģinājumiem neizdevās atkārtoti skenēt diskus.  Tas\n"
+"var nozīmēt, ka ir kāda nodalījumu tabula vai diska\n"
+"dati, ko nespējam noņemt.  Ja uzskatāt, ka tā ir\n"
+"kļūda, lūdzu, ziņojiet par to http://libguestfs.org/\n"
+
+#: format/format.c:326
+#, c-format
+msgid "cannot parse --lvm option (%s)"
+msgstr "nevar parsēt --lvm opciju (%s)"
+
+#: inspector/inspector.c:88
+#, c-format
+msgid ""
+"%s: display information about a virtual machine\n"
+"Copyright (C) 2010 Red Hat Inc.\n"
+"Usage:\n"
+"  %s [--options] -d domname\n"
+"  %s [--options] -a disk.img [-a disk.img ...]\n"
+"Options:\n"
+"  -a|--add image       Add image\n"
+"  --blocksize[=512|4096]\n"
+"                       Set sector size of the disk for -a option\n"
+"  -c|--connect uri     Specify libvirt URI for -d option\n"
+"  -d|--domain guest    Add disks from libvirt guest\n"
+"  --echo-keys          Don't turn off echo for passphrases\n"
+"  --format[=raw|..]    Force disk format for -a option\n"
+"  --help               Display brief help\n"
+"  --key selector       Specify a LUKS key\n"
+"  --keys-from-stdin    Read passphrases from stdin\n"
+"  --no-applications    Do not output the installed applications\n"
+"  --no-icon            Do not output the guest icon\n"
+"  -v|--verbose         Verbose messages\n"
+"  -V|--version         Display version and exit\n"
+"  -x                   Trace libguestfs API calls\n"
+"  --xpath query        Perform an XPath query\n"
+"For more information, see the manpage %s(1).\n"
+msgstr ""
+"%s: parādīt informāciju par virtuālo mašīnu\n"
+"Autortiesības (C) 2010 Red Hat Inc.\n"
+"Lietošana:\n"
+"  %s [--opcijas] -d domēna_nosaukums\n"
+"  %s [--opcijas] -a disk.img [-a disk.img ...]\n"
+"Opcijas:\n"
+"  -a|--add image       Pievienot attēlu\n"
+"  --blocksize[=512|4096]\n"
+"                       Iestatīt diska sektora izmēru opcijai -a\n"
+"  -c|--connect uri     Norādīt libvirt URI opcijai -d\n"
+"  -d|--domain guest    Pievienot diskus no libvirt viesa\n"
+"  --echo-keys          Neizslēgt paroles frāžu atbalsi\n"
+"  --format[=raw|..]    Piespiest diska formātu opcijai -a\n"
+"  --help               Rādīt īsu palīdzību\n"
+"  --key selector       Norādīt LUKS atslēgu\n"
+"  --keys-from-stdin    Nolasīt paroles frāzes no stdin\n"
+"  --no-applications    Neizvadīt instalētās lietotnes\n"
+"  --no-icon            Neizvadīt viesa ikonu\n"
+"  -v|--verbose         Detalizēti ziņojumi\n"
+"  -V|--version         Parādīt versiju un iziet\n"
+"  -x                   Izsekot libguestfs API izsaukumus\n"
+"  --xpath query        Veikt XPath vaicājumu\n"
+"Plašāku informāciju skatiet rokasgrāmatas lapā %s(1).\n"
+
+#: inspector/inspector.c:279
+#, c-format
+msgid "cannot use --xpath together with other options."
+msgstr "--xpath nevar izmantot kopā ar citām opcijām."
+
+#: inspector/inspector.c:319
+#, c-format
+msgid ""
+"no operating system could be detected inside this disk image.\n"
+"\n"
+"This may be because the file is not a disk image, or is not a virtual "
+"machine\n"
+"image, or because the OS type is not understood by libguestfs.\n"
+"\n"
+"NOTE for Red Hat Enterprise Linux 6 users: for Windows guest support you "
+"must\n"
+"install the separate libguestfs-winsupport package.\n"
+"\n"
+"If you feel this is an error, please file a bug report including as much\n"
+"information about the disk image as possible.\n"
+msgstr ""
+"šajā diska attēlā neizdevās noteikt operētājsistēmu.\n"
+"\n"
+"Iemesls var būt tas, ka fails nav diska attēls vai nav virtuālās mašīnas\n"
+"attēls, vai arī libguestfs nesaprot OS tipu.\n"
+"\n"
+"PIEZĪME Red Hat Enterprise Linux 6 lietotājiem: Windows viesu atbalstam "
+"jāinstalē\n"
+"atsevišķā pakotne libguestfs-winsupport.\n"
+"\n"
+"Ja uzskatāt, ka tā ir kļūda, lūdzu, ziņojiet par to, pievienojot pēc "
+"iespējas vairāk\n"
+"informācijas par diska attēlu.\n"
+
+#: inspector/inspector.c:335
+#, c-format
+msgid "xmlOutputBufferCreateFd: failed to open stdout"
+msgstr "xmlOutputBufferCreateFd: neizdevās atvērt stdout"
+
+#: inspector/inspector.c:341
+#, c-format
+msgid "xmlNewTextWriter: failed to create libxml2 writer"
+msgstr "xmlNewTextWriter: neizdevās izveidot libxml2 rakstītāju"
+
+#: inspector/inspector.c:732
+#, c-format
+msgid "unable to parse XML from stdin"
+msgstr "nevar parsēt XML no stdin"
+
+#: inspector/inspector.c:736
+#, c-format
+msgid "unable to create new XPath context"
+msgstr "nevar izveidot jaunu XPath kontekstu"
+
+#: inspector/inspector.c:740
+#, c-format
+msgid "unable to evaluate XPath expression"
+msgstr "nevar novērtēt XPath izteiksmi"
+
+#: inspector/inspector.c:751
+#, c-format
+msgid "xmlSaveToFd failed"
+msgstr "xmlSaveToFd neizdevās"
+
+#: inspector/inspector.c:756
+#, c-format
+msgid "xmlNewDoc failed"
+msgstr "xmlNewDoc neizdevās"
+
+#: inspector/inspector.c:759
+#, c-format
+msgid "xmlCopyNode failed"
+msgstr "xmlCopyNode neizdevās"
+
+#: inspector/inspector.c:764
+#, c-format
+msgid "xmlSaveDoc failed"
+msgstr "xmlSaveDoc neizdevās"
+
+#: log/log.c:72
+#, c-format
+msgid ""
+"%s: display log files in a virtual machine\n"
+"Copyright (C) 2010-2025 Red Hat Inc.\n"
+"Usage:\n"
+"  %s [--options] -d domname\n"
+"  %s [--options] -a disk.img [-a disk.img ...]\n"
+"Options:\n"
+"  -a|--add image       Add image\n"
+"  --blocksize[=512|4096]\n"
+"                       Set sector size of the disk for -a option\n"
+"  -c|--connect uri     Specify libvirt URI for -d option\n"
+"  -d|--domain guest    Add disks from libvirt guest\n"
+"  --echo-keys          Don't turn off echo for passphrases\n"
+"  --format[=raw|..]    Force disk format for -a option\n"
+"  --help               Display brief help\n"
+"  --key selector       Specify a LUKS key\n"
+"  --keys-from-stdin    Read passphrases from stdin\n"
+"  -v|--verbose         Verbose messages\n"
+"  -V|--version         Display version and exit\n"
+"  -x                   Trace libguestfs API calls\n"
+"For more information, see the manpage %s(1).\n"
+msgstr ""
+"%s: parādīt žurnāla failus virtuālajā mašīnā\n"
+"Autortiesības (C) 2010-2025 Red Hat Inc.\n"
+"Lietošana:\n"
+"  %s [--opcijas] -d domēna_nosaukums\n"
+"  %s [--opcijas] -a disk.img [-a disk.img ...]\n"
+"Opcijas:\n"
+"  -a|--add image       Pievienot attēlu\n"
+"  --blocksize[=512|4096]\n"
+"                       Iestatīt diska sektora izmēru opcijai -a\n"
+"  -c|--connect uri     Norādīt libvirt URI opcijai -d\n"
+"  -d|--domain guest    Pievienot diskus no libvirt viesa\n"
+"  --echo-keys          Neizslēgt paroles frāžu atbalsi\n"
+"  --format[=raw|..]    Piespiest diska formātu opcijai -a\n"
+"  --help               Rādīt īsu palīdzību\n"
+"  --key selector       Norādīt LUKS atslēgu\n"
+"  --keys-from-stdin    Nolasīt paroles frāzes no stdin\n"
+"  -v|--verbose         Detalizēti ziņojumi\n"
+"  -V|--version         Parādīt versiju un iziet\n"
+"  -x                   Izsekot libguestfs API izsaukumus\n"
+"Plašāku informāciju skatiet rokasgrāmatas lapā %s(1).\n"
+
+#: log/log.c:273
+#, c-format
+msgid "%s: Windows Event Log for pre-Vista guests is not supported.\n"
+msgstr "%s: Windows notikumu žurnāls viesiem pirms Vista netiek atbalstīts.\n"
+
+#: log/log.c:381
+#, c-format
+msgid "%s: could not format journal entry timestamp\n"
+msgstr "%s: neizdevās formatēt žurnāla ieraksta laikspiedolu\n"
+
+#: log/log.c:447
+#, c-format
+msgid ""
+"%s: you need to install ‘evtxdump.py’ (from the python-evtx package)\n"
+"in order to parse Windows Event Logs.  If you cannot install this, then\n"
+"use virt-copy-out(1) to copy the contents of /Windows/System32/winevt/Logs\n"
+"from this guest, and examine in a binary file viewer.\n"
+msgstr ""
+"%s: lai parsētu Windows notikumu žurnālus, jāinstalē „evtxdump.py” (no "
+"pakotnes python-evtx).\n"
+"Ja to nevarat instalēt,\n"
+"ar virt-copy-out(1) nokopējiet no šī viesa /Windows/System32/winevt/Logs "
+"saturu\n"
+"un pārbaudiet to bināro failu skatītājā.\n"
+
+#: log/log.c:466
+#, c-format
+msgid "%s: Windows Event Log file (%s) not found\n"
+msgstr "%s: Windows notikumu žurnāla fails (%s) nav atrasts\n"
+
+#: ls/ls.c:100
+#, c-format
+msgid ""
+"%s: list files in a virtual machine\n"
+"Copyright (C) 2010-2025 Red Hat Inc.\n"
+"Usage:\n"
+"  %s [--options] -d domname dir [dir ...]\n"
+"  %s [--options] -a disk.img [-a disk.img ...] dir [dir ...]\n"
+"Options:\n"
+"  -a|--add image       Add image\n"
+"  --blocksize[=512|4096]\n"
+"                       Set sector size of the disk for -a option\n"
+"  --checksum[=...]     Display file checksums\n"
+"  -c|--connect uri     Specify libvirt URI for -d option\n"
+"  --csv                Comma-Separated Values output\n"
+"  -d|--domain guest    Add disks from libvirt guest\n"
+"  --echo-keys          Don't turn off echo for passphrases\n"
+"  --extra-stats        Display extra stats\n"
+"  --format[=raw|..]    Force disk format for -a option\n"
+"  --help               Display brief help\n"
+"  -h|--human-readable  Human-readable sizes in output\n"
+"  --key selector       Specify a LUKS key\n"
+"  --keys-from-stdin    Read passphrases from stdin\n"
+"  -l|--long            Long listing\n"
+"  -m|--mount dev[:mnt[:opts[:fstype]]]\n"
+"                       Mount dev on mnt (if omitted, /)\n"
+"  -R|--recursive       Recursive listing\n"
+"  --times              Display file times\n"
+"  --time-days          Display file times as days before now\n"
+"  --time-relative      Display file times as seconds before now\n"
+"  --time-t             Display file times as time_t's\n"
+"  --uids               Display UID, GID\n"
+"  -v|--verbose         Verbose messages\n"
+"  -V|--version         Display version and exit\n"
+"  -x                   Trace libguestfs API calls\n"
+"For more information, see the manpage %s(1).\n"
+msgstr ""
+"%s: uzskaitīt failus virtuālajā mašīnā\n"
+"Autortiesības (C) 2010-2025 Red Hat Inc.\n"
+"Lietošana:\n"
+"  %s [--opcijas] -d domēna_nosaukums direktorija [direktorija ...]\n"
+"  %s [--opcijas] -a disk.img [-a disk.img ...] direktorija [direktorija "
+"...]\n"
+"Opcijas:\n"
+"  -a|--add image       Pievienot attēlu\n"
+"  --blocksize[=512|4096]\n"
+"                       Iestatīt diska sektora izmēru opcijai -a\n"
+"  --checksum[=...]     Rādīt failu kontrolsummas\n"
+"  -c|--connect uri     Norādīt libvirt URI opcijai -d\n"
+"  --csv                Izvade kā ar komatiem atdalītas vērtības\n"
+"  -d|--domain guest    Pievienot diskus no libvirt viesa\n"
+"  --echo-keys          Neizslēgt paroles frāžu atbalsi\n"
+"  --extra-stats        Rādīt papildu statistiku\n"
+"  --format[=raw|..]    Piespiest diska formātu opcijai -a\n"
+"  --help               Rādīt īsu palīdzību\n"
+"  -h|--human-readable  Izvadē cilvēkam lasāmi izmēri\n"
+"  --key selector       Norādīt LUKS atslēgu\n"
+"  --keys-from-stdin    Nolasīt paroles frāzes no stdin\n"
+"  -l|--long            Garais saraksts\n"
+"  -m|--mount dev[:mnt[:opts[:fstype]]]\n"
+"                       Montēt dev uz mnt (ja izlaists, /)\n"
+"  -R|--recursive       Rekursīvs saraksts\n"
+"  --times              Rādīt failu laikus\n"
+"  --time-days          Rādīt failu laikus kā dienas pirms tagadnes\n"
+"  --time-relative      Rādīt failu laikus kā sekundes pirms tagadnes\n"
+"  --time-t             Rādīt failu laikus kā time_t\n"
+"  --uids               Rādīt UID, GID\n"
+"  -v|--verbose         Detalizēti ziņojumi\n"
+"  -V|--version         Parādīt versiju un iziet\n"
+"  -x                   Izsekot libguestfs API izsaukumus\n"
+"Plašāku informāciju skatiet rokasgrāmatas lapā %s(1).\n"
+
+#: ls/ls.c:354
+#, c-format
+msgid ""
+"used a flag which can only be combined with -lR mode\n"
+"For more information, read the virt-ls(1) man page."
+msgstr ""
+"izmantots karogs, ko var kombinēt tikai ar -lR režīmu\n"
+"Plašāku informāciju skatiet virt-ls(1) rokasgrāmatas lapā."
+
+#: make-fs/make-fs.c:85
+#, c-format
+msgid ""
+"%s: make a filesystem from a tar archive or files\n"
+"Copyright (C) 2010-2025 Red Hat Inc.\n"
+"Usage:\n"
+"  %s [--options] input.tar output.img\n"
+"  %s [--options] input.tar.gz output.img\n"
+"  %s [--options] directory output.img\n"
+"Options:\n"
+"  --blocksize=512|4096     Set sector size of the output disk\n"
+"  --floppy                 Make a virtual floppy disk\n"
+"  -F|--format=raw|qcow2|.. Set output format\n"
+"  --help                   Display brief help\n"
+"  --label=label            Filesystem label\n"
+"  --partition=mbr|gpt|..   Set partition type\n"
+"  -s|--size=size|+size     Set size of output disk\n"
+"  -t|--type=ext4|..        Set filesystem type\n"
+"  -v|--verbose             Verbose messages\n"
+"  -V|--version             Display version and exit\n"
+"  -x                       Trace libguestfs API calls\n"
+"For more information, see the manpage %s(1).\n"
+msgstr ""
+"%s: izveidot failu sistēmu no tar arhīva vai failiem\n"
+"Autortiesības (C) 2010-2025 Red Hat Inc.\n"
+"Lietošana:\n"
+"  %s [--opcijas] input.tar output.img\n"
+"  %s [--opcijas] input.tar.gz output.img\n"
+"  %s [--opcijas] direktorija output.img\n"
+"Opcijas:\n"
+"  --blocksize=512|4096     Iestatīt izvades diska sektora izmēru\n"
+"  --floppy                 Izveidot virtuālu disketi\n"
+"  -F|--format=raw|qcow2|.. Iestatīt izvades formātu\n"
+"  --help                   Rādīt īsu palīdzību\n"
+"  --label=label            Failu sistēmas etiķete\n"
+"  --partition=mbr|gpt|..   Iestatīt nodalījuma tipu\n"
+"  -s|--size=size|+size     Iestatīt izvades diska izmēru\n"
+"  -t|--type=ext4|..        Iestatīt failu sistēmas tipu\n"
+"  -v|--verbose             Detalizēti ziņojumi\n"
+"  -V|--version             Parādīt versiju un iziet\n"
+"  -x                       Izsekot libguestfs API izsaukumus\n"
+"Plašāku informāciju skatiet rokasgrāmatas lapā %s(1).\n"
+
+#: make-fs/make-fs.c:154
+#, c-format
+msgid "--blocksize option is not numeric"
+msgstr "opcija --blocksize nav skaitliska"
+
+#: make-fs/make-fs.c:195
+#, c-format
+msgid "%s: missing input and output arguments on the command line\n"
+msgstr "%s: komandrindā trūkst ievades un izvades argumentu\n"
+
+#: make-fs/make-fs.c:214
+#, c-format
+msgid "%s: NTFS support was disabled when libguestfs was compiled\n"
+msgstr "%s: kompilējot libguestfs, NTFS atbalsts tika atspējots\n"
+
+#: make-fs/make-fs.c:264 make-fs/make-fs.c:328
+#, c-format
+msgid "%s: %s command failed\n"
+msgstr "%s: komanda %s neizdevās\n"
+
+#: make-fs/make-fs.c:453
+#, c-format
+msgid "%s: cannot parse the output of ‘du’ command: %s\n"
+msgstr "%s: nevar parsēt komandas „du” izvadi: %s\n"
+
+#: make-fs/make-fs.c:488
+#, c-format
+msgid ""
+"%s: %s: input is not a directory, tar archive or compressed tar archive\n"
+msgstr "%s: %s: ievade nav direktorija, tar arhīvs vai saspiests tar arhīvs\n"
+
+#: make-fs/make-fs.c:519
+#, c-format
+msgid "%s: %s: unknown compressed input format (%s)\n"
+msgstr "%s: %s: nezināms saspiestas ievades formāts (%s)\n"
+
+#: make-fs/make-fs.c:642
+#, c-format
+msgid "%s: %s: invalid size parameter ‘%s’ (%s returned %u)\n"
+msgstr "%s: %s: nederīgs izmēra parametrs „%s” (%s atgrieza %u)\n"
+
+#: make-fs/make-fs.c:868
+#, c-format
+msgid "%s: subprocess failed\n"
+msgstr "%s: apakšprocess neizdevās\n"
+
+#: tail/tail.c:70
+#, c-format
+msgid ""
+"%s: follow (tail) files in a virtual machine\n"
+"Copyright (C) 2016 Red Hat Inc.\n"
+"Usage:\n"
+"  %s [--options] -d domname file [file ...]\n"
+"  %s [--options] -a disk.img [-a disk.img ...] file [file ...]\n"
+"Options:\n"
+"  -a|--add image       Add image\n"
+"  --blocksize[=512|4096]\n"
+"                       Set sector size of the disk for -a option\n"
+"  -c|--connect uri     Specify libvirt URI for -d option\n"
+"  -d|--domain guest    Add disks from libvirt guest\n"
+"  --echo-keys          Don't turn off echo for passphrases\n"
+"  -f|--follow          Ignored for compatibility with tail\n"
+"  --format[=raw|..]    Force disk format for -a option\n"
+"  --help               Display brief help\n"
+"  --key selector       Specify a LUKS key\n"
+"  --keys-from-stdin    Read passphrases from stdin\n"
+"  -m|--mount dev[:mnt[:opts[:fstype]]]\n"
+"                       Mount dev on mnt (if omitted, /)\n"
+"  -v|--verbose         Verbose messages\n"
+"  -V|--version         Display version and exit\n"
+"  -x                   Trace libguestfs API calls\n"
+"For more information, see the manpage %s(1).\n"
+msgstr ""
+"%s: sekot (tail) failiem virtuālajā mašīnā\n"
+"Autortiesības (C) 2016 Red Hat Inc.\n"
+"Lietošana:\n"
+"  %s [--opcijas] -d domēna_nosaukums fails [fails ...]\n"
+"  %s [--opcijas] -a disk.img [-a disk.img ...] fails [fails ...]\n"
+"Opcijas:\n"
+"  -a|--add image       Pievienot attēlu\n"
+"  --blocksize[=512|4096]\n"
+"                       Iestatīt diska sektora izmēru opcijai -a\n"
+"  -c|--connect uri     Norādīt libvirt URI opcijai -d\n"
+"  -d|--domain guest    Pievienot diskus no libvirt viesa\n"
+"  --echo-keys          Neizslēgt paroles frāžu atbalsi\n"
+"  -f|--follow          Ignorēts saderībai ar tail\n"
+"  --format[=raw|..]    Piespiest diska formātu opcijai -a\n"
+"  --help               Rādīt īsu palīdzību\n"
+"  --key selector       Norādīt LUKS atslēgu\n"
+"  --keys-from-stdin    Nolasīt paroles frāzes no stdin\n"
+"  -m|--mount dev[:mnt[:opts[:fstype]]]\n"
+"                       Montēt dev uz mnt (ja izlaists, /)\n"
+"  -v|--verbose         Detalizēti ziņojumi\n"
+"  -V|--version         Parādīt versiju un iziet\n"
+"  -x                   Izsekot libguestfs API izsaukumus\n"
+"Plašāku informāciju skatiet rokasgrāmatas lapā %s(1).\n"
+
+#: tail/tail.c:220
+#, c-format
+msgid ""
+"%s: error: missing filenames on command line.\n"
+"Please specify at least one file to follow.\n"
+msgstr ""
+"%s: kļūda: komandrindā trūkst failu nosaukumu.\n"
+"Lūdzu, norādiet vismaz vienu failu, kam sekot.\n"
+
+#: tail/tail.c:427
+#, c-format
+msgid "%s: error: none of the files were found in the disk image\n"
+msgstr "%s: kļūda: diska attēlā netika atrasts neviens no failiem\n"
+
+#: tail/tail.c:432
+#, c-format
+msgid "%s: all files deleted, exiting\n"
+msgstr "%s: visi faili izdzēsti, iziet\n"
+
+#: win-reg/virt-win-reg.in:261
+msgid "no libvirt domain name or disk image given\n"
+msgstr "nav norādīts libvirt domēna nosaukums vai diska attēls\n"
+
+#: win-reg/virt-win-reg.in:317
+#, perl-brace-format
+msgid ""
+"{prog}: No operating system could be detected inside this disk image.\n"
+"\n"
+"This may be because the file is not a disk image, or is not a virtual "
+"machine\n"
+"image, or because the OS type is not understood by libguestfs.\n"
+"\n"
+"If you feel this is an error, please file a bug report including as much\n"
+"information about the disk image as possible.\n"
+msgstr ""
+"{prog}: Šajā diska attēlā neizdevās noteikt operētājsistēmu.\n"
+"\n"
+"Iemesls var būt tas, ka fails nav diska attēls vai nav virtuālās mašīnas\n"
+"attēls, vai arī libguestfs nesaprot OS tipu.\n"
+"\n"
+"Ja uzskatāt, ka tā ir kļūda, lūdzu, ziņojiet par to, pievienojot pēc "
+"iespējas vairāk\n"
+"informācijas par diska attēlu.\n"
+
+#: win-reg/virt-win-reg.in:321
+#, perl-brace-format
+msgid "{prog}: multiboot operating systems are not supported.\n"
+msgstr ""
+"{prog}: vairāku sāknējamu operētājsistēmu konfigurācijas netiek "
+"atbalstītas.\n"
+
+#: win-reg/virt-win-reg.in:343
+msgid ""
+"expecting 1 or 2 more parameters, subkey path and optionally the value to "
+"export\n"
+msgstr ""
+"gaidīti vēl 1 vai 2 parametri — apakšatslēgas ceļš un pēc izvēles "
+"eksportējamā vērtība\n"
+
+#: win-reg/virt-win-reg.in:503
+#, perl-brace-format
+msgid "virt-win-reg: {p}: cannot find user directory\n"
+msgstr "virt-win-reg: {p}: nevar atrast lietotāja direktoriju\n"
+
+#: win-reg/virt-win-reg.in:508
+#, perl-brace-format
+msgid "virt-win-reg: {p}: not a supported Windows Registry path\n"
+msgstr "virt-win-reg: {p}: nav atbalstīts Windows reģistra ceļš\n"
+
+#: win-reg/virt-win-reg.in:581
+#, perl-brace-format
+msgid "virt-win-reg: {p}: could not download registry file: {err}\n"
+msgstr "virt-win-reg: {p}: neizdevās lejupielādēt reģistra failu: {err}\n"
+
+#: win-reg/virt-win-reg.in:598
+#, perl-brace-format
+msgid "virt-win-reg: {p}: could not upload registry file: {err}\n"
+msgstr "virt-win-reg: {p}: neizdevās augšupielādēt reģistra failu: {err}\n"
